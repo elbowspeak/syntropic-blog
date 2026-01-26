@@ -284,14 +284,13 @@ body {
 }
 
 .article-body a {
-  color: var(--text-primary);
+  color: #8A5CF4;
   text-decoration: underline;
   text-underline-offset: 2px;
-  transition: color 0.15s ease;
 }
 
 .article-body a:hover {
-  color: #ffffff;
+  color: #8A5CF4;
 }
 
 .article-body strong {

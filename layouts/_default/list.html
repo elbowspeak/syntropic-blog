@@ -14,7 +14,7 @@
       <article class="post-item" data-slug="{{ .RelPermalink }}" tabindex="0">
         <div class="post-item-content">
           <h3 class="post-item-title">{{ .Title }}</h3>
-          <p class="post-item-excerpt">{{ .Summary | plainify | truncate 100 }}</p>
+          <p class="post-item-excerpt">{{ .Summary | plainify | htmlUnescape | truncate 100 }}</p>
         </div>
         {{- with .Params.image }}
         <img class="post-item-thumb" src="{{ . }}" alt="" loading="lazy">
