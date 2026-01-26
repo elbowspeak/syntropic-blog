@@ -2,7 +2,7 @@
 title: "What is a Model?"
 date: 2026-01-24T23:40:20-08:00
 draft: false
-image: "https://bear-images.sfo2.cdn.digitaloceanspaces.com/strategy37/scr-20260124-nmov.webp"
+image: "/images/scr-20260124-nmov.webp"
 ---
 
 ### What Georgia O'Keefe Knew about Models ###
@@ -10,7 +10,7 @@ image: "https://bear-images.sfo2.cdn.digitaloceanspaces.com/strategy37/scr-20260
 "Nothing is less real than realism. Details are confusing. It is only by selection, by elimination, by emphasis that we get the real meaning of things." 
 <br><br>
 
-![SCR-20260124-nmov](https://bear-images.sfo2.cdn.digitaloceanspaces.com/strategy37/scr-20260124-nmov.webp)
+![SCR-20260124-nmov](/images/scr-20260124-nmov.webp)
 Georgia O'Keefe,
 _From a Lake #1_
 <br><br>

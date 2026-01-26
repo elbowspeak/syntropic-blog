@@ -3,7 +3,7 @@ title: The Storm Blowing in from Paradise
 date: 2026-01-19T00:00:00
 draft: false
 description: ''
-image: "https://bear-images.sfo2.cdn.digitaloceanspaces.com/strategy37/angelus-novus.webp"
+image: "/images/angelus-novus.webp"
 ---
 
 ### Walter Benjamin on Paul Klee's Angelus Novus
@@ -12,4 +12,4 @@ His face is turned toward the past. Where we perceive a chain of events, he sees
 
 _The storm is what we call progress._
 
-![Angelus Novus](https://bear-images.sfo2.cdn.digitaloceanspaces.com/strategy37/angelus-novus.webp)
+![Angelus Novus](/images/angelus-novus.webp)
