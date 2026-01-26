@@ -58,7 +58,7 @@
     // Update content area
     articleContent.innerHTML = `
       <header class="article-header">
-        <h1 class="article-title">${escapeHtml(post.title)}</h1>
+        <h1 class="article-title"><a href="${post.slug}">${escapeHtml(post.title)}</a></h1>
         <p class="article-meta">
           <time>${post.date}</time>
           <span class="separator">•</span>

@@ -239,6 +239,15 @@ body {
   line-height: 1.2;
 }
 
+.article-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.article-title a:hover {
+  color: #8A5CF4;
+}
+
 .article-meta {
   font-size: 13px;
   color: var(--text-secondary);
