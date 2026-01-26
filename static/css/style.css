@@ -280,7 +280,12 @@ body {
 }
 
 .article-body p {
-  margin: 0 0 1.5em 0;
+  margin: 0;
+  margin-bottom: 1.5em;
+}
+
+.article-body p + p {
+  margin-top: 0.5em;
 }
 
 .article-body p:last-child {
