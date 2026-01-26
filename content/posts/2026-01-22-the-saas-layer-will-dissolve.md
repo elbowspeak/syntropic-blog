@@ -1,7 +1,8 @@
 ---
-title: "The SaaS Layer Will Dissolve"
-date: 2026-01-22T22:02:00-08:00
+title: The SaaS Layer Will Dissolve
+date: 2026-01-04T22:02:00
 draft: false
+description: ''
 ---
 
 ## **Agentic AI will collapse the application tier within five years**
@@ -16,7 +17,7 @@ That premise is dying.
 
 ## The Dissolution Pattern
 
-Tools like Claude Code and Cowork represent something qualitatively different from previous automation. They do more than write software faster, they generate complete working applications on demand, tailored to the exact problem you ask them to solve. I'm not a coder and I've built 3 working apps that I use every day. These are *not* hardened, tested SaaS apps that I would release to the world... but I don't have to! They solve my problems really well and took between 30 minutes and a couple weeks to build. And let me say it again: I'm not a coder.
+Tools like Claude Code and Cowork represent something qualitatively different from previous automation. They do more than write software faster, they generate complete working applications on demand, tailored to the exact problem you ask them to solve. I'm not a coder and I've built 3 working apps that I use every day. These are _not_ hardened, tested SaaS apps that I would release to the world... but I don't have to! They solve my problems really well and took between 30 minutes and a couple weeks to build. And let me say it again: I'm not a coder.
 
 Here's what this means in practice: When I need to analyze a dataset, I don't open Excel anymore. I describe what I want, and Claude Code creates a script that ingests the data, performs the transformations, runs the analysis, and outputs results in whatever format makes sense. The "application" exists for exactly as long as I need it, configured precisely for my use case, then dissolves back into nothing.
 
@@ -30,7 +31,7 @@ I don't think the application layer vanishes entirely. Applications will still e
 
 **After:** Build what you need, when you need it. Add features as your requirements evolve. The total cost of creation and maintenance will fall below the ongoing SaaS subscription.
 
-I'm *not* claiming that everyone will become a developer. The claim is is that the cost of developing bespoke applications in-house will drop below the fully burdened cost of a Saas app. 
+I'm _not_ claiming that everyone will become a developer. The claim is is that the cost of developing bespoke applications in-house will drop below the fully burdened cost of a Saas app.
 
 Here's the pattern that I think we'll see:
 
