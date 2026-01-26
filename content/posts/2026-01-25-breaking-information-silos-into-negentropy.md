@@ -3,10 +3,8 @@ title: The Borg Solution
 date: 2026-01-18T01:17:00
 draft: false
 description: ''
-image: ''
+image: /images/bcbb1d8a-7ec2-41df-a864-537eef05720f.webp
 ---
-
-![The Borg](/images/bcbb1d8a-7ec2-41df-a864-537eef05720f.webp)
 
 I've watched organizational mergers and enterprise integrations fail more times than I can count. But the systemic friction is always misidentified.
 
