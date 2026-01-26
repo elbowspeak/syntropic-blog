@@ -102,13 +102,17 @@ body {
 .site-title {
   font-size: 18px;
   font-weight: 600;
-  color: var(--text-primary);
+  color: #8A5CF4;
   margin: 0;
 }
 
 .site-title a {
-  color: inherit;
+  color: #8A5CF4;
   text-decoration: none;
+}
+
+.site-title a:hover {
+  color: #9d75f5;
 }
 
 .site-tagline {
