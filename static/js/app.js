@@ -58,6 +58,7 @@
     // Update content area
     const featuredImage = post.image ? `<img class="article-featured-image" src="${post.image}" alt="Featured image for ${escapeHtml(post.title)}">` : '';
     articleContent.innerHTML = `
+      <a href="/" class="mobile-back" onclick="window.mobileBack(); return false;">← Back to posts</a>
       <header class="article-header">
         <h1 class="article-title"><a href="${post.slug}">${escapeHtml(post.title)}</a></h1>
         <p class="article-meta">
@@ -214,6 +215,18 @@
     div.textContent = text;
     return div.innerHTML;
   }
+
+  // Mobile back navigation
+  window.mobileBack = function() {
+    if (window.innerWidth <= 768) {
+      app.classList.add('is-list-view');
+      app.classList.remove('is-article-view');
+      history.pushState(null, '', '/');
+      document.title = document.querySelector('.site-title')?.textContent || 'Blog';
+    } else {
+      history.back();
+    }
+  };
 
   // Run on DOM ready
   if (document.readyState === 'loading') {
