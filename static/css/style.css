@@ -187,6 +187,11 @@ body {
   color: var(--text-primary);
   margin: 0 0 4px;
   line-height: 1.3;
+  transition: color 0.15s ease;
+}
+
+.post-item:hover .post-item-title {
+  color: #8A5CF4;
 }
 
 .post-item-excerpt {
