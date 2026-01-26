@@ -1,0 +1,536 @@
+/* ============================================
+   The Syntropic Lens - Reeder-Style Blog Theme
+   ============================================ */
+
+/* CSS Custom Properties - Design System */
+:root {
+  /* Colors */
+  --bg-main: #1B1B1B;
+  --bg-sidebar: #151515;
+  --bg-hover: #262626;
+  --bg-selected: #2b2b2b;
+
+  --text-primary: #e5e5e5;
+  --text-secondary: #a0a0a0;
+  --text-tertiary: #666666;
+
+  --border-color: #2a2a2a;
+  --accent: #a0a0a0;
+
+  /* Typography */
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "SF Mono", Monaco, "Cascadia Code", Consolas, monospace;
+
+  /* Spacing */
+  --sidebar-width: 320px;
+  --content-max-width: 680px;
+  --content-padding-x: 48px;
+  --content-padding-y: 32px;
+}
+
+/* Screen reader only */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Reset & Base */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--bg-main);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* App Container - Two Pane Layout */
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* ============================================
+   Sidebar
+   ============================================ */
+.sidebar {
+  width: var(--sidebar-width);
+  min-width: var(--sidebar-width);
+  background: var(--bg-sidebar);
+  border-right: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+
+.sidebar-header {
+  padding: 24px 16px 16px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.site-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.site-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-tagline {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-top: 4px;
+}
+
+/* Post List */
+.post-list {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* Date Groups */
+.date-group {
+  margin: 0;
+}
+
+.date-header {
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-tertiary);
+  padding: 16px 16px 8px;
+  background: var(--bg-sidebar);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* Post Items */
+.post-item {
+  display: flex;
+  gap: 12px;
+  padding: 12px 16px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--border-color);
+  transition: background-color 0.15s ease;
+}
+
+.post-item:hover {
+  background: var(--bg-hover);
+}
+
+.post-item.selected {
+  background: var(--bg-selected);
+  border-left: 2px solid var(--accent);
+  padding-left: 14px;
+}
+
+.post-item:focus {
+  outline: none;
+  background: var(--bg-hover);
+}
+
+.post-item:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+
+.post-item-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.post-item-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin: 0 0 4px;
+  line-height: 1.3;
+}
+
+.post-item-excerpt {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.4;
+}
+
+.post-item-thumb {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+/* ============================================
+   Content Area
+   ============================================ */
+.content {
+  flex: 1;
+  min-width: 0;
+  overflow-y: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.article {
+  width: 100%;
+  max-width: var(--content-max-width);
+  padding: var(--content-padding-y) var(--content-padding-x);
+}
+
+.article-header {
+  margin-bottom: 24px;
+}
+
+.article-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0 0 8px;
+  line-height: 1.2;
+}
+
+.article-meta {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.article-meta .separator {
+  margin: 0 8px;
+}
+
+.article-divider {
+  height: 1px;
+  background: var(--border-color);
+  margin: 24px 0;
+}
+
+/* Article Body - Prose Styles */
+.article-body {
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--text-primary);
+}
+
+.article-body > * + * {
+  margin-top: 1.5em;
+}
+
+.article-body h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+.article-body h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.article-body p {
+  margin: 0;
+}
+
+.article-body a {
+  color: var(--text-primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.15s ease;
+}
+
+.article-body a:hover {
+  color: #ffffff;
+}
+
+.article-body strong {
+  font-weight: 600;
+}
+
+.article-body em {
+  font-style: italic;
+}
+
+/* Lists */
+.article-body ul,
+.article-body ol {
+  padding-left: 1.5em;
+}
+
+.article-body li {
+  margin-top: 0.5em;
+}
+
+.article-body li::marker {
+  color: var(--text-secondary);
+}
+
+/* Blockquotes */
+.article-body blockquote {
+  border-left: 3px solid var(--border-color);
+  padding-left: 1em;
+  margin-left: 0;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+/* Code */
+.article-body code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  background: var(--bg-hover);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+
+.article-body pre {
+  background: var(--bg-hover);
+  padding: 16px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+.article-body pre code {
+  background: none;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Images */
+.article-body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+  margin: 1.5em auto;
+}
+
+.article-body figure {
+  margin: 1.5em 0;
+}
+
+.article-body figcaption {
+  text-align: center;
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-top: 8px;
+}
+
+/* Horizontal Rule */
+.article-body hr {
+  border: none;
+  height: 1px;
+  background: var(--border-color);
+  margin: 2em 0;
+}
+
+/* Tables */
+.article-body table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.article-body th,
+.article-body td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.article-body th {
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+/* Empty State */
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-secondary);
+}
+
+/* ============================================
+   Responsive - Tablet (768px - 1024px)
+   ============================================ */
+@media (max-width: 1024px) {
+  :root {
+    --sidebar-width: 280px;
+    --content-padding-x: 32px;
+  }
+}
+
+/* ============================================
+   Responsive - Mobile (<768px)
+   ============================================ */
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+    max-height: none;
+    position: relative;
+    border-right: none;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  /* On mobile homepage, show full list */
+  .app.is-list-view .sidebar {
+    height: auto;
+    max-height: none;
+  }
+
+  .app.is-list-view .content {
+    display: none;
+  }
+
+  /* On mobile article view, hide list */
+  .app.is-article-view .sidebar {
+    display: none;
+  }
+
+  .app.is-article-view .content {
+    display: flex;
+  }
+
+  .content {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .article {
+    padding: 24px 20px;
+  }
+
+  .article-title {
+    font-size: 24px;
+  }
+
+  .article-body {
+    font-size: 16px;
+  }
+
+  .post-list {
+    overflow-y: visible;
+  }
+
+  /* Mobile back button */
+  .mobile-back {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 20px;
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 14px;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .mobile-back:hover {
+    color: var(--text-primary);
+  }
+}
+
+@media (min-width: 769px) {
+  .mobile-back {
+    display: none;
+  }
+}
+
+/* ============================================
+   Scrollbar Styling
+   ============================================ */
+.sidebar::-webkit-scrollbar,
+.post-list::-webkit-scrollbar,
+.content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-track,
+.post-list::-webkit-scrollbar-track,
+.content::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.sidebar::-webkit-scrollbar-thumb,
+.post-list::-webkit-scrollbar-thumb,
+.content::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 4px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover,
+.post-list::-webkit-scrollbar-thumb:hover,
+.content::-webkit-scrollbar-thumb:hover {
+  background: var(--text-tertiary);
+}
+
+/* ============================================
+   Print Styles
+   ============================================ */
+@media print {
+  .sidebar {
+    display: none;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .article {
+    max-width: none;
+    padding: 0;
+  }
+}

@@ -1,0 +1,22 @@
+backend:
+  name: github
+  repo: elbowspeak/syntropic-blog
+  branch: main
+
+media_folder: static/images
+public_folder: /images
+
+collections:
+  - name: posts
+    label: Posts
+    folder: content/posts
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Publish Date, name: date, widget: datetime }
+      - { label: Draft, name: draft, widget: boolean, default: false }
+      - { label: Description, name: description, widget: string, required: false }
+      - { label: Featured Image, name: image, widget: image, required: false }
+      - { label: Tags, name: tags, widget: list, required: false }
+      - { label: Body, name: body, widget: markdown }

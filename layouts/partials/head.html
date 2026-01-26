@@ -1,0 +1,16 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ "feed.xml" | absURL }}">
+{{ with .Params.image }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="{{ .Permalink }}">
+{{ if .Site.Params.plausibleDomain }}
+<script defer data-domain="{{ .Site.Params.plausibleDomain }}" src="https://plausible.io/js/script.js"></script>
+{{ end }}

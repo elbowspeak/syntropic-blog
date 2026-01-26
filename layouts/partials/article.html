@@ -1,0 +1,12 @@
+<header class="article-header">
+  <h1 class="article-title">{{ .Title }}</h1>
+  <p class="article-meta">
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+    <span class="separator">•</span>
+    <span class="reading-time">{{ .ReadingTime }} min read</span>
+  </p>
+</header>
+<div class="article-divider"></div>
+<div class="article-body prose">
+  {{ .Content }}
+</div>
