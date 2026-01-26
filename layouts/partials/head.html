@@ -11,6 +11,5 @@
 <meta property="og:url" content="{{ .Permalink }}">
 <meta name="twitter:card" content="summary">
 <link rel="canonical" href="{{ .Permalink }}">
-{{ if .Site.Params.plausibleDomain }}
-<script defer data-domain="{{ .Site.Params.plausibleDomain }}" src="https://plausible.io/js/script.js"></script>
-{{ end }}
+<!-- Cloudflare Web Analytics -->
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "cc680651b87348e3a63c5247d6a75906"}'></script>
