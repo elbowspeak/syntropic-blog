@@ -3,10 +3,8 @@ title: The Entrepreneurial Delusion Machine
 date: 2026-01-25T00:33:00-08:00
 draft: false
 description: ''
-image: ''
+image: /images/scr-20260124-ooga.webp
 ---
-
-![SCR-20260124-ooga](/images/scr-20260124-ooga.webp)
 
 [Andrej Karpathy's talk at Y Combinator last year](https://www.youtube.com/watch?v=LCEmiRjPEtQ), supposedly about the evolution of software paradigms, reveals a core Straussian substrate of Silicon Valley that’s more interesting and significant than the explicit topic. It gives us an unintended glimpse into how Silicon Valley's most prestigious institutions manufacture the delusions necessary to sustain their economic, social and political positions of power; and how those delusions, either selected for or internalized by successful entrepreneurs, metastasize into broader social and political dysfunction.
 
