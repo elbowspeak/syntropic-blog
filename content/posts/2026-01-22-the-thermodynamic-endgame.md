@@ -1,6 +1,6 @@
 ---
 title: The Thermodynamic Endgame for AI
-date: 2026-01-06T21:49:00
+date: 2026-01-12T21:49:00
 draft: false
 description: ''
 ---
