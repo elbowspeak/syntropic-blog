@@ -1,19 +1,22 @@
 ---
-title: "What is a Model?"
-date: 2026-01-24T23:40:20-08:00
+title: What is a Model?
+date: 2026-01-24T23:40:00
 draft: false
-image: "/images/scr-20260124-nmov.webp"
+description: ''
+image: ''
 ---
 
 ### What Georgia O'Keefe Knew about Models ###
 
-"Nothing is less real than realism. Details are confusing. It is only by selection, by elimination, by emphasis that we get the real meaning of things." 
+"Nothing is less real than realism. Details are confusing. It is only by selection, by elimination, by emphasis that we get the real meaning of things."
 <br><br>
 
 ![SCR-20260124-nmov](/images/scr-20260124-nmov.webp)
+
 Georgia O'Keefe,
 _From a Lake #1_
 <br><br>
+
 ## Details, Details, Details...
 
 We are overwhelmed with data. More screens, more sensors, more metrics, more dashboards. Our baseline assumption is that more information leads to better decisions.
@@ -23,7 +26,6 @@ We certainly need data, but useful models are more important. Data without usefu
 There's a concept from cybernetics called the Good Regulator Theorem. It states that every good regulator of a system must contain a model of that system. Data about the system won't suffice. You need a model of how it behaves.
 
 Think about a weather station: it records temperature, humidity, barometric pressure, and wind speed every second or every minute. Decades of readings, terabytes of data. None of it tells you whether to bring an umbrella tomorrow. For that, you need a model of how pressure systems move, how moisture condenses, how terrain shapes local patterns. The data describes the state of the atmosphere. The model predicts what will happen next.
-
 
 ## Compression
 
@@ -39,19 +41,17 @@ The technical term for this generative model framework is the free energy princi
 
 O'Keeffe, painting her landscapes and orchids, was doing exactly this. Eliminating the details that didn't contribute to the meaning or feeling she wanted to convey. A photograph gives you a flood of details on the surface. The compression gives you the form underneath.
 
-
 ##  Baker's Hands
 
 I bake sourdough almost every day. After a couple years, I stopped tracking all the variables.
 
-As I always do, at first I tried to wing it. But after lots of failures, I started measuring and monitoring lots of variables: hydration, fermentation times, dough temperature, ambient temperatures, etc. 
+As I always do, at first I tried to wing it. But after lots of failures, I started measuring and monitoring lots of variables: hydration, fermentation times, dough temperature, ambient temperatures, etc.
 
 But now I don't need to do any of that data gathering. Now I can look at the dough or feel the dough and just know. Too slack. Too tight. Properly developed. My hands have the answer before my mind forms the question.
 
 The novice baker tracks many variables consciously because they haven't yet learned which ones matter. The expert has built a model so compressed it runs below conscious awareness. The model tracks less, but tracks what counts and is better at predicting the outcomes.
 
 This is expertise: learning what to model and what to ignore.
-
 
 ## Models, Not Data
 
@@ -60,7 +60,6 @@ Once you see this, it changes how you approach problems.
 The question shifts from "what information am I missing?" to "what's wrong with my model?" The gap is in the structure that interprets the data instead of the data itself.
 
 Disagreement looks different too. When someone reaches a different conclusion from the same facts, the issue may not be ignorance or bias. You just might be running different predictive models. Models aren't just descriptions of what is. They're anticipations of what will be. Two people looking at identical facts reach different conclusions because their models make different futures visible. They're compressing the same evidence toward different predictions.
-
 
 ## The Real Meaning of Things
 
@@ -73,5 +72,3 @@ Our brain is the most sophisticated information-processing system in the known u
 The real meaning of things lives in the structure that remains when the details are stripped away.
 
 O'Keeffe's paintings have no accidental absences. Every elimination is deliberate. What's left out is precisely calibrated to enhance the meaning of what's left in.
-
-
