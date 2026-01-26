@@ -3,7 +3,7 @@ title: The Borg Solution
 date: 2026-01-18T01:17:00
 draft: false
 description: ''
-image: "/images/bcbb1d8a-7ec2-41df-a864-537eef05720f.webp"
+image: /images/bcbb1d8a-7ec2-41df-a864-537eef05720f.webp
 ---
 
 ![The Borg](/images/bcbb1d8a-7ec2-41df-a864-537eef05720f.webp)
@@ -23,6 +23,7 @@ Robert Rosen spent his career arguing that living systems are fundamentally diff
 When systems merge, the mismatch comes from their respective anticipatory models making different futures visible. Each component is predicting a world that no longer exists, and the gap between what they expect and what's now true is the distance they have to cross to function together. Most can't do it fast enough. New capabilities get rejected or isolated rather than integrated, existing processes calcify around assumptions that no longer hold, and the system loses coherence as different components operate from incompatible models.
 
 A system that successfully absorbs something new does so through countless local updates. Components recognize new patterns, shift resource allocation, and reorganize around novel inputs. No central controller orchestrates this. The adaptation emerges from distributed model updating, each component adjusting its anticipations based on local feedback. But when components can't update fast enough, the differentials cascade faster than local adaptation can absorb them.
+
 The system loses coherence and entropy wins.
 
 ### Nothing Stays Foreign to the Borg
