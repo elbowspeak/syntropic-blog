@@ -3,6 +3,7 @@ title: '20 Watts: What Biology Knows About Intelligence'
 date: 2026-01-22T22:33:00-08:00
 draft: false
 description: ''
+image: /images/Pasted image 20240628164256.png
 ---
 
 **Why Active Inference, Not Scaling, is the Path That Gets Us to the Physics Limit**
