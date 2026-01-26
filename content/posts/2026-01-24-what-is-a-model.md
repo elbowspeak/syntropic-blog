@@ -3,15 +3,13 @@ title: What is a Model?
 date: 2026-01-24T23:40:00
 draft: false
 description: ''
-image: ''
+image: /images/scr-20260124-nmov.webp
 ---
 
 ### What Georgia O'Keefe Knew about Models ###
 
 "Nothing is less real than realism. Details are confusing. It is only by selection, by elimination, by emphasis that we get the real meaning of things."
 <br><br>
-
-![SCR-20260124-nmov](/images/scr-20260124-nmov.webp)
 
 Georgia O'Keefe,
 _From a Lake #1_
