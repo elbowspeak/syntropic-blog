@@ -1,6 +1,6 @@
 ---
 title: The SaaS Layer Will Dissolve
-date: 2026-01-04T22:02:00
+date: 2026-01-14T23:45:00
 draft: false
 description: ''
 ---
