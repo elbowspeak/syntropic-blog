@@ -2,6 +2,7 @@
 title: "What is a Model?"
 date: 2026-01-24T23:40:20-08:00
 draft: false
+image: "https://bear-images.sfo2.cdn.digitaloceanspaces.com/strategy37/scr-20260124-nmov.webp"
 ---
 
 ### What Georgia O'Keefe Knew about Models ###

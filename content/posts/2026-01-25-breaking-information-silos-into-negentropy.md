@@ -3,6 +3,7 @@ title: The Borg Solution
 date: 2026-01-18T01:17:00
 draft: false
 description: ''
+image: "https://bear-images.sfo2.cdn.digitaloceanspaces.com/strategy37/bcbb1d8a-7ec2-41df-a864-537eef05720f.webp"
 ---
 
 ![The Borg](https://bear-images.sfo2.cdn.digitaloceanspaces.com/strategy37/bcbb1d8a-7ec2-41df-a864-537eef05720f.webp)

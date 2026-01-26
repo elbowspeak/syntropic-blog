@@ -2,6 +2,7 @@
 title: "The Entrepreneurial Delusion Machine"
 date: 2026-01-25T00:33:00-08:00
 draft: false
+image: "https://bear-images.sfo2.cdn.digitaloceanspaces.com/strategy37/scr-20260124-ooga.webp"
 ---
 
 ![SCR-20260124-ooga](https://bear-images.sfo2.cdn.digitaloceanspaces.com/strategy37/scr-20260124-ooga.webp)
