@@ -3,7 +3,7 @@ title: The Borg Solution
 date: 2026-01-18T01:17:00
 draft: false
 description: ''
-image: /images/bcbb1d8a-7ec2-41df-a864-537eef05720f.webp
+image: ''
 ---
 
 ![The Borg](/images/bcbb1d8a-7ec2-41df-a864-537eef05720f.webp)
