@@ -280,7 +280,11 @@ body {
 }
 
 .article-body p {
-  margin: 0;
+  margin: 0 0 1.5em 0;
+}
+
+.article-body p:last-child {
+  margin-bottom: 0;
 }
 
 .article-body a {
