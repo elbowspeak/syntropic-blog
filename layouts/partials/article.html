@@ -6,6 +6,9 @@
     <span class="reading-time">{{ .ReadingTime }} min read</span>
   </p>
 </header>
+{{- with .Params.image }}
+<img class="article-featured-image" src="{{ . }}" alt="Featured image for {{ $.Title }}">
+{{- end }}
 <div class="article-divider"></div>
 <div class="article-body prose">
   {{ .Content }}

@@ -56,6 +56,7 @@
     });
 
     // Update content area
+    const featuredImage = post.image ? `<img class="article-featured-image" src="${post.image}" alt="Featured image for ${escapeHtml(post.title)}">` : '';
     articleContent.innerHTML = `
       <header class="article-header">
         <h1 class="article-title"><a href="${post.slug}">${escapeHtml(post.title)}</a></h1>
@@ -65,6 +66,7 @@
           <span class="reading-time">${post.readingTime} min read</span>
         </p>
       </header>
+      ${featuredImage}
       <div class="article-divider"></div>
       <div class="article-body prose">
         ${post.content}
