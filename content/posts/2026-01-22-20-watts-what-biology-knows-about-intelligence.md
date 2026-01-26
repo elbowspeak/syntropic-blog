@@ -104,4 +104,4 @@ So far, the scaling era gave us truly awesome capabilities. The efficiency era w
 
 The brain didn't evolve to maximize accuracy. It evolved to minimize regret given scarce metabolic resources. That's the optimization target we should be pursuing. Not "how smart can we make it?" but "how smart can we make it per joule?"
 
-Active inference answers that question. The problem is that foundation models don't even ask it.![](/images/Pasted%20image%2020240628164256.png)
+Active inference answers that question. The problem is that foundation models don't even ask it.
