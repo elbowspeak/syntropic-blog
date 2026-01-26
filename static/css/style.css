@@ -224,6 +224,7 @@ body {
   width: 100%;
   max-width: var(--content-max-width);
   padding: var(--content-padding-y) var(--content-padding-x);
+  padding-bottom: 80px;
 }
 
 .article-header {
@@ -463,7 +464,7 @@ body {
   }
 
   .article {
-    padding: 24px 20px;
+    padding: 24px 20px 60px;
   }
 
   .article-title {
