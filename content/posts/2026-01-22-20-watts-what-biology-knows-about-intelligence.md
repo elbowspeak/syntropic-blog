@@ -1,7 +1,8 @@
 ---
-title: "20 Watts: What Biology Knows About Intelligence"
+title: '20 Watts: What Biology Knows About Intelligence'
 date: 2026-01-22T22:33:00-08:00
 draft: false
+description: ''
 ---
 
 **Why Active Inference, Not Scaling, is the Path That Gets Us to the Physics Limit**
@@ -10,9 +11,9 @@ draft: false
 
 The human brain runs on 20 watts. A dim lightbulb.
 
-Training GPT-4 consumed roughly 1,287 megawatt-hours. Running inference at scale with billions of queries daily draws power equivalent to small cities. We've built brute force intelligence by using more parameters, more data, more compute, more energy. 
+Training GPT-4 consumed roughly 1,287 megawatt-hours. Running inference at scale with billions of queries daily draws power equivalent to small cities. We've built brute force intelligence by using more parameters, more data, more compute, more energy.
 
-But this can't go on forever. Energy and thermal envelopes are finite in practice on god's green earth. (*But what about datacenters in spaaaaaacce!??!*). Instead, we should be focusing on two aspects of intelligence that evolution does shockingly well: efficiency and continuous learning. 
+But this can't go on forever. Energy and thermal envelopes are finite in practice on god's green earth. (_But what about datacenters in spaaaaaacce!??!_). Instead, we should be focusing on two aspects of intelligence that evolution does shockingly well: efficiency and continuous learning.
 
 This lack of focus is huge design flaw that's been called out by Yann LeCun, Dr. Jeff Beck and everyone else applying active inference to generate grounded "world models" that continuously learn and broadly generalize. IMO, this is the better path to embodied intelligence.
 
@@ -88,7 +89,7 @@ This isn't speculative. Research groups are building these systems now. Spiking 
 
 The results are pretty cool IMO: orders of magnitude reduction in energy consumption for equivalent task performance. Not just incremental improvements but fundamental efficiency gains that come from a fundamentally different approach to intelligence.
 
-## The Second Law 
+## The Second Law
 
 The foundation model paradigm that focuses on scaling parameters, data, and compute, has produced incredible outputs. I've been shocked and surprised. (I admit to having been on the skeptical side of what transformers could achieve). Even so, it's running into physics. Data centers are becoming power plants. Inference costs are becoming unsustainable (ish?). This transformer trajectory doesn't lead to ubiquitous intelligence IMO, but it will lead to overly centralized intelligence rationed by energy cost.
 
