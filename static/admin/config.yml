@@ -2,8 +2,6 @@ backend:
   name: github
   repo: elbowspeak/syntropic-blog
   branch: main
-  auth_type: pkce
-  app_id: Ov23lidD1bp14M71M09l
 
 media_folder: static/images
 public_folder: /images
