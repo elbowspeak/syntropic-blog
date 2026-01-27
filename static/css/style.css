@@ -283,7 +283,12 @@ body {
   font-size: 17px;
   line-height: 1.7;
   color: var(--text-primary);
-  margin-bottom: 100px;
+}
+
+.article-body::after {
+  content: "";
+  display: block;
+  height: 120px;
 }
 
 .article-body > * + * {
