@@ -12,5 +12,14 @@
 <meta property="og:url" content="{{ .Permalink }}">
 <meta name="twitter:card" content="summary">
 <link rel="canonical" href="{{ .Permalink }}">
-<!-- Cloudflare Web Analytics -->
-<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "cc680651b87348e3a63c5247d6a75906"}'></script>
+<!-- Page view tracking -->
+<script>
+(function() {
+  const WORKER_URL = 'https://syntropic-views.syntropic.workers.dev';
+  fetch(WORKER_URL + '/view', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ page: window.location.pathname })
+  }).catch(function() {});
+})();
+</script>

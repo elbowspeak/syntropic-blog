@@ -1,0 +1,7 @@
+name = "syntropic-views"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[[kv_namespaces]]
+binding = "VIEWS"
+id = "a3f510414c85473489ec2c8ad430b829"
