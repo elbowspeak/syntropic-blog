@@ -221,16 +221,12 @@ body {
   min-width: 0;
   overflow-y: auto;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 40px;
 }
 
 .article {
-  width: 100%;
   max-width: var(--content-max-width);
-  padding: var(--content-padding-y) 0;
+  margin: 0 auto;
+  padding: var(--content-padding-y) var(--content-padding-x);
   padding-bottom: 120px;
   box-sizing: border-box;
 }
