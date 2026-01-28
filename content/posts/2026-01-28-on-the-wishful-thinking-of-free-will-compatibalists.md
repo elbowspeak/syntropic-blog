@@ -1,5 +1,5 @@
 ---
-title: On the Wishful Thinking of Free Will Compatibalists
+title: On the Incompatibility of Free Will Compatibalists
 date: 2026-01-28T11:47:00
 draft: false
 description: ''
@@ -12,15 +12,13 @@ tags:
 
 There is something it feels like to make a choice. As I decide how to open this essay, I have the familiar sense that I could express these ideas in many ways, that I'm weighing options, that I'm selecting among them. This feeling is vivid and persistent and, I believe, almost certainly misleading.
 
-The free will debate has run for millennia, and the contemporary version typically arranges itself into three camps. 
+The free will debate has run for millennia, and the contemporary version typically arranges itself into three camps.
 
-- Hard determinists say the universe is causally closed, every state follows necessarily from prior states, and free will is therefore illusion. 
-
-- Libertarians (in the metaphysical sense, not the political one) say consciousness somehow intervenes in the causal chain, injecting genuine choice into an otherwise mechanical process. 
-
+- Hard determinists say the universe is causally closed, every state follows necessarily from prior states, and free will is therefore illusion.
+- Libertarians (in the metaphysical sense, not the political one) say consciousness somehow intervenes in the causal chain, injecting genuine choice into an otherwise mechanical process.
 - Compatibilists say we're asking the wrong question, that free will doesn't require escaping determinism, just being the kind of system that responds to reasons, weighs evidence, and acts from its own values rather than external compulsion.
 
-Sam Harris has argued eloquently and forcefully for the hard determinist position, or something close to it. In his telling, consciousness is a witness, not an author. Thoughts appear; we don't summon them. Decisions emerge; we don't make them. The feeling of choosing is what it's like to watch your own neural processes resolve, not what it's like to resolve them. 
+Sam Harris has argued eloquently and forcefully for the hard determinist position, or something close to it. In his telling, consciousness is a witness, not an author. Thoughts appear; we don't summon them. Decisions emerge; we don't make them. The feeling of choosing is what it's like to watch your own neural processes resolve, not what it's like to resolve them.
 
 A [recent LessWrong post by Julius](https://www.lesswrong.com/posts/tnSagkAADcjRRtbAu/contra-sam-harris-on-free-will), pushes back from the compatibilist direction, arguing that the "deliberative algorithm", the process of representing options, simulating outcomes, and selecting among them, _is_ free will. The algorithm is you. When it runs, you're choosing.
 
@@ -84,7 +82,7 @@ In the framework developed by Karl Friston and elaborated by researchers like Je
 
 (I should be clear about how much work this claim is doing:  The active inference framework remains contested, and identifying consciousness with predictive inference is a substantive theoretical commitment, not settled science. But the core insight doesn't require buying the full Fristonian apparatus: if consciousness is even roughly in the business of modeling future states, if it's doing prediction and error correction rather than issuing commands, then the compatibilist picture is already in trouble. The question isn't whether this account is complete. The question is whether consciousness is upstream of decision-making (the author) or downstream of it (the model tracking what the system is about to do). The timing evidence, the confabulation research, and the continuity with simpler biological systems all point the same direction.)
 
-Inference is real computational work. It's not "nothing." But here's what collapses the compatibilist position: this process is not unique to what we would define as conscious systems. 
+Inference is real computational work. It's not "nothing." But here's what collapses the compatibilist position: this process is not unique to what we would define as conscious systems.
 
 Flagella do active inference. A bacterium swimming up a glucose gradient is minimizing expected free energy; it has "expectations" (in the information-theoretic sense) about nutrient concentrations, and it moves to confirm them. Plants do active inference. A sunflower tracking the sun is running prediction and correction to minimize the free energy of its generative model. Single cells, ecosystems... any self-organizing system that maintains itself against entropy is, in the relevant sense, performing inference.
 
@@ -161,15 +159,9 @@ I think that's wishful thinking. But I would say that, wouldn't I? The ball alwa
 ## References
 
 - Harris, Sam. _Free Will_ (2012)
-
 - Julius. "Contra Sam Harris on Free Will." LessWrong (2026)
-
 - Pereboom, Derk. _Living Without Free Will_ (2001)
-
 - Rolls, Edmund T. "Willed action, free will, and the stochastic neurodynamics of decision-making." _Frontiers in Integrative Neuroscience_ (2012)
-
 - Schurger, Aaron, et al. "An accumulator model for spontaneous neural activity prior to self-initiated movement." _PNAS_ (2012)
-
 - Haynes, John-Dylan. "Decoding and predicting intentions." _Annals of the New York Academy of Sciences_ (2011)
-
 - Friston, Karl. "The free-energy principle: a unified brain theory?" _Nature Reviews Neuroscience_ (2010)
