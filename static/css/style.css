@@ -224,7 +224,8 @@ body {
 }
 
 .article {
-  max-width: 680px;
+  width: 100%;
+  max-width: 680px !important;
   margin-left: auto !important;
   margin-right: auto !important;
   padding: 32px 48px;
@@ -616,7 +617,7 @@ body {
   }
 
   .article {
-    max-width: none;
+    max-width: none !important;
     padding: 0;
   }
 }
