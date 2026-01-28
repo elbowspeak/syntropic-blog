@@ -3,7 +3,7 @@ title: It's not Artificial Intelligence. It's Sparkling Delegation.
 date: 2026-01-27T16:55:00
 draft: false
 description: ''
-image: ''
+image: /images/mirga-grazinyte-tyla-1518615696-3035738955.jpg
 tags: []
 ---
 
@@ -73,12 +73,12 @@ If the bottleneck is human delegation capability rather than AI capability, your
 
 **Invest in specification skills.** The ability to translate fuzzy business goals into precise, delegatable instructions is now a core competency. It's trainable, but most organizations aren't training it. They're buying "better" tools for people who don't know how to use the tools they already have.
 
-**Design for supervision. **Every AI deployment needs clear checkpoints, review processes, and feedback mechanisms. Build the supervision infrastructure before you deploy, not after things go wrong.
+**Design for supervision.** Every AI deployment needs clear checkpoints, review processes, and feedback mechanisms. Build the supervision infrastructure before you deploy, not after things go wrong.
 
-**Question the workflow before accelerating it. **Before you bolt AI onto an existing process, ask whether this process should exist in this form at all, what constraints it was designed around, and whether those constraints still apply. \*\*The highest value AI initiatives often start with process redesign rather than process acceleration.\*\*
+**Question the workflow before accelerating it.** Before you bolt AI onto an existing process, ask whether this process should exist in this form at all, what constraints it was designed around, and whether those constraints still apply. **_The highest value AI initiatives often start with process redesign rather than process acceleration._**
 
-**Benchmark against possibility. **Stop asking how much better than before and start asking what's now achievable. This requires imagination and courage. It's easier to claim incremental improvement than to stake out a fundamentally different vision. But conservative anchored aspiration is leaving enormous value on the table.
+**Benchmark against possibility.** Stop asking how much better than before and start asking what's now achievable. This requires imagination and courage. It's easier to claim incremental improvement than to stake out a fundamentally different vision. But conservative anchored aspiration is leaving enormous value on the table.
 
-**Own the bottleneck. **When AI initiatives underperform, look in the mirror before you look at the vendor. The technology is capable. The question is whether your organization is capable of using it well.
+**Own the bottleneck.** When AI initiatives underperform, look in the mirror before you look at the vendor. The technology is capable. The question is whether your organization is capable of using it well.
 
 The age of AI is really the age of automated delegation at unprecedented scale, and the organizations that thrive will be the ones that learn to delegate best.
