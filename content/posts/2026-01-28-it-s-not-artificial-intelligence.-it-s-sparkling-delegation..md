@@ -25,7 +25,7 @@ Bad delegators dump complex work on people without context, support, or check-in
 
 Most organizations are bad delegators when it comes to AI. They approach these tools the way a poor manager approaches a new hire: unclear direction, poor scaffolding, no supervision structure, unrealistic expectations, and then frustration when things don't work out. But **AI capability isn't the constraint anymore**.
 
-Most organizations already have access to models that far exceed their ability to use them well. Current models that can write, analyze and code and research and synthesize at levels that were science fiction just a few years ago. The constraint is now our own problem-solving and judgment. Our ability to specify what we want, our skill at breaking complex challenges into delegatable pieces (delegate-able?), our discipline around supervision and iteration, and our willingness to rethink workflows rather than just "make them 20% faster/better".
+Most organizations already have access to models that far exceed their ability to use them well. Current models can write, analyze and code, plus research and synthesize at levels that were science fiction just a few years ago. The constraint is now our own judgement and problem solving. It's our ability to specify what we want, our skill at breaking complex challenges into delegable (delegate-able?) pieces, our discipline around supervision and iteration, and our willingness to rethink workflows rather than just "make them 20% faster/better".
 
 ## AI Underperformance
 
@@ -53,27 +53,27 @@ This might be the most costly pattern because it feels like success. Anchored as
 - "Our analysts can now handle 50% more cases."
 - "First-draft quality improved significantly."
 
-These sound good. And relative to past performance, they probably are good. But they also likely represent a fraction of what's actually possible. When you delegate to a capable resource, \*\*the question is no longer how much faster you can do what you did before, but what becomes possible that wasn't possible before\*\*.
+These sound good. And relative to past performance, they probably are good. But they also likely represent a fraction of what's actually possible. When you delegate to a capable resource, **the question is no longer how much faster you can do what you did before, but what becomes possible that wasn't possible before**.
 
 A 20% improvement in report generation time might be the wrong metric entirely if AI could enable real-time continuous analysis that eliminates discrete reports altogether. Handling 50% more cases might miss the point if AI could prevent most of those cases from arising in the first place.
 
-Anchored aspiration keeps you playing the same game when that game has been made obsolete by new automation capabilities. \*\*Our job now is to break free of our fetters, to expand our scope of aspiration.\*\*
+Anchored aspiration keeps you playing the same game when that game has been made obsolete by new automation capabilities. **Our job now is to break free of our fetters, to expand our scope of aspiration.**
 
 ## Why This Reframe is Helpful
 
 The delegation frame shifts the bottleneck from technology to human capacity, and this shift changes where you look for answers when designing new protocols and processes.
 
-When you think of AI as intelligence, underperformance points to technological limits, the model isn't smart enough, the training data is insufficient, the architecture is wrong, ,and the solution is always, "we need better technology," which conveniently places responsibility outside your organization.
+When you think of AI as intelligence, underperformance points to technological limits, the model isn't smart enough, the training data is insufficient, the architecture is wrong, and the solution is always, "we need better technology," which conveniently places responsibility outside your organization.
 
 When you think of AI as delegation, underperformance points to human practices: your specification was unclear, your supervision was insufficient, your feedback loops were too slow, your aspiration was too anchored. The solution is better delegation. But most people have never delegated to something this capable, and the habits they've built don't transfer cleanly.
 
-It's easier to blame the tool or the vendor than to examine our own capabilities. But it's also harder to something about. You can't make the AI smarter (the frontier models are what they are, and they're already remarkably capable). But you \*\*\*can\*\*\* get better at specifying outcomes, you \*\*\*can\*\*\* build stronger supervision structures, you \*\*\*can\*\*\* create faster feedback loops, you can force yourself to question path-dependent assumptions, and you can raise your aspiration level. In short, you can become a better delegator.
+It's easier to blame the tool or the vendor than to examine our own capabilities. But it's also harder to something about. You can't make the AI smarter (the frontier models are what they are, and they're already remarkably capable). But you **can** get better at specifying outcomes, you **can** build stronger supervision structures, you **can** create faster feedback loops, you **can** force yourself to question path-dependent assumptions, and you **can** raise your aspiration level. **In short, you can become a better delegator**.
 
 ## So What Do I Do?
 
 If the bottleneck is human delegation capability rather than AI capability, your strategy changes.
 
-**Invest in specification skills.** The ability to translate fuzzy business goals into precise, delegatable instructions is now a core competency. It's trainable, but most organizations aren't training it. They're buying "better" tools for people who don't know how to use the tools they already have.
+**Invest in specification skills.** The ability to translate fuzzy business goals into precise, delegable instructions is now a core competency. It's trainable, but most organizations aren't training it. They're buying "better" tools for people who don't know how to use the tools they already have.
 
 **Design for supervision.** Every AI deployment needs clear checkpoints, review processes, and feedback mechanisms. Build the supervision infrastructure before you deploy, not after things go wrong.
 
