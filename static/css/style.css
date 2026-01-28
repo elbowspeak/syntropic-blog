@@ -225,10 +225,12 @@ body {
 
 .article {
   max-width: var(--content-max-width);
-  margin: 0 auto;
+  margin-left: auto !important;
+  margin-right: auto !important;
   padding: var(--content-padding-y) var(--content-padding-x);
   padding-bottom: 120px;
   box-sizing: border-box;
+  border: 2px solid red; /* DEBUG - remove after testing */
 }
 
 .article-header {
