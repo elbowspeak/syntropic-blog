@@ -4,6 +4,7 @@ date: 2026-01-24T23:40:00
 draft: false
 description: ''
 image: /images/scr-20260124-nmov.webp
+image_caption: "Georgia O'Keefe, From a Lake #1"
 ---
 
 ### What Georgia O'Keefe Knew about Models ###
