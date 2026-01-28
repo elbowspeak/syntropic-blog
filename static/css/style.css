@@ -221,14 +221,13 @@ body {
   min-width: 0;
   overflow-y: auto;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  padding: 0 40px;
 }
 
 .article {
   max-width: var(--content-max-width);
-  padding: var(--content-padding-y) var(--content-padding-x);
+  margin: 0 auto;
+  padding: var(--content-padding-y) 0;
   padding-bottom: 120px;
   box-sizing: border-box;
 }
