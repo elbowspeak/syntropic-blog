@@ -7,7 +7,7 @@ image: /images/melting-face-3175956084 copy.jpg
 image_caption: ''
 ---
 
-## **Agentic AI will collapse the application tier within five years**
+## **Agentic AI will collapse the SaaS application tier within five years**
 
 ---
 
