@@ -399,11 +399,24 @@ body {
   margin: 1.5em 0;
 }
 
+.article-body figure img {
+  margin: 0 auto;
+}
+
 .article-body figcaption {
   text-align: center;
   font-size: 14px;
   color: var(--text-secondary);
-  margin-top: 8px;
+  margin-top: 12px;
+  font-style: italic;
+}
+
+.article-body figcaption a {
+  color: var(--text-secondary);
+}
+
+.article-body figcaption a:hover {
+  color: #8A5CF4;
 }
 
 /* Horizontal Rule */
