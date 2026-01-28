@@ -16,6 +16,8 @@ In [Julius's recent Less Wrong post ](https://www.lesswrong.com/posts/tnSagkAADc
 
 I agree with every word of this except that last clause. The feeling is absolutely vivid and persistent and, IMO,  almost certainly misleading.
 
+---
+
 The free will debate has run for millennia, and the contemporary version typically arranges itself into three camps.
 
 - Hard determinists say the universe is causally closed, every state follows necessarily from prior states, and free will is therefore illusion.
