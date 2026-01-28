@@ -56,7 +56,11 @@
     });
 
     // Update content area
-    const featuredImage = post.image ? `<img class="article-featured-image" src="${post.image}" alt="Featured image for ${escapeHtml(post.title)}">` : '';
+    let featuredImage = '';
+    if (post.image) {
+      const caption = post.imageCaption ? `<figcaption>${escapeHtml(post.imageCaption)}</figcaption>` : '';
+      featuredImage = `<figure class="article-featured-figure"><img class="article-featured-image" src="${post.image}" alt="Featured image for ${escapeHtml(post.title)}">${caption}</figure>`;
+    }
     articleContent.innerHTML = `
       <a href="/" class="mobile-back" onclick="window.mobileBack(); return false;">← Back to posts</a>
       <header class="article-header">

@@ -264,12 +264,23 @@ body {
   margin: 0 8px;
 }
 
+.article-featured-figure {
+  margin: 24px 0;
+}
+
 .article-featured-image {
   max-width: 100%;
   height: auto;
   border-radius: 6px;
-  margin: 24px 0;
   display: block;
+}
+
+.article-featured-figure figcaption {
+  text-align: center;
+  font-size: 14px;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-top: 12px;
 }
 
 .article-divider {

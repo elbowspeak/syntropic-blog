@@ -8,7 +8,10 @@
   </p>
 </header>
 {{- with .Params.image }}
-<img class="article-featured-image" src="{{ . }}" alt="Featured image for {{ $.Title }}">
+<figure class="article-featured-figure">
+  <img class="article-featured-image" src="{{ . }}" alt="Featured image for {{ $.Title }}">
+  {{- with $.Params.image_caption }}<figcaption>{{ . }}</figcaption>{{- end }}
+</figure>
 {{- end }}
 <div class="article-divider"></div>
 <div class="article-body prose">

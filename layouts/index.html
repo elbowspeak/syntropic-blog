@@ -42,7 +42,7 @@
 {{- $posts := where .Site.RegularPages "Section" "posts" -}}
 {{- $data := slice -}}
 {{- range $p := $posts -}}
-  {{- $item := dict "slug" $p.RelPermalink "title" $p.Title "date" ($p.Date.Format "January 2, 2006") "readingTime" $p.ReadingTime "content" $p.Content "image" $p.Params.image -}}
+  {{- $item := dict "slug" $p.RelPermalink "title" $p.Title "date" ($p.Date.Format "January 2, 2006") "readingTime" $p.ReadingTime "content" $p.Content "image" $p.Params.image "imageCaption" $p.Params.image_caption -}}
   {{- $data = $data | append $item -}}
 {{- end -}}
 {{ $data | jsonify (dict "indent" "  ") | safeJS }}

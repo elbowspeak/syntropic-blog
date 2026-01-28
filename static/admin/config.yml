@@ -18,5 +18,6 @@ collections:
       - { label: Draft, name: draft, widget: boolean, default: false }
       - { label: Description, name: description, widget: string, required: false }
       - { label: Featured Image, name: image, widget: image, required: false }
+      - { label: Image Caption, name: image_caption, widget: string, required: false, hint: "e.g., Photo by Jane Doe" }
       - { label: Tags, name: tags, widget: list, required: false }
       - { label: Body, name: body, widget: markdown }
