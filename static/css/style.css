@@ -224,10 +224,10 @@ body {
 }
 
 .article {
-  max-width: var(--content-max-width);
+  max-width: 680px;
   margin-left: auto !important;
   margin-right: auto !important;
-  padding: var(--content-padding-y) var(--content-padding-x);
+  padding: 32px 48px;
   padding-bottom: 120px;
   box-sizing: border-box;
   border: 2px solid red; /* DEBUG - remove after testing */
