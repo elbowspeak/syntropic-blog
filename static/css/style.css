@@ -243,6 +243,7 @@ body {
   color: var(--text-primary);
   margin: 0 0 8px;
   line-height: 1.2;
+  text-wrap: balance;
 }
 
 .article-title a {
