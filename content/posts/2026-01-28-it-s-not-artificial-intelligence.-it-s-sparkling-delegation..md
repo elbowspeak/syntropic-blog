@@ -13,7 +13,7 @@ tags:
 
 The term AI is itself is a marketing rebrand. As Signal president Meredith Whittaker [observed from her years inside Google](https://www.cityarts.net/event/the-future-of-civil-liberties-privacy-ethics-in-tech/), "AI is an overhyped marketing term". Engineers call it machine learning, but if you want that Series A, you're selling AI.
 
-Delegation carries decades of accumulated wisdom about what makes managing projects or people succeed or fail. Some managers reliably multiply their teams' output while others inherit talent and squander it. Mapping AI onto that existing knowledge reveals patterns that the "intelligence" frame obscures.
+**_Delegation_** carries decades of accumulated wisdom about what makes managing projects or people succeed or fail. Some managers reliably multiply their teams' output while others inherit talent and squander it. Mapping AI onto that existing knowledge reveals patterns that the "intelligence" frame obscures.
 
 ## The Delegation Metaphor
 
