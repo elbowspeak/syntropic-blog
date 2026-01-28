@@ -1,5 +1,5 @@
 ---
-title: On the Incompatibility of Free Will Compatibalists
+title: On the Wishful Thinking of Free Will Compatibalists
 date: 2026-01-28T12:10:00
 draft: false
 description: ''
@@ -17,7 +17,6 @@ The free will debate has run for millennia, and the contemporary version typical
 - Hard determinists say the universe is causally closed, every state follows necessarily from prior states, and free will is therefore illusion.
 - Libertarians (in the metaphysical sense, not the political one) say consciousness somehow intervenes in the causal chain, injecting genuine choice into an otherwise mechanical process.
 - Compatibilists say we're asking the wrong question, that free will doesn't require escaping determinism, just being the kind of system that responds to reasons, weighs evidence, and acts from its own values rather than external compulsion.
-
 
 Sam Harris has argued eloquently and forcefully for the hard determinist position, or something close to it. In his telling, consciousness is a witness, not an author. Thoughts appear; we don't summon them. Decisions emerge; we don't make them. The feeling of choosing is what it's like to watch your own neural processes resolve, not what it's like to resolve them.
 
