@@ -1,6 +1,6 @@
 ---
 title: On the Wishful Thinking of Free Will Compatibalists
-date: 2026-01-28T12:10:00
+date: 2026-01-28T13:42:00
 draft: false
 description: ''
 image: /images/pachinko_closeup.jpg
