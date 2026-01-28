@@ -4,6 +4,7 @@ date: 2026-01-27T16:55:00
 draft: false
 description: ''
 image: /images/6758_Mirga_08_(C)_Daniela_Schmidt-Langels.jpg
+image_caption: Mirga Gražinytė-Tyla, Birmingham Symphony Orchestra
 tags:
   - '#AI'
 ---
