@@ -224,12 +224,9 @@ body {
 }
 
 .article {
-  width: 100%;
-  max-width: 680px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  padding: 32px 48px;
-  padding-bottom: 120px;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 32px 48px 120px;
   box-sizing: border-box;
 }
 
@@ -244,6 +241,7 @@ body {
   margin: 0 0 8px;
   line-height: 1.2;
   text-wrap: balance;
+  text-align: center;
 }
 
 .article-title a {
