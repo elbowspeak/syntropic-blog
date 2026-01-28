@@ -7,7 +7,7 @@ image: /images/6758_Mirga_08_(C)_Daniela_Schmidt-Langels.jpg
 tags: []
 ---
 
-"Artificial Intelligence" is sabotaging how you use AI tools. A more useful frame is \*automated delegation technology\*.
+"Artificial Intelligence" is sabotaging how you use AI tools. A more useful frame is **_automated delegation technology_**.
 
 The term AI is itself is a marketing rebrand. As Signal president Meredith Whittaker [observed from her years inside Google](https://www.cityarts.net/event/the-future-of-civil-liberties-privacy-ethics-in-tech/), "AI is an overhyped marketing term". Engineers call it machine learning, but if you want that Series A, you're selling AI.
 
