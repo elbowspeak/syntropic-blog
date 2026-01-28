@@ -1,6 +1,6 @@
 ---
 title: On the Incompatibility of Free Will Compatibalists
-date: 2026-01-28T11:47:00
+date: 2026-01-28T12:10:00
 draft: false
 description: ''
 image: /images/pachinko_closeup.jpg
