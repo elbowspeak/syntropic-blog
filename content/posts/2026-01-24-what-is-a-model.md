@@ -61,8 +61,8 @@ Leaving things out feels dangerous. What if the detail you ruthlessly cut was th
 
 This fear drives the impulse toward more data, more monitoring, more complexity. But you're already leaving things out. You can't perceive everything, let alone act on it. The choice is between the compression you've thought about and the compression you haven't.
 
-Our brain is the most sophisticated information-processing system in the known universe and it runs on the energy equivalent of a banana. It achieves this through ruthless selectivity about what it represents.
+Our brain is the most sophisticated information processing system in the known universe and it runs on the energy equivalent of a banana. It achieves this through ruthless selectivity about what it represents.
 
-The real meaning of things lives in the structure that remains when the details are stripped away.
+The real meaning of things doesn't live in the data, it lives in the structure that remains when the details are stripped away.
 
 O'Keeffe's paintings have no accidental absences. Every elimination is deliberate. What's left out is precisely calibrated to enhance the meaning of what's left in.
