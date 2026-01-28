@@ -10,11 +10,7 @@ image_caption: "Georgia O'Keefe, From a Lake #1"
 ### What Georgia O'Keefe Knew about Models ###
 
 "Nothing is less real than realism. Details are confusing. It is only by selection, by elimination, by emphasis that we get the real meaning of things."
-<br><br>
 
-Georgia O'Keefe,
-_From a Lake #1_
-<br><br>
 
 ## Details, Details, Details...
 
