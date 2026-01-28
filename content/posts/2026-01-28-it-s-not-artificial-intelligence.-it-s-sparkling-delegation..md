@@ -23,7 +23,7 @@ The difference lies in the delegator's own capabilities. They specify outcomes w
 
 Bad delegators dump complex work on people without context, support, or check-ins. They treat delegation as a joyful abdication of responsibility: throw a bunch of crap over the wall and hope for the best. But then they blame their team for the disappointing results.
 
-Most organizations are bad delegators when it comes to AI. They approach these tools the way a poor manager approaches a new hire: unclear direction, poor scaffolding, no supervision structure, unrealistic expectations, and then frustration when things don't work out. But \*AI capability isn't the constraint anymore\*.
+Most organizations are bad delegators when it comes to AI. They approach these tools the way a poor manager approaches a new hire: unclear direction, poor scaffolding, no supervision structure, unrealistic expectations, and then frustration when things don't work out. But **AI capability isn't the constraint anymore**.
 
 Most organizations already have access to models that far exceed their ability to use them well. Current models that can write, analyze and code and research and synthesize at levels that were science fiction just a few years ago. The constraint is now our own problem-solving and judgment. Our ability to specify what we want, our skill at breaking complex challenges into delegatable pieces (delegate-able?), our discipline around supervision and iteration, and our willingness to rethink workflows rather than just "make them 20% faster/better".
 
