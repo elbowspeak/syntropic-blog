@@ -4,6 +4,7 @@ date: 2026-01-22T22:33:00-08:00
 draft: false
 description: ''
 image: /images/Pasted image 20240628164256.png
+image_caption: ''
 ---
 
 **Why Active Inference, Not Scaling, is the Path That Gets Us to the Physics Limit**
@@ -44,7 +45,7 @@ Compare this to transformers, where every query activates the full network regar
 
 Free energy minimization and thermodynamic efficiency are linked by the same underlying physics.
 
-Variational free energy, which is the quantity that active inference systems minimize, decomposes into two terms: complexity and accuracy. The complexity term penalizes model updates that deviate from prior beliefs. The accuracy term rewards predictions that match observations.
+Variational free energy, which is the quantity that active inference systems minimize, decomposes into two terms: complexity and accuracy. The complexity term penalizes the divergence between the approximate posterior and the prior. In other words, it's essentially measuring how much belief revision the model must perform to accommodate new observations. The accuracy term rewards predictions that match observations.
 
 Minimizing free energy means finding the simplest belief update that adequately explains the data. This is Occam's razor as a loss function. And Occam's razor, in physical systems, translates directly to energy efficiency: simpler computations require fewer state transitions, fewer state transitions mean less heat dissipation, less heat dissipation means operation closer to the Landauer limit.
 
