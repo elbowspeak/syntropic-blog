@@ -35,6 +35,7 @@
     initHistoryHandling();
     initFromURL();
     initMobileView();
+    setupExternalLinks();
   }
 
   // Load post content into reader pane
@@ -99,6 +100,9 @@
       app.classList.remove('is-list-view');
       app.classList.add('is-article-view');
     }
+
+    // Make external links open in new tab
+    setupExternalLinks();
   }
 
   // Handle list item clicks
@@ -218,6 +222,19 @@
     const div = document.createElement('div');
     div.textContent = text;
     return div.innerHTML;
+  }
+
+  // Make external links open in new tab
+  function setupExternalLinks() {
+    const articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    articleBody.querySelectorAll('a').forEach(link => {
+      if (link.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        link.setAttribute('rel', 'noopener noreferrer');
+      }
+    });
   }
 
   // Mobile back navigation

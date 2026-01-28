@@ -221,14 +221,15 @@ body {
   min-width: 0;
   overflow-y: auto;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .article {
   max-width: var(--content-max-width);
-  margin: 0 auto;
   padding: var(--content-padding-y) var(--content-padding-x);
   padding-bottom: 120px;
-  width: 100%;
   box-sizing: border-box;
 }
 
