@@ -10,7 +10,11 @@ tags:
   - '#Active Inference'
 ---
 
-There is something it feels like to make a choice. As I decide how to open this essay, I have the familiar sense that I could express these ideas in many ways, that I'm weighing options, that I'm selecting among them. This feeling is vivid and persistent and, I believe, almost certainly misleading.
+In [Julius's recent Less Wrong post ](https://www.lesswrong.com/posts/tnSagkAADcjRRtbAu/contra-sam-harris-on-free-will)defending compatibilism, they write:
+
+"There is something it feels like to make a choice. As I decide how to open this essay, I have the familiar sense that I could express these ideas in many ways. I weigh different options, imagine how each might land, and select one. This process of deliberation is what most people call 'free will', and it feels undeniably real."
+
+I agree with every word of this except that last clause. The feeling is absolutely vivid and persistent and, IMO,  almost certainly misleading.
 
 The free will debate has run for millennia, and the contemporary version typically arranges itself into three camps.
 
@@ -20,7 +24,7 @@ The free will debate has run for millennia, and the contemporary version typical
 
 Sam Harris has argued eloquently and forcefully for the hard determinist position, or something close to it. In his telling, consciousness is a witness, not an author. Thoughts appear; we don't summon them. Decisions emerge; we don't make them. The feeling of choosing is what it's like to watch your own neural processes resolve, not what it's like to resolve them.
 
-A [recent LessWrong post by Julius](https://www.lesswrong.com/posts/tnSagkAADcjRRtbAu/contra-sam-harris-on-free-will), pushes back from the compatibilist direction, arguing that the "deliberative algorithm", the process of representing options, simulating outcomes, and selecting among them, _is_ free will. The algorithm is you. When it runs, you're choosing.
+Julius pushes back from the compatibilist direction, arguing that the "deliberative algorithm", the process of representing options, simulating outcomes, and selecting among them, _is_ free will. The algorithm is you. When it runs, you're choosing.
 
 I think Harris gets the phenomenology mostly right but doesn't fully specify the mechanism. And I think the compatibilists are engaged in wishful thinking that collapses under scrutiny. What follows is my attempt to articulate a third position, one that takes the neuroscience seriously, integrates what we're learning about the mathematics of self-organizing systems, and arrives at a conclusion that is neither classical determinism nor compatibilist rescue.
 
