@@ -419,6 +419,25 @@ body {
   color: #8A5CF4;
 }
 
+/* Style italic line after image as caption */
+.article-body p img + br + em,
+.article-body p > img:only-child + em,
+.article-body p:has(> img:only-child) + p > em:only-child {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-top: -1em;
+}
+
+/* When image is in its own paragraph, style next paragraph if it's just italic */
+.article-body p:has(> img):not(:has(> :not(img))) + p:has(> em:only-child) {
+  text-align: center;
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-top: -0.5em;
+}
+
 /* Horizontal Rule */
 .article-body hr {
   border: none;
