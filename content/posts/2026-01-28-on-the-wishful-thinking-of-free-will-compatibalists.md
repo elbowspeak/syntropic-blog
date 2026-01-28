@@ -18,6 +18,7 @@ The free will debate has run for millennia, and the contemporary version typical
 - Libertarians (in the metaphysical sense, not the political one) say consciousness somehow intervenes in the causal chain, injecting genuine choice into an otherwise mechanical process.
 - Compatibilists say we're asking the wrong question, that free will doesn't require escaping determinism, just being the kind of system that responds to reasons, weighs evidence, and acts from its own values rather than external compulsion.
 
+
 Sam Harris has argued eloquently and forcefully for the hard determinist position, or something close to it. In his telling, consciousness is a witness, not an author. Thoughts appear; we don't summon them. Decisions emerge; we don't make them. The feeling of choosing is what it's like to watch your own neural processes resolve, not what it's like to resolve them.
 
 A [recent LessWrong post by Julius](https://www.lesswrong.com/posts/tnSagkAADcjRRtbAu/contra-sam-harris-on-free-will), pushes back from the compatibilist direction, arguing that the "deliberative algorithm", the process of representing options, simulating outcomes, and selecting among them, _is_ free will. The algorithm is you. When it runs, you're choosing.
