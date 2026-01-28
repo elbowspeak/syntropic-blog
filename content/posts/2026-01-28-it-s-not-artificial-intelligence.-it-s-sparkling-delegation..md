@@ -3,7 +3,7 @@ title: It's not Artificial Intelligence. It's Sparkling Delegation.
 date: 2026-01-27T16:55:00
 draft: false
 description: ''
-image: /images/mirga-grazinyte-tyla-1518615696-3035738955.jpg
+image: /images/6758_Mirga_08_(C)_Daniela_Schmidt-Langels.jpg
 tags: []
 ---
 
