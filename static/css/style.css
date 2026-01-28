@@ -225,8 +225,10 @@ body {
 }
 
 .article {
+  width: 100%;
   max-width: var(--content-max-width);
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   padding: var(--content-padding-y) 0;
   padding-bottom: 120px;
   box-sizing: border-box;
