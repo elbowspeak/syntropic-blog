@@ -13,7 +13,7 @@ The term AI is itself is a marketing rebrand. As Signal president Meredith Whitt
 
 Delegation carries decades of accumulated wisdom about what makes managing projects or people succeed or fail. Some managers reliably multiply their teams' output while others inherit talent and squander it. Mapping AI onto that existing knowledge reveals patterns that the "intelligence" frame obscures.
 
-### The Delegation Metaphor
+## The Delegation Metaphor
 
 Think about the best delegator you know, someone who consistently gets extraordinary results working with their team. What makes them effective has almost nothing to do with having the smartest people, plenty of managers inherit talented teams and squander them while others build remarkable output from average resources.
 
@@ -25,17 +25,17 @@ Most organizations are bad delegators when it comes to AI. They approach these t
 
 Most organizations already have access to models that far exceed their ability to use them well. Current models that can write, analyze and code and research and synthesize at levels that were science fiction just a few years ago. The constraint is now our own problem-solving and judgment. Our ability to specify what we want, our skill at breaking complex challenges into delegatable pieces (delegate-able?), our discipline around supervision and iteration, and our willingness to rethink workflows rather than just "make them 20% faster/better".
 
-### AI Underperformance
+## AI Underperformance
 
 Once you see AI as delegation, three failure patterns emerge.
 
-#### Path Dependence
+### Path Dependence
 
 Path dependence means optimizing within current constraints instead of questioning whether those constraints still apply. You have a process that takes four people and three days, you bring in AI to make it faster, now it takes four people and two days. But you might be optimizing a workflow that shouldn't exist in that form at all.
 
 The delegation frame forces a different question: if I were starting from scratch with this new capability, would I design the process this way at all? Usually the answer is no. Path dependence feels safe because it's incremental, improving what exists rather than reimagining it, but incremental improvement of a constrained design has limits. You can make a horse-drawn carriage more aerodynamic without ever addressing the fact that it's a carriage drawn by a horse.
 
-#### Information Bottlenecks Persist
+### Information Bottlenecks Persist
 
 This pattern looks like progress while leaving the underlying architecture unchanged. Organizations bolt AI onto human bottlenecked workflows without identifying and addressing the bottleneck itself.
 
@@ -43,7 +43,7 @@ Here's a typical scenario: customer inquiries come in and sit in a queue. A pers
 
 Good delegation asks where work is actually getting stuck, what the rate limiting step is, and whether AI could change which steps are rate limiting at all. Sometimes that means AI shouldn't make humans faster but should replace human dependent chokepoints entirely, moving those humans to judgment intensive work that actually requires them.
 
-#### Achored Aspiration
+### Anchored Aspiration
 
 This might be the most costly pattern because it feels like success. Anchored aspiration means benchmarking against pre-AI possibilities rather than post-AI potential, then celebrating outcomes that would have been impressive in 2022.
 
@@ -57,7 +57,7 @@ A 20% improvement in report generation time might be the wrong metric entirely i
 
 Anchored aspiration keeps you playing the same game when that game has been made obsolete by new automation capabilities. \*\*Our job now is to break free of our fetters, to expand our scope of aspiration.\*\*
 
-### Why This Reframe is Helpful
+## Why This Reframe is Helpful
 
 The delegation frame shifts the bottleneck from technology to human capacity, and this shift changes where you look for answers when designing new protocols and processes.
 
@@ -67,7 +67,7 @@ When you think of AI as delegation, underperformance points to human practices: 
 
 It's easier to blame the tool or the vendor than to examine our own capabilities. But it's also harder to something about. You can't make the AI smarter (the frontier models are what they are, and they're already remarkably capable). But you \*\*\*can\*\*\* get better at specifying outcomes, you \*\*\*can\*\*\* build stronger supervision structures, you \*\*\*can\*\*\* create faster feedback loops, you can force yourself to question path-dependent assumptions, and you can raise your aspiration level. In short, you can become a better delegator.
 
-### So What Do I Do?
+## So What Do I Do?
 
 If the bottleneck is human delegation capability rather than AI capability, your strategy changes.
 
