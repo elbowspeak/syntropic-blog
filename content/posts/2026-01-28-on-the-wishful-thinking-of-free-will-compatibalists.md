@@ -46,7 +46,7 @@ The crucial claim is that this narrative construction, however sophisticated, is
 
 ## II. Why Compatibilism Doesn't Escape This
 
-Julius's LessWrong post offers a careful articulation of the compatibilist position. They describe decision-making as an algorithm: set a goal, generate options, evaluate each option against your utility function, commit to a decision, act, reflect. They emphasize that this algorithm is causally efficacious, it's not post-hoc narration but the actual process that produces behavior. Give someone a new reason mid-deliberation and they may decide differently. The algorithm responds to reasons, so therefore it's the locus of free will. QED.
+Julius's post offers a careful articulation of the compatibilist position. They describe decision-making as an algorithm: set a goal, generate options, evaluate each option against your utility function, commit to a decision, act, reflect. They emphasize that this algorithm is causally efficacious, it's not post-hoc narration but the actual process that produces behavior. Give someone a new reason mid-deliberation and they may decide differently. The algorithm responds to reasons, so therefore it's the locus of free will. QED.
 
 There's something right here. The brain-system clearly is reasons-responsive in this sense. Present new evidence and behavior changes. Apply an argument and beliefs update (sometimes). This is what distinguishes humans from thermostats, the complexity and flexibility of the response.
 
