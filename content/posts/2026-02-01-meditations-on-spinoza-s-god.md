@@ -20,7 +20,7 @@ The second law of thermodynamics governs what follows.
 
 The second law tells us that entropy increases; that energy disperses and gradients dissipate. This is the asymmetry that determines which configurations of matter are accessible from which others, and in what direction time flows. If you want to know why the universe looks the way it does rather than some other way, the answer is: because entropy increases.
 
-I use the word **telos** here deliberately, knowing it will raise objections. Telos implies purpose, goal, intention; concepts that seem to smuggle teleology back into a universe we have spent centuries stripping of divine purpose. But I mean something more precise: telos in the Hegelian sense of an underlying dynamic that pushes things in a certain direction. Not a goal that something aims at, but a constraint that determines which paths are traversable and which are not.
+I use the word **telos** here deliberately, knowing it will raise objections. Telos implies purpose, goal, intention; concepts that seem to smuggle teleology back into a universe we have spent centuries stripping of divine purpose. But I mean something more precise: telos in the Hegelian sense of an underlying dynamic that pushes things in a certain direction,  a constraint that determines which paths are traversable and which are not.
 
 Consider that you don't get from the Big Bang to the heat death of the universe without the second law operating as this kind of constraint. The low-entropy initial state, with matter and energy concentrated in ways that permitted the formation of structure, gives way inexorably to states of higher entropy. This isn't a purpose imposed from outside, it's the statistical reality of how microstates relate to macrostates, how probable configurations vastly outnumber improbable ones, how any system with sufficient degrees of freedom will explore its phase space in ways that increase entropy over time.
 
@@ -170,7 +170,7 @@ The crude mechanistic worldview misses what Spinoza grasped and what I have been
 
 The mechanistic picture is often presented as a demotion, a stripping away of purpose and value, a reduction of everything meaningful to the meaningless motion of particles. Such presentations fail imagination. The mechanistic picture, properly understood, is a revelation. The same principles that govern heat engines and diffusion gradients also govern the emergence of life and the generation of experience. The same mathematics that describes a cup of coffee cooling describes a biosphere dissipating solar radiation. The universe is one thing, governed by one set of laws, and those laws are capable of producing beings that wonder about them.
 
-One can think of it as an elevation of the natural to the status that religion reserves for the supernatural. The **_ground_** **_of being _**is not an old man in the sky, nor an abstract principle requiring faith, nor a mystery beyond inquiry. The ground of being is thermodynamics, and thermodynamics produces us.
+One can think of it as an elevation of the natural to the status that religion reserves for the supernatural. The **_ground__ of being _**is not an old man in the sky, nor an abstract principle requiring faith, nor a mystery beyond inquiry. The ground of being is thermodynamics, and thermodynamics produces us.
 
 We do not need a deus ex machina. The machina is sufficient. The machina is, in fact, more wondrous than any God humans have invented, because it is real, and it made us, and we can understand it.
 
