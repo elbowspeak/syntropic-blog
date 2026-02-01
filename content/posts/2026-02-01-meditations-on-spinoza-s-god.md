@@ -78,7 +78,7 @@ Think about the rock-rolling-downhill analogy more carefully. The steepest desce
 
 This is where prediction enters the picture. To maximize entropy over time rather than instantaneously, a system must model its environment and its own future states. It must anticipate. The organism that can predict where food will be tomorrow is more likely to still be alive tomorrow, still dissipating, still contributing to the entropy budget of the universe. The organism that can predict seasonal changes can store resources, migrate, or enter dormancy; strategies that sacrifice short-term dissipation for long-term persistence of dissipative capacity.
 
-Active inference. the framework developed by Karl Friston and collaborators, formalizes this insight {{< cite 11 12 >}}. Living systems are prediction machines. They maintain models of their environment and act to minimize the divergence between their predictions and their sensory observations. The mathematics here is rigorous, grounded in variational principles. Prediction is central to life because it enables temporal arbitrage: trading instantaneous dissipation for sustained dissipation, sacrificing the steepest descent for the longer path.
+Active inference, the framework developed by Karl Friston and collaborators, formalizes this insight {{< cite 11 12 >}}. Living systems are prediction machines. They maintain models of their environment and act to minimize the divergence between their predictions and their sensory observations. The mathematics here is rigorous, grounded in variational principles. Prediction is central to life because it enables temporal arbitrage: trading instantaneous dissipation for sustained dissipation, sacrificing the steepest descent for the longer path.
 
 ---
 
