@@ -48,7 +48,7 @@ This insight is that organization can be thermodynamically favored when it serve
 
 ## Life as Thermodynamic Inevitability
 
-The old framing positioned life as fighting against entropy -- delicate order maintained in defiance of the universe's tendency toward disorder. Schrödinger's famous question, "What is life?"[14], was framed in terms of how living things manage to maintain their organization against the entropic tide. But the framing inverts the actual relationship. It's not that life defies entropy. Life accelerates entropy.
+The old framing positioned life as fighting against entropy, the delicate order maintained in defiance of the universe's tendency toward disorder. Schrödinger's famous question, "What is life?"[14], was framed in terms of how living things manage to maintain their organization against the entropic tide. But the framing inverts the actual relationship. It's not that life defies entropy. Life accelerates entropy.
 
 The physicist Jeremy England, working at MIT and later Georgia Tech, formalized this insight in a series of papers beginning in 2013. His framework, which he calls "dissipation-driven adaptation," argues that under certain conditions, groups of atoms will naturally restructure themselves to absorb and dissipate energy more effectively [5, 6]. The equations of non-equilibrium statistical mechanics, particularly the fluctuation theorems developed by Crooks, Jarzynski, and others in the 1990s, provide the mathematical foundation [3, 4]: systems driven far from equilibrium by external energy sources will tend toward configurations that efficiently absorb and dissipate that energy.
 
