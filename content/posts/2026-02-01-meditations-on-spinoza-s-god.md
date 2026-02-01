@@ -8,10 +8,6 @@ image_caption: The PIllars of Creation, Hubble Telescope
 tags: []
 ---
 
-**_Why it's Machina All the Way Down_**
-
----
-
 Begin with what we know. The universe had a beginning: call it the Big Bang, call it the initial singularity, call it whatever satisfies your need for naming. From that beginning emerged space, time, and energy in configurations of varying density. Some of those densities collapsed under their own gravity and ignited into stars. From those stars, you now have energy gradients of staggering magnitude: fusion furnaces pouring radiation into the void, with smaller bodies orbiting in their vicinity, bathed in their radiation.
 
 The second law of thermodynamics governs what follows.
@@ -40,7 +36,7 @@ The picture misleads in ways that obscure the most important features of thermod
 
 Entropy is better understood as the dispersal of energy, the spreading out of gradients, the transition from concentrated to diffuse configurations. A hot cup of coffee cooling to room temperature increases entropy not because the molecules become more "disordered" in any intuitive sense, but because the thermal energy that was concentrated in the coffee spreads out into the surrounding environment. The gradient between coffee and room has been dissipated.
 
-Now consider what happens when you have a persistent energy gradient, not a one-time concentration that disperses, but a continuous input of low-entropy energy into a system. This is the situation on any planet orbiting a star: a constant stream of concentrated electromagnetic energy impinging on a thermal reservoir. Under these conditions, something remarkable can occur. **The system can develop structures that accelerate the dissipation of the gradient. **These are what Ilya Prigogine, who won the Nobel Prize for his work on non-equilibrium thermodynamics, called "dissipative structures."[^1][^2]
+Now consider what happens when you have a persistent energy gradient, not a one-time concentration that disperses, but a continuous input of low-entropy energy into a system. This is the situation on any planet orbiting a star: a constant stream of concentrated electromagnetic energy impinging on a thermal reservoir. Under these conditions, something remarkable can occur. \*\*The system can develop structures that accelerate the dissipation of the gradient. \*\*These are what Ilya Prigogine, who won the Nobel Prize for his work on non-equilibrium thermodynamics, called "dissipative structures."[^1][^2]
 
 The canonical example is the Bénard cell: a container of fluid heated from below. At low temperature gradients, heat moves through the fluid by conduction. This is the slow, molecule-by-molecule transfer of thermal energy. But something surprising happens when the gradient exceeds a critical threshold, the system spontaneously organizes into convection cells, hexagonal patterns of rising and falling fluid that transport heat far more efficiently than conduction alone. The system has developed structure, organization that would seem to decrease entropy locally. But this local decrease is more than compensated by the increased rate of entropy production globally. The convection cells exist because they dissipate the gradient more effectively.
 
