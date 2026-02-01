@@ -28,7 +28,7 @@ The libertarian free will mythology that pervades Silicon Valley serves the same
 
 ### From Functional Delusion to Systemic Dysfunction
 
-The pathology emerges when these functionally adaptive delusions escape their original context. Entrepreneurs who succeeded during the historically unprecedented ZIRP period of cheap capital and network effects from \~2008-2021 now believe their success validates their worldview about everything from urban planning to monetary policy. The same psychological profile that enabled them to ignore startup odds now drives them to ignore domain expertise in complex systems they're reshaping.
+The pathology emerges when these functionally adaptive delusions escape their original context. Entrepreneurs who succeeded during the historically unprecedented ZIRP period of cheap capital and network effects from ~2008-2021 now believe their success validates their worldview about everything from urban planning to monetary policy. The same psychological profile that enabled them to ignore startup odds now drives them to ignore domain expertise in complex systems they're reshaping.
 
 This creates what we could call the "entrepreneurial delusion machine.” It is a systematic process for selecting people who can convince themselves that reality is malleable, providing them with enormous wealth and influence, then watching as they apply that same "reality is what I make it" mindset to domains they don't understand.
 

@@ -357,7 +357,8 @@ body {
 }
 
 .article-body li {
-  margin-top: 0.5em;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
 }
 
 .article-body li::marker {
@@ -474,6 +475,62 @@ body {
   font-weight: 600;
   color: var(--text-secondary);
 }
+
+/* Citations */
+.cite {
+  font-size: 0.75em;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em;
+}
+
+.cite-link {
+  color: #8A5CF4;
+  text-decoration: none;
+  padding: 0 1px;
+}
+
+.cite-link:hover {
+  text-decoration: underline;
+}
+
+.cite-sep {
+  color: var(--text-tertiary);
+  font-size: 0.9em;
+}
+
+/* References */
+.reference-item {
+  margin-bottom: 0.75em;
+  padding-left: 0.5em;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.ref-number {
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-right: 0.25em;
+}
+
+.ref-backlink {
+  color: #8A5CF4;
+  text-decoration: none;
+  margin-left: 0.25em;
+  font-size: 0.85em;
+}
+
+.ref-backlink:hover {
+  text-decoration: underline;
+}
+
+/* Font Size Utilities */
+.text-sm { font-size: 14px; }
+.text-base { font-size: 17px; }
+.text-lg { font-size: 20px; }
+.text-xl { font-size: 24px; }
+.text-2xl { font-size: 28px; }
 
 /* Empty State */
 .empty-state {

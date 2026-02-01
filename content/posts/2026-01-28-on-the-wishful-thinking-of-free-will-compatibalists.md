@@ -10,7 +10,7 @@ tags:
   - '#Active Inference'
 ---
 
-In [Julius's recent Less Wrong post ](https://www.lesswrong.com/posts/tnSagkAADcjRRtbAu/contra-sam-harris-on-free-will)defending compatibilism, they write:
+In [Julius's recent Less Wrong post](https://www.lesswrong.com/posts/tnSagkAADcjRRtbAu/contra-sam-harris-on-free-will) {{< cite 2 >}} defending compatibilism, they write:
 
 "There is something it feels like to make a choice. As I decide how to open this essay, I have the familiar sense that I could express these ideas in many ways. I weigh different options, imagine how each might land, and select one. This process of deliberation is what most people call 'free will', and it feels undeniably real."
 
@@ -24,7 +24,7 @@ The free will debate has run for millennia, and the contemporary version typical
 - Libertarians (in the metaphysical sense, not the political one) say consciousness somehow intervenes in the causal chain, injecting genuine choice into an otherwise mechanical process.
 - Compatibilists say we're asking the wrong question, that free will doesn't require escaping determinism, just being the kind of system that responds to reasons, weighs evidence, and acts from its own values rather than external compulsion.
 
-Sam Harris has argued eloquently and forcefully for the hard determinist position, or something close to it. In his telling, consciousness is a witness, not an author. Thoughts appear; we don't summon them. Decisions emerge; we don't make them. The feeling of choosing is what it's like to watch your own neural processes resolve, not what it's like to resolve them.
+Sam Harris has argued eloquently and forcefully for the hard determinist position {{< cite 1 >}}, or something close to it. In his telling, consciousness is a witness, not an author. Thoughts appear; we don't summon them. Decisions emerge; we don't make them. The feeling of choosing is what it's like to watch your own neural processes resolve, not what it's like to resolve them.
 
 Julius pushes back from the compatibilist direction, arguing that the "deliberative algorithm", the process of representing options, simulating outcomes, and selecting among them, _is_ free will. The algorithm is you. When it runs, you're choosing.
 
@@ -54,11 +54,11 @@ But notice the slippage. Julius says "the algorithm is me" and "my brain doing i
 
 The compatibilist move is to say: stop distinguishing these. The experiencer just _is_ the system. The feeling of authorship just _is_ what it's like to be a reasons-responsive system operating normally.
 
-But this is where the neuroscience becomes uncomfortable. Edmund Rolls' work on stochastic neurodynamics describes what happens when implicit systems (nonconscious processes) drive behavior: the explicit system (conscious processing) confabulates. It generates a plausible-sounding reason for the action and claims authorship. The subject says "I chose X because Y" when in fact the X was selected by processes to which consciousness had no access, and Y is a post-hoc construction.
+But this is where the neuroscience becomes uncomfortable. Edmund Rolls' work on stochastic neurodynamics {{< cite 4 >}} describes what happens when implicit systems (nonconscious processes) drive behavior: the explicit system (conscious processing) confabulates. It generates a plausible-sounding reason for the action and claims authorship. The subject says "I chose X because Y" when in fact the X was selected by processes to which consciousness had no access, and Y is a post-hoc construction.
 
 The compatibilist might respond: fine, but that's a pathological case, or at least an edge case. In normal deliberation, consciousness really is doing the work.
 
-Is it, though? Aaron Schurger's reinterpretation of the famous Libet experiments suggests that the "readiness potential", neural activity preceding conscious awareness of a decision, isn't a signature of unconscious _decision_ but of stochastic neural noise accumulating until it crosses a threshold. The conscious experience of "now I'll act" comes when the threshold is crossed, but the crossing is driven by noise, not by deliberation. John-Dylan Haynes' fMRI work pushes this even further: brain activity patterns can predict which button a subject will press up to seven to ten seconds (!!) before the subject reports being aware of the decision.
+Is it, though? Aaron Schurger's reinterpretation of the famous Libet experiments {{< cite 5 >}} suggests that the "readiness potential", neural activity preceding conscious awareness of a decision, isn't a signature of unconscious _decision_ but of stochastic neural noise accumulating until it crosses a threshold. The conscious experience of "now I'll act" comes when the threshold is crossed, but the crossing is driven by noise, not by deliberation. John-Dylan Haynes' fMRI work {{< cite 6 >}} pushes this even further: brain activity patterns can predict which button a subject will press up to seven to ten seconds (!!) before the subject reports being aware of the decision.
 
 None of this _proves_ consciousness is epiphenomenal. But it's consistent with a model where consciousness is observing and narrating rather than directing. The timing is wrong for authorship, our awareness comes too late. And the confabulation research shows that the narrative of authorship is generated even when we know the action was driven by something else.
 
@@ -72,7 +72,7 @@ But Harris's framing sometimes implies classical determinism; the idea that if w
 
 The stochastic element closes this escape route. Unpredictability doesn't come from conscious intervention, it comes from noise propagating through nonlinear dynamics. The ball's path varies across runs not because something is _choosing_ but because perturbations are constantly injected into a sensitive system. The compatibilist has smuggled "freedom" into the gap created by chaos and noise, but there's no one in that gap.
 
-Derk Pereboom's "hard incompatibilism" is the closest philosophical position to what I'm describing. Pereboom argues that free will is incompatible with determinism (because determined actions aren't authored) _and_ incompatible with indeterminism (because random actions aren't authored either). Whether the underlying process is clockwork or dice, "you" aren't the one making it go.
+Derk Pereboom's "hard incompatibilism" {{< cite 3 >}} is the closest philosophical position to what I'm describing. Pereboom argues that free will is incompatible with determinism (because determined actions aren't authored) _and_ incompatible with indeterminism (because random actions aren't authored either). Whether the underlying process is clockwork or dice, "you" aren't the one making it go.
 
 This is right IMO, but Pereboom frames it primarily as an argument about moral responsibility rather than a positive model of what consciousness is doing. He's clearing ground rather than building on it.
 
@@ -84,7 +84,7 @@ The obvious objection: if consciousness isn't authoring decisions, why does it e
 
 This is where active inference reframes the question more productively.
 
-In the framework developed by Karl Friston and elaborated by researchers like Jeff Beck, consciousness is the process of inference over future states to minimize expected free energy. The brain maintains a generative model of the world, a set of predictions about what sensory inputs to expect given various actions and states. Consciousness is the workspace where these predictions get integrated across modalities and time horizons, where prediction errors are registered, and where the model updates to reduce surprise.
+In the framework developed by Karl Friston {{< cite 7 >}} and elaborated by researchers like Jeff Beck, consciousness is the process of inference over future states to minimize expected free energy. The brain maintains a generative model of the world, a set of predictions about what sensory inputs to expect given various actions and states. Consciousness is the workspace where these predictions get integrated across modalities and time horizons, where prediction errors are registered, and where the model updates to reduce surprise.
 
 (I should be clear about how much work this claim is doing:  The active inference framework remains contested, and identifying consciousness with predictive inference is a substantive theoretical commitment, not settled science. But the core insight doesn't require buying the full Fristonian apparatus: if consciousness is even roughly in the business of modeling future states, if it's doing prediction and error correction rather than issuing commands, then the compatibilist picture is already in trouble. The question isn't whether this account is complete. The question is whether consciousness is upstream of decision-making (the author) or downstream of it (the model tracking what the system is about to do). The timing evidence, the confabulation research, and the continuity with simpler biological systems all point the same direction.)
 
@@ -124,7 +124,7 @@ _"If this is true, why does it matter?"_
 
 Because the compatibilist sleight-of-hand has practical consequences. If "you" (the conscious experiencer) aren't actually authoring your decisions, then frameworks of moral responsibility that depend on authorship need revisiting. The retributive intuition, the sense that wrongdoers _deserve_ to suffer for their choices, assumes a kind of authorship that this model denies.
 
-This doesn't mean we abandon responsibility entirely. Harris, Pereboom, and others have argued persuasively that forward-looking, inference over future states considerations (deterrence, rehabilitation, public safety) can ground moral and legal practices without backward-looking desert. The system that constitutes \*you\* still responds to incentives, still learns, still updates. Holding people accountable changes future behavior, regardless of whether anyone is "truly" the author of their actions.
+This doesn't mean we abandon responsibility entirely. Harris, Pereboom, and others have argued persuasively that forward-looking, inference over future states considerations (deterrence, rehabilitation, public safety) can ground moral and legal practices without backward-looking desert. The system that constitutes *you* still responds to incentives, still learns, still updates. Holding people accountable changes future behavior, regardless of whether anyone is "truly" the author of their actions. {{< cite 1 2 5 >}}
 
 But it does mean we should be suspicious of the emotional satisfaction that comes from blame and punishment. That satisfaction is predicated on a model of authorship that probably doesn't describe how things actually work.
 
@@ -164,10 +164,12 @@ I think that's wishful thinking. But I would say that, wouldn't I? The ball alwa
 
 ## References
 
-- Harris, Sam. _Free Will_ (2012)
-- Julius. "Contra Sam Harris on Free Will." LessWrong (2026)
-- Pereboom, Derk. _Living Without Free Will_ (2001)
-- Rolls, Edmund T. "Willed action, free will, and the stochastic neurodynamics of decision-making." _Frontiers in Integrative Neuroscience_ (2012)
-- Schurger, Aaron, et al. "An accumulator model for spontaneous neural activity prior to self-initiated movement." _PNAS_ (2012)
-- Haynes, John-Dylan. "Decoding and predicting intentions." _Annals of the New York Academy of Sciences_ (2011)
-- Friston, Karl. "The free-energy principle: a unified brain theory?" _Nature Reviews Neuroscience_ (2010)
+<ol class="reference-list">
+{{< ref 1 "Harris, Sam. *Free Will* (2012)" >}}
+{{< ref 2 "Julius. \"Contra Sam Harris on Free Will.\" LessWrong (2026)" >}}
+{{< ref 3 "Pereboom, Derk. *Living Without Free Will* (2001)" >}}
+{{< ref 4 "Rolls, Edmund T. \"Willed action, free will, and the stochastic neurodynamics of decision-making.\" *Frontiers in Integrative Neuroscience* (2012)" >}}
+{{< ref 5 "Schurger, Aaron, et al. \"An accumulator model for spontaneous neural activity prior to self-initiated movement.\" *PNAS* (2012)" >}}
+{{< ref 6 "Haynes, John-Dylan. \"Decoding and predicting intentions.\" *Annals of the New York Academy of Sciences* (2011)" >}}
+{{< ref 7 "Friston, Karl. \"The free-energy principle: a unified brain theory?\" *Nature Reviews Neuroscience* (2010)" >}}
+</ol>

@@ -1,0 +1,5 @@
+{{- $nums := slice -}}
+{{- range .Params -}}
+  {{- $nums = $nums | append . -}}
+{{- end -}}
+<sup class="cite">{{- range $i, $n := $nums -}}{{- if $i }}<span class="cite-sep">,</span>{{ end -}}<a href="#ref-{{ $n }}" class="cite-link">{{ $n }}</a>{{- end -}}</sup>
