@@ -1,5 +1,5 @@
 ---
-title: Meditations on Spinoza's God
+title: Meditations on the God of Spinoza
 date: 2026-01-31T16:58:00
 draft: false
 description: ''
