@@ -10,7 +10,7 @@ tags: []
 
 Begin with what we know.
 
-The universe had a beginning: call it the Big Bang, call it the initial singularity, call it whatever satisfies your need for naming. From that beginning emerged space, time, and energy in configurations of varying density. Some of those densities collapsed under their own gravity and ignited into stars. From those stars, we now have energy gradients of staggering magnitude: fusion furnaces pouring radiation into the void, with smaller bodies orbiting in their vicinity, bathed in their radiation.
+The universe had a beginning: call it the Big Bang, call it the initial singularity, call it whatever feels right to you. From that beginning emerged space, time, and energy in configurations of varying density. Some of those densities collapsed under their own gravity and ignited into stars. From those stars, we now have energy gradients of staggering magnitude: fusion furnaces pouring radiation into the void, with smaller bodies orbiting in their vicinity, bathed in their radiation.
 
 The second law of thermodynamics governs what follows.
 
@@ -20,7 +20,7 @@ The second law of thermodynamics governs what follows.
 
 The second law tells us that entropy increases; that energy disperses and gradients dissipate. This is the asymmetry that determines which configurations of matter are accessible from which others, and in what direction time flows. If you want to know why the universe looks the way it does rather than some other way, the answer is: because entropy increases.
 
-I use the word **telos** here deliberately, knowing it will raise objections. Telos implies purpose, goal, intention; concepts that seem to smuggle teleology back into a universe we have spent centuries stripping of divine purpose. But I mean something more precise: telos in the Hegelian sense of an underlying dynamic that pushes things in a certain direction,  a constraint that determines which paths are traversable and which are not.
+I use the word **telos** here deliberately, knowing it will raise objections. Telos implies purpose, goal, intention; concepts that seem to smuggle theology back into a universe we have spent centuries stripping of divine purpose. But I mean something more precise: telos in the Hegelian sense of an underlying dynamic that pushes things in a certain direction,  a constraint that determines which paths are traversable and which are not.
 
 Consider that you don't get from the Big Bang to the heat death of the universe without the second law operating as this kind of constraint. The low-entropy initial state, with matter and energy concentrated in ways that permitted the formation of structure, gives way inexorably to states of higher entropy. This is the statistical reality of how microstates relate to macrostates, how probable configurations vastly outnumber improbable ones, how any system with sufficient degrees of freedom will explore its phase space in ways that increase entropy over time.
 
