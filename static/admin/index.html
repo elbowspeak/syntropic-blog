@@ -6,6 +6,10 @@
   <title>Content Manager | The Syntropic Lens</title>
   <style>
     body { margin: 0; }
+    /* Hide the preview pane and give editor full width */
+    [class*="preview"], [class*="Preview"] { display: none !important; }
+    [class*="editor-container"], [class*="EditorContainer"] { max-width: 100% !important; }
+    [class*="pane-container"], [class*="PaneContainer"] { grid-template-columns: 1fr !important; }
   </style>
 </head>
 <body>
