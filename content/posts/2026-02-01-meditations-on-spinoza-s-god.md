@@ -34,7 +34,7 @@ We might, of course, be wrong. Our current understanding of physical law might b
 
 Entropy is commonly glossed as "disorder," and this gloss has done more harm than good. It suggests that the universe tends toward homogeneous chaos, that organization is always fighting against the cosmic tide, that life and mind are improbable exceptions clinging to existence against the overwhelming pressure toward dissolution.
 
-The picture misleads in ways that obscure the most important features of thermodynamic reality.
+This picture misleads in ways that obscure the most important features of thermodynamic reality.
 
 Entropy is better understood as the dispersal of energy, the spreading out of gradients, the transition from concentrated to diffuse configurations. A hot cup of coffee cooling to room temperature increases entropy not because the molecules become more "disordered" in any intuitive sense, but because the thermal energy that was concentrated in the coffee spreads out into the surrounding environment. The gradient between coffee and room has been dissipated.
 
