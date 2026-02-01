@@ -11,6 +11,14 @@ collections:
     label: Posts
     folder: content/posts
     create: true
+    sortable_fields: ['date', 'title']
+    view_filters:
+      - label: Published
+        field: draft
+        pattern: false
+      - label: Drafts
+        field: draft
+        pattern: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: Title, name: title, widget: string }
