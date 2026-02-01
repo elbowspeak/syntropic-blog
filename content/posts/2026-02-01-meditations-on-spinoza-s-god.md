@@ -174,11 +174,11 @@ The mechanistic picture is often presented as a demotion, a stripping away of pu
 
 One can think of it as an elevation of the natural to the status that religion reserves for the supernatural. The **_ground_** of being is not an old man in the sky, nor an abstract principle requiring faith, nor a mystery beyond inquiry. The ground of being is thermodynamics, and thermodynamics produces us.
 
-We do not need a deus ex machina. The machina is sufficient. The machina is, in fact, more wondrous than any god humans have invented, because it is real, and it made us, and we can understand it.
+We do not need a deus ex machina. The machina is sufficient. The machina is, in fact, more wondrous than any God humans have invented, because it is real, and it made us, and we can understand it.
 
 There is grandeur in this view. Not the false grandeur of imagined cosmic purpose, of a universe that exists for our sake, of a deity that cares about our prayers and our sins. The real grandeur is of a universe that generates complexity from simplicity, mind from matter, experience from entropy gradients. We are not the point of the cosmos. We are something far more interesting: we are the cosmos becoming aware of itself, one dissipative structure among countless others, temporary and contingent and astonishing.
 
-That is Spinoza's god. And that is enough.
+That is Spinoza's God. And that is enough.
 
 ---
 
