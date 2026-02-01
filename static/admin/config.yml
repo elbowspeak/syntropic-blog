@@ -12,6 +12,7 @@ collections:
     folder: content/posts
     create: true
     sortable_fields: ['date', 'title']
+    sort: "date:desc"
     view_filters:
       - label: Published
         field: draft
