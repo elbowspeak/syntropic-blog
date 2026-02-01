@@ -148,7 +148,7 @@ And from that single, empirically unassailable principle, you can derive an extr
 
 The chain is long, and each link requires detailed argument and empirical support. Filling in the details is the work of physics, chemistry, biology, neuroscience, and philosophy collaborating across their traditional boundaries. But the crucial point is that each step is open to inquiry. There is no moment where you have to stop asking questions and simply believe. The ground is not faith; the ground is the universe, and the universe can be investigated.
 
-Both frameworks, religious and materialist, provide uncertainty reduction. Both offer answers to the big questions. But one is defensible at every level of inquiry, and the other requires you to stop asking questions at a certain point. One grounds belief in testimony and faith; the other grounds belief in observation and inference. One requires you to trust what someone said about an encounter with the divine; the other requires you to trust that ice melts, that engines dissipate heat, that the universe behaves in regular and investigable ways.
+Both frameworks provide uncertainty reduction. Both offer answers to the big questions. But one is defensible at every level of inquiry; the other requires you to stop asking questions at a certain point. One grounds belief in observation and inference; the other grounds belief in testimony and faith. One requires you to trust that ice melts, that engines dissipate heat, that the universe behaves in regular and investigable ways; the other requires you to trust what someone said about an encounter with the divine.
 
 I know which ground I find more secure.
 
