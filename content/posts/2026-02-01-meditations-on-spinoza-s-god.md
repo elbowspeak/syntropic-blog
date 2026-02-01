@@ -134,8 +134,6 @@ Religion offers answers to these questions. It grounds belief in revelation: som
 
 The problem with testimony as ground is that it requires you to stop asking questions at a certain point. You can ask how the universe began, and religion will tell you God created it. But you cannot ask what grounds the existence of God, or if you do, the answer will be that God is self-grounding, necessary, beyond the need for further explanation. At some point, you must simply believe. The old man in the sky, or the Ground of Being, or the Absolute, or whatever sophisticated theological concept you prefer, requires faith precisely where inquiry would be most valuable.
 
-The materialist position is not that there is no ground. The materialist position is that the ground is the universe itself, and we can describe it.
-
 The second law of thermodynamics is not a belief requiring faith. It is an observation about how reality behaves, confirmed by every experiment ever conducted. You don't need to believe in entropy increasing; you can watch ice melt. You can measure the heat dissipated by a running engine. You can observe the cosmic microwave background radiation and trace its implications back to a low-entropy initial state. The second law is not a testimony to be accepted, it is a regularity to be observed, tested, refined, and integrated into an ever-more-comprehensive understanding of how the universe works.
 
 And from that single, empirically unassailable principle, you can derive an extraordinary account of reality.
