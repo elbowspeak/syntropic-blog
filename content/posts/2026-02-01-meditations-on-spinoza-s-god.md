@@ -42,7 +42,7 @@ Consider what happens when you have a persistent energy gradient that continuous
 
 The canonical example is the Bénard cell, a container of fluid heated from below. At low temperature gradients, heat moves through the fluid by conduction. This is the slow, molecule-by-molecule transfer of thermal energy. But something surprising happens when the gradient exceeds a critical threshold, the system spontaneously organizes into convection cells, hexagonal patterns of rising and falling fluid that transport heat far more efficiently than conduction alone. The system has developed structure, organization that would seem to decrease entropy locally. But this local decrease is more than compensated by the increased rate of entropy production globally. The convection cells exist because they dissipate the gradient more effectively.
 
-This insight is that organization can be thermodynamically favored when it serves entropy production. The second law does not prohibit local decreases in entropy; it requires that any such decrease be paid for by a larger increase elsewhere. Dissipative structures are the universe's way of finding efficient channels for gradient destruction.
+The insight is that organization can be thermodynamically favored when it serves entropy production. The second law does not prohibit **_local_** decreases in entropy, but it does require that any local decrease be paid for by a larger increase elsewhere. Dissipative structures are the universe's way of finding efficient channels for gradient destruction.
 
 ---
 
