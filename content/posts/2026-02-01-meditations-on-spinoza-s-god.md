@@ -24,7 +24,7 @@ Consider that you don't get from the Big Bang to the heat death of the universe 
 
 The second law is the constraint within which everything else unfolds. From the initial singularity to the eventual heat death, entropy determines the trajectory. Everything else, including stars, planets, chemistry, life, mind, etc. is downstream of that gradient. The direction is not imposed by a designer; it emerges from the mathematics of statistical mechanics. But it is a direction nonetheless, and acknowledging it as such does not require us to posit intention.
 
-We might, of course, be wrong. Our current understanding of physical law might be incomplete in ways that would revise this picture. But within the physics we have, entropy is as close to a cosmic direction as we get. To call it telos is not to sneak purpose in through the back door; it is to note that the universe has a direction. And that direction is entropy, and everything else, including us, is a consequence of how entropy gets produced along the way.
+We might, of course, be wrong. Our current understanding of physical law might be incomplete in ways that would revise this picture. But within the physics we have, entropy is as close to a cosmic direction as we get. To call it telos isn't to sneak purpose in through the back door. it's to note that the universe has a direction. And that direction is entropy. And everything else, including us, is a consequence of how entropy gets produced along the way.
 
 ---
 
