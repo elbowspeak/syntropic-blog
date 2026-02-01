@@ -170,7 +170,7 @@ The crude mechanistic worldview misses what Spinoza grasped and what I have been
 
 The mechanistic picture is often presented as a demotion, a stripping away of purpose and value, a reduction of everything meaningful to the meaningless motion of particles. Such presentations fail imagination. The mechanistic picture, properly understood, is a revelation. The same principles that govern heat engines and diffusion gradients also govern the emergence of life and the generation of experience. The same mathematics that describes a cup of coffee cooling describes a biosphere dissipating solar radiation. The universe is one thing, governed by one set of laws, and those laws are capable of producing beings that wonder about them.
 
-One can think of it as an elevation of the natural to the status that religion reserves for the supernatural. The **_ground_** of being is not an old man in the sky, nor an abstract principle requiring faith, nor a mystery beyond inquiry. The ground of being is thermodynamics, and thermodynamics produces us.
+One can think of it as an elevation of the natural to the status that religion reserves for the supernatural. The **_ground_** **_of being _**is not an old man in the sky, nor an abstract principle requiring faith, nor a mystery beyond inquiry. The ground of being is thermodynamics, and thermodynamics produces us.
 
 We do not need a deus ex machina. The machina is sufficient. The machina is, in fact, more wondrous than any God humans have invented, because it is real, and it made us, and we can understand it.
 
