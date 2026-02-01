@@ -7,15 +7,28 @@
   <style>
     body { margin: 0; }
     /* Hide the preview pane and give editor full width */
-    [class*="preview"], [class*="Preview"] { display: none !important; }
-    [class*="editor-container"], [class*="EditorContainer"] { max-width: 100% !important; }
-    [class*="pane-container"], [class*="PaneContainer"] { grid-template-columns: 1fr !important; }
   </style>
 </head>
 <body>
   <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
   <script>
     CMS.registerPreviewStyle("/admin/preview.css");
+
+    // Hide preview pane once CMS renders
+    const observer = new MutationObserver(() => {
+      // Find the "Preview" heading and hide its parent pane
+      document.querySelectorAll('h2, h3, div, span').forEach(el => {
+        if (el.textContent.trim() === 'Preview' && el.closest('[class]')) {
+          const pane = el.closest('div[class]');
+          if (pane && pane.parentElement) {
+            pane.style.display = 'none';
+            pane.parentElement.style.gridTemplateColumns = '1fr';
+            pane.parentElement.style.display = 'block';
+          }
+        }
+      });
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
   </script>
 </body>
 </html>
