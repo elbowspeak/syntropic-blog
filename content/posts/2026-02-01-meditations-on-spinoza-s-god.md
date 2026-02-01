@@ -108,7 +108,7 @@ We can imagine, or so the argument goes, a "zombie" physically identical to you,
 
 The gap feels unbridgeable because we're looking at it from inside the very system that generates it. The self-model doesn't experience itself as a model. It experiences itself as a self.
 
-Think clearly about what a self-model is for. An organism that can model itself, that can represent its own states, predict its own responses, simulate its own future behavior—this capability has significant fitness advantages. It can engage in counterfactual reasoning: what would happen if I did this rather than that? It can catch errors before they become fatal: wait, that action would conflict with my goals. It can coordinate its behavior over time: I need to remember that I am the same agent who made that commitment yesterday.
+Think clearly about what a self-model is for. An organism that can model itself, that can represent its own states, predict its own responses, simulate its own future behavior -- this capability has significant fitness advantages. It can engage in counterfactual reasoning: what would happen if I did this rather than that? It can catch errors before they become fatal: wait, that action would conflict with my goals. It can coordinate its behavior over time: I need to remember that I am the same agent who made that commitment yesterday.
 
 The self-model is a tool for navigating the world more effectively. And a self-model that represents itself as a unified, continuous, experiencing subject is more useful than one that does not. The "feeling" of being a self, of being the captain of one's own ship, of having experiences that are mine in some irreducible sense... this feeling is part of the machinery's operation, not a mysterious addition to it.
 
