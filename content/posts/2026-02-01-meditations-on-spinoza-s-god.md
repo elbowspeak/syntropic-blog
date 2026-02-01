@@ -121,7 +121,7 @@ Consider how this framework handles edge cases that trouble other accounts.
 
 The hard problem dissolves when we recognize that the explanatory gap is itself a product of the self-model. We are built to experience ourselves as irreducible subjects because that is a useful way to organize behavior. The model represents itself as having a property, e.g. subjectivity, experience, the "what it is like", that seems to resist external explanation precisely because the model is not designed to explain itself from outside. It is designed to operate, to navigate, to predict, to act. The sense that there is something more, something left over after all the functional explanation is complete, is the model's representation of its own limits.
 
-This does not make consciousness an illusion. The experience is real; the self-model really does generate phenomenology. What is illusory is the sense that this phenomenology floats free of the functional machinery, that it could exist without the model, that it constitutes a separate ontological domain requiring separate explanation. The phenomenal is the functional, experienced from inside the system doing the modeling.
+The experience is real, as real as anything. You're not imagining the redness of red or the sting of pain. The mistake is thinking that because it feels irreducible, it must be something separate from the physical process. The feeling isn't separate from the machinery. The feeling is what the machinery feels like when it's running.
 
 ---
 
