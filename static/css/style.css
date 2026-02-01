@@ -5,20 +5,21 @@
 /* CSS Custom Properties - Design System */
 :root {
   /* Colors */
-  --bg-main: #1B1B1B;
-  --bg-sidebar: #151515;
-  --bg-hover: #262626;
-  --bg-selected: #2b2b2b;
+  --bg-main: #262624;
+  --bg-sidebar: #1e1e1c;
+  --bg-hover: #302f2d;
+  --bg-selected: #353533;
 
   --text-primary: #e5e5e5;
   --text-secondary: #a0a0a0;
   --text-tertiary: #666666;
 
-  --border-color: #2a2a2a;
+  --border-color: #353533;
   --accent: #a0a0a0;
 
   /* Typography */
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Lora", Georgia, "Times New Roman", serif;
   --font-mono: "SF Mono", Monaco, "Cascadia Code", Consolas, monospace;
 
   /* Spacing */
@@ -289,6 +290,7 @@ body {
 
 /* Article Body - Prose Styles */
 .article-body {
+  font-family: var(--font-serif);
   font-size: 17px;
   line-height: 1.7;
   color: var(--text-primary);
