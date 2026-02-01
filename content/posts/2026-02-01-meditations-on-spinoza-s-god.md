@@ -8,7 +8,7 @@ image_caption: The PIllars of Creation, Hubble Telescope
 tags: []
 ---
 
-Why it's Machina All the Way Down
+**_Why it's Machina All the Way Down_**
 
 ---
 
@@ -18,7 +18,7 @@ The second law of thermodynamics governs what follows.
 
 ---
 
-### The Telos of Entropy
+## The Telos of Entropy
 
 The second law tells us that entropy increases. Energy disperses. Gradients dissipate. This is not a suggestion or a tendency; it is the asymmetry that determines which configurations of matter are accessible from which others, and in what direction time flows. If you want to know why the universe looks the way it does rather than some other way, the answer is: because entropy increases.
 
@@ -32,7 +32,7 @@ We might, of course, be wrong. Our current understanding of physical law might b
 
 ---
 
-### Dissipative Structures and the Thermodynamics of Organization
+## Dissipative Structures and the Thermodynamics of Organization
 
 Entropy is commonly glossed as "disorder," and this gloss has done more harm than good. It suggests that the universe tends toward homogeneous chaos, that organization is always fighting against the cosmic tide, that life and mind are improbable exceptions clinging to existence against the overwhelming pressure toward dissolution.
 
@@ -48,7 +48,7 @@ This is the key insight: organization can be thermodynamically favored when it s
 
 ---
 
-### Life as Thermodynamic Inevitability
+## Life as Thermodynamic Inevitability
 
 The old framing positioned life as fighting against entropy -- delicate order maintained in defiance of the universe's tendency toward disorder. Schrödinger's famous question, "What is life?"[^14], was framed in terms of how living things manage to maintain their organization against the entropic tide. But the framing inverts the actual relationship. It's not that life defies entropy. Life accelerates entropy.
 
@@ -68,7 +68,7 @@ The channel happens to be self-replicating, error-correcting, and adaptive, beca
 
 ---
 
-### Temporal Arbitrage: The Distinction Between Living and Non-Living Dissipation
+## Temporal Arbitrage: The Distinction Between Living and Non-Living Dissipation
 
 The insight that life accelerates entropy production raises an immediate question: if entropy production is the criterion, why doesn't the fastest dissipater always win? A fire dissipates energy very rapidly. A nuclear explosion dissipates energy faster still. Why isn't the biosphere a continuous conflagration rather than a patient accumulation of biomass?
 
@@ -84,7 +84,7 @@ Active inference. the framework developed by Karl Friston and collaborators, for
 
 ---
 
-### Humans as Planetary-Scale Dissipators
+## Humans as Planetary-Scale Dissipators
 
 And then there are humans. We have become temporal arbitrageurs of entropy on a planetary scale, though our arbitrage now operates at timescales that dwarf individual lifetimes.
 
@@ -100,7 +100,7 @@ The irony here is potent: our very success as entropy producers may undermine th
 
 ---
 
-### Dissolving the Hard Problem
+## Dissolving the Hard Problem
 
 We have traced a path from the Big Bang through thermodynamic gradients, dissipative structures, the emergence of life, the evolution of prediction, and the peculiar status of humans as planetary-scale entropy producers. Now we need to address the question that haunts all materialist accounts of mind: consciousness.
 
@@ -125,7 +125,7 @@ This does not make consciousness an illusion. The experience is real; the self-m
 
 ---
 
-### The Grounding Problem
+## The Grounding Problem
 
 Years ago, I had a conversation with one of my philosophy professors about religion. I said something to the effect that religion is made up, not grounded in anything except human desire for comfort and certainty. He asked: then tell me, what is grounded?
 
@@ -161,7 +161,7 @@ I know which ground I find more secure.
 
 ---
 
-### Deus Sive Natura
+## Deus Sive Natura
 
 Baruch Spinoza, writing in the seventeenth century, was excommunicated from the Jewish community of Amsterdam for his heretical views. What was his heresy? He denied the distinction between God and Nature. **Deus sive natura**, God or nature.[^15] Spinoza said that the sacred and the causal are not separate domains, they are the same thing viewed from different angles. There is no transcendent creator standing outside the universe, directing it from beyond. There is only the universe, and what we call "God" is a name for its immanent order, its self-organizing principles, its capacity to generate structure and complexity and mind.
 
@@ -185,7 +185,7 @@ We do not need a deus ex machina. The machina is sufficient. The machina is, in 
 
 There is grandeur in this view. Not the false grandeur of imagined cosmic purpose, of a universe that exists for our sake, of a deity that cares about our prayers and our sins. The real grandeur is of a universe that generates complexity from simplicity, mind from matter, experience from entropy gradients. We are not the point of the cosmos. We are something far more interesting: we are the cosmos becoming aware of itself, one dissipative structure among countless others, temporary and contingent and astonishing.
 
-That is Spinoza's god. That is enough.
+That is Spinoza's god. And that is enough.
 
 ---
 
