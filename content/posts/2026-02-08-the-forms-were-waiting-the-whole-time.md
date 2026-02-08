@@ -20,7 +20,7 @@ Levin calls this "Platonic morphospace," which captures the intuition that forms
 
 ***
 
-### The Focal Point
+## The Focal Point
 
 A Schelling point, in game theory, is a solution that people converge on without explicit coordination. If two strangers need to meet somewhere in Manhattan and can't communicate, they're likely to both choose Grand Central Station, not because it's optimal in any abstract sense, but because it's the obvious focal point given shared knowledge of the space. The station stands out. It has a salience that other locations lack, and that salience does the coordinating work that explicit communication would otherwise need to do.
 
@@ -30,7 +30,7 @@ What organisms do when they develop, then, is not build from a blueprint. They n
 
 ***
 
-###  The Explorer
+##  The Explorer
 
 The Watson, Levin, and Lewens paper on "natural induction" provides the mechanism that makes this navigation possible, and it's more general than anyone expected.²˒³ They show that any dynamical system with viscoelastic connections, connections that give way slightly under stress like a rubber band that stretches and doesn't quite return to its original length, will spontaneously exhibit learning-like behavior. Not metaphorically. The mathematics is identical.
 
@@ -46,7 +46,7 @@ The bioelectric palimpsest encodes something like a grammar of form, not a speci
 
 ***
 
-### Why Eyes Keep Happening
+## Why Eyes Keep Happening
 
 Convergent evolution has always been treated as a curiosity in need of explanation: how remarkable that eyes evolved independently dozens of times, that flight was invented separately by insects, pterosaurs, birds, and bats, that echolocation arose independently in dolphins and bats. The standard explanation invokes similar selection pressures: vision is useful, so natural selection independently arrived at similar solutions in different lineages.
 
@@ -60,9 +60,7 @@ This is perhaps why we shouldn't expect alien life, if it exists, to be arbitrar
 
 ***
 
-### Basins and Boundaries
-
-###
+## Basins and Boundaries
 
 Once you see morphospace as a landscape of basins, several old puzzles dissolve or at least change shape in useful ways.
 
@@ -76,7 +74,7 @@ Through this lens, cancer becomes coherence collapse; cells lose their connectio
 
 ***
 
-### The Bargain
+## The Bargain
 
 The deepest insight in all of this is that entropy and organization aren't opposed, and never were. The old framing, order versus chaos, life versus entropy, complexity clinging to existence against the cosmic tide, gets the relationship exactly backwards. Far-from-equilibrium systems maintain their organization **_through_** entropy production, not against it. They persist because they have found configurations that dissipate energy gradients efficiently enough to sustain their own improbable structure. The Schelling points in morphospace are precisely those configurations where this bargain works, where the system's persistence and the universe's entropy budget are aligned rather than in tension.
 
@@ -86,15 +84,15 @@ The forms were always waiting. Physics wrote them into the substrate before any 
 
 ***
 
-### What's Next
+## What's Next
 
-What I want to know next, and what I'll take up in a subsequent essay, is whether the same logic extends beyond biology. Does human social morphospace have entropic Schelling points? Do markets, legal systems, and organizational forms fall into thermodynamically favored configurations the way bodies do? The substrate is different, attention and trust rather than bioelectricity, but the question is structurally identical: is the space of possible social arrangements pre-structured by physics, and are we navigating a landscape rather than designing from scratch?
+What I want to know next, and what I'll take up in a future essay, is whether the same logic extends beyond biology. Does human social morphospace have entropic Schelling points? Do markets, legal systems, and organizational forms fall into thermodynamically favored configurations the way bodies do? The substrate is different, attention and trust rather than bioelectricity, but the question is structurally identical: is the space of possible social arrangements pre-structured by physics, and are we navigating a landscape rather than designing from scratch?
 
 I suspect the answer is yes, and that most of our political arguments amount to disagreements about which basin we're in and whether the neighboring one is actually better or just looks that way from the rim.
 
 ***
 
-\*\*References\*\*
+## References
 
 1. Levin, M. (2023). Darwin's agential materials: Evolutionary implications of multiscale competency in developmental biology. \*Cellular and Molecular Life Sciences\*, 80, 142. https://doi.org/10.1007/s00018-023-04790-z
 2. Watson, R.A., Levin, M., & Lewens, T. (2025). Evolution by natural induction. \*Interface Focus\*, 15, 20250025. https://doi.org/10.1098/rsfs.2025.0025
