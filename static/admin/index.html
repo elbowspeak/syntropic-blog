@@ -6,40 +6,12 @@
   <title>Content Manager | The Syntropic Lens</title>
   <style>
     body { margin: 0; }
-    /* Fix scrolling throughout CMS */
-    * {
-      overflow: visible !important;
-    }
-    html, body {
-      overflow: auto !important;
-      height: auto !important;
-      min-height: 100vh;
-    }
-    [style*="overflow: hidden"] {
-      overflow: auto !important;
-    }
   </style>
 </head>
 <body>
   <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
   <script>
     CMS.registerPreviewStyle("/admin/preview.css");
-
-    // Hide preview pane once CMS renders
-    const observer = new MutationObserver(() => {
-      // Find the "Preview" heading and hide its parent pane
-      document.querySelectorAll('h2, h3, div, span').forEach(el => {
-        if (el.textContent.trim() === 'Preview' && el.closest('[class]')) {
-          const pane = el.closest('div[class]');
-          if (pane && pane.parentElement) {
-            pane.style.display = 'none';
-            pane.parentElement.style.gridTemplateColumns = '1fr';
-            pane.parentElement.style.display = 'block';
-          }
-        }
-      });
-    });
-    observer.observe(document.body, { childList: true, subtree: true });
   </script>
 </body>
 </html>
