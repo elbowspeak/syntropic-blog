@@ -56,7 +56,7 @@ The same logic scales up and down. Body plans cluster into roughly three dozen p
 
 Natural induction is what carries each lineage into these basins. Selection didn't design the eye; natural induction found it, reshaping internal connections under the pressure of environmental demands until the system settled into a configuration that worked, and selection kept it. The explorer discovers; the curator preserves.
 
-This is perhaps why we shouldn't expect alien life, if it exists, to be arbitrarily alien. Any dissipative system complex enough to metabolize, move, and process information faces similar thermodynamic constraints, and similar constraints carve similar valleys. The universe may have fewer viable body plans than science fiction imagines, not because of any failure of imagination but because physics constrains the possible more tightly than we assumed. The aliens, if we meet them, might look disturbingly familiar, not because of some cosmic coincidence but because the landscape they explored has the same valleys ours does.
+This is perhaps why we shouldn't expect alien life, if it exists, to be arbitrarily alien. Any dissipative system complex enough to metabolize, move, and process information faces similar thermodynamic constraints, and similar constraints carve similar valleys. The universe may have fewer viable body plans than science fiction imagines, not because of any failure of imagination but because physics constrains the possible more tightly than we assumed. The aliens, if we meet them, might look disturbingly familiar, not because of some cosmic coincidence but because the landscape they explored has the same valleys as ours.
 
 ***
 
