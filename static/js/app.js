@@ -224,13 +224,29 @@
     return div.innerHTML;
   }
 
-  // Make external links open in new tab
+  // Make external links open in new tab and handle anchor links
   function setupExternalLinks() {
     const articleBody = document.querySelector('.article-body');
     if (!articleBody) return;
 
     articleBody.querySelectorAll('a').forEach(link => {
-      if (link.hostname !== window.location.hostname) {
+      const href = link.getAttribute('href');
+
+      // Handle anchor links (scroll within page)
+      if (href && href.startsWith('#')) {
+        link.addEventListener('click', (e) => {
+          e.preventDefault();
+          const targetId = href.slice(1);
+          const targetEl = document.getElementById(targetId);
+          if (targetEl) {
+            targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            // Update URL hash without triggering navigation
+            history.pushState(null, '', href);
+          }
+        });
+      }
+      // External links open in new tab
+      else if (link.hostname !== window.location.hostname) {
         link.setAttribute('target', '_blank');
         link.setAttribute('rel', 'noopener noreferrer');
       }

@@ -16,7 +16,7 @@ But as I argued in the companion essay, 'fitness' is downstream of thermodynamic
 
 This story of evolution via selection is incomplete in a way that matters. It treats the space of possible biological forms, called **morphospace**, as a passive container, an indifferent coordinate system through which lineages wander. But if fitness is downstream of thermodynamics, then morphospace can't be neutral. It has to have structure: basins and attractors that exist independently of any particular lineage's exploration.
 
-Michael Levin's bioelectricity research provides the clearest window into this structure.¹ His planarian experiments demonstrate something remarkable: you can manipulate the bioelectric pattern in a flatworm fragment and cause it to regenerate as a different species' head shape without touching the genome. The form wasn't invented; it was accessed. The two-headed planarian configuration was always there, waiting as regions in morphospace where stability comes easier, even though planaria had never arrived at those coordinates in hundreds of millions of years.
+Michael Levin's bioelectricity research provides the clearest window into this structure.{{< cite 1 >}} His planarian experiments demonstrate something remarkable: you can manipulate the bioelectric pattern in a flatworm fragment and cause it to regenerate as a different species' head shape without touching the genome. The form wasn't invented; it was accessed. The two-headed planarian, the *Girardia* head on a *Dugesia* body... these configurations were always there, waiting as regions in morphospace where stability comes easier, even though planaria had never arrived at those coordinates in hundreds of millions of years.
 
 Levin calls this 'Platonic morphospace,' which captures the intuition that **forms exist prior to their instantiation**. But 'Platonic' risks making it more mysterious than it needs to be. The simpler framing is thermodynamic: some configurations are easier to maintain than others because the parts fit together without constant struggle. I think of these as entropic Schelling points.
 
@@ -30,7 +30,7 @@ This reframes what organisms are doing when they develop. They are navigating a 
 
 ***
 
-The Watson, Levin, and Lewens paper on 'natural induction' provides the mechanistic substrate for this picture.²˒³ They show that any dynamical system with viscoelastic connections (connections that give way slightly under stress) will spontaneously exhibit learning-like behavior.
+The Watson, Levin, and Lewens paper on 'natural induction' provides the mechanistic substrate for this picture.{{< cite 2 3 >}} They show that any dynamical system with viscoelastic connections (connections that give way slightly under stress) will spontaneously exhibit learning-like behavior.
 
 The key insight is about adaptive timescales of selection vs induction. Selection operates across generations, slowly filtering which organisms persist. But induction operates within a single lifetime, reshaping a system's internal connections as it responds to stress. The system settles into stable states quickly, while its connections adjust slowly in the background, accumulating a kind of memory. Why does this matter? Because the organism can discover stable configurations on its own, without waiting for selection to filter across generations. Induction explores morphospace faster than selection can.
 
@@ -94,6 +94,10 @@ Stay tuned.
 
 ## References
 
-1. Levin, M. (2023). Darwin's agential materials: Evolutionary implications of multiscale competency in developmental biology. \*Cellular and Molecular Life Sciences\*, 80, 142. https://doi.org/10.1007/s00018-023-04790-z
-2. Watson, R.A., Levin, M., & Lewens, T. (2025). Evolution by natural induction. \*Interface Focus\*, 15, 20250025. https://doi.org/10.1098/rsfs.2025.0025
-3. Buckley, C.L., Lewens, T., Levin, M., Millidge, B., Tschantz, A., & Watson, R.A. (2024). Natural induction: Spontaneous adaptive organisation without natural selection. \*Entropy\*, 26, 765. https://doi.org/10.3390/e26090765
+<ol class="reference-list">
+{{< ref 1 "Levin, M. (2023). Darwin's agential materials: Evolutionary implications of multiscale competency in developmental biology. *Cellular and Molecular Life Sciences*, 80, 142. [DOI](https://doi.org/10.1007/s00018-023-04790-z)" >}}
+
+{{< ref 2 "Watson, R.A., Levin, M., & Lewens, T. (2025). Evolution by natural induction. *Interface Focus*, 15, 20250025. [DOI](https://doi.org/10.1098/rsfs.2025.0025)" >}}
+
+{{< ref 3 "Buckley, C.L., Lewens, T., Levin, M., Millidge, B., Tschantz, A., & Watson, R.A. (2024). Natural induction: Spontaneous adaptive organisation without natural selection. *Entropy*, 26, 765. [DOI](https://doi.org/10.3390/e26090765)" >}}
+</ol>
