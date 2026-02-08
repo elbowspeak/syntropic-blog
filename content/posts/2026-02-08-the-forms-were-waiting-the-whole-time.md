@@ -10,7 +10,7 @@ tags: []
 
 Evolution has a creation myth, and like most creation myths it flatters the storyteller. The myth goes: mutation provides random variation, selection filters for fitness, and over geological time the accumulation of filtered randomness produces the appearance of design. Variation has no direction. Any form is possible in principle. Selection, working after the fact, winnows the infinite space of possibilities down to what we actually observe. The canvas on which life paints is blank.
 
-It's an elegant story, but it's wrong in a way that matters.
+It's an elegant story, but it gets the relationship between possibility and physics backwards.
 
 If fitness is downstream of thermodynamics, if forms persist and leave descendants because they dissipate energy more efficiently (which I argued at length in the companion essay, [Meditations on the God of Spinoza](https://syntropic.xyz/posts/2026-02-01-meditations-on-spinoza-s-god/)), then the canvas cannot be blank. **Morphospace**, that abstract landscape of every possible biological form, must have structure baked into it before any organism arrives to explore. Some configurations are easier to maintain than others. Some arrangements of matter dissipate gradients more efficiently than their neighbors. These configurations don't need to be invented by evolution. They are already there, written into the physics, waiting as valleys in a landscape that no lineage has yet traversed.
 
@@ -18,7 +18,7 @@ Michael Levin's bioelectricity research provides the clearest window into this p
 
 Levin calls this "Platonic morphospace," which captures the intuition that forms exist prior to their instantiation. But "Platonic" risks making the whole thing more mysterious than it needs to be. We don't need the forms to reside in some ethereal realm of ideals. The simpler framing is thermodynamic: certain configurations of biological matter fit together without constant struggle, maintain themselves without burning through resources fighting internal contradictions, persist because the parts cooperate rather than interfere. I think of these as entropic Schelling points.
 
----
+***
 
 ### The Focal Point
 
@@ -28,7 +28,7 @@ Entropic Schelling points work the same way, but the "players" are the component
 
 What organisms do when they develop, then, is not build from a blueprint. They navigate a pre-structured landscape, falling into basins that exist independent of their particular evolutionary history. The genome doesn't specify the form; it encodes parameters that bias the system toward one basin rather than another. The basins themselves are defined by physics. The genome is less an architect's drawing and more a set of directions to a particular valley: go north past the ridge, bear left at the fork, and you'll end up somewhere that works.
 
----
+***
 
 ###  The Explorer
 
@@ -44,7 +44,7 @@ Think of it as a palimpsest, one of those medieval manuscripts where monks scrap
 
 The bioelectric palimpsest encodes something like a grammar of form, not a specification that says "build a head here" but a set of rules about what can go with what. Two heads? The grammar allows it, and Levin has demonstrated as much. A head where the tail should be? Also grammatically valid. But a configuration where the bioelectric signals would fight each other, where maintaining the pattern would require constant expenditure against internal contradiction? The grammar rules it out. The entropic Schelling points are precisely the configurations the grammar permits, the forms where everything fits together and the parts don't work at cross purposes.
 
----
+***
 
 ### Why Eyes Keep Happening
 
@@ -58,15 +58,15 @@ Natural induction is what carries each lineage into these basins. Selection didn
 
 This is perhaps why we shouldn't expect alien life, if it exists, to be arbitrarily alien. Any dissipative system complex enough to metabolize, move, and process information faces similar thermodynamic constraints, which means similar attractor landscapes, which means similar Schelling points. The universe may have fewer viable body plans than science fiction imagines, not because of any failure of imagination but because physics constrains the possible more tightly than we assumed. The aliens, if we meet them, might look disturbingly familiar, not because of some cosmic coincidence but because the landscape they explored has the same valleys ours does.
 
----
+***
 
 ### Basins and Boundaries
 
-### 
+###
 
 Once you see morphospace as a landscape of basins, several old puzzles dissolve or at least change shape in useful ways.
 
-Evolvability, the capacity of a lineage to generate adaptive variation, becomes a question of geography. A system sitting near the boundary between two basins can access new forms with small perturbations (the adjacent possible); just a nudge can send it rolling into a neighboring valley. 
+Evolvability, the capacity of a lineage to generate adaptive variation, becomes a question of geography. A system sitting near the boundary between two basins can access new forms with small perturbations (the adjacent possible); just a nudge can send it rolling into a neighboring valley.
 
 A system deep in a basin's center is stable, which sounds like a limitation until you realize that depth reflects quality. Sharks have looked roughly like sharks for four hundred million years because they landed on a near-global optimum for being a fast predator in water. The depth of their basin reflects how thoroughly that form resolves the constraints of their niche, and the absence of change reflects not stagnation but the absence of anywhere better to go. Lineages at shallow attractors keep rolling; lineages at deep ones stay put because staying put is what success looks like.
 
@@ -74,7 +74,7 @@ Development becomes navigation rather than construction. The embryo doesn't buil
 
 Through this lens, cancer becomes coherence collapse; cells lose their connection to the tissue-level bioelectric pattern that kept them participating in the multicellular project, and revert to an older and deeper way of being. The ancient pattern of single-celled life has been a stable attractor far longer than multicellularity has existed; it is the deepest basin in the biological landscape, the one that was there first and has never been filled in. When the newer writing on the palimpsest fades, when the organizational signals that maintain the tissue-level pattern weaken or break down, the older text shows through. Metastasis is what this looks like in practice: cells that have stopped cooperating with the organism and returned to the unicellular imperative of migrate, consume, reproduce. They haven't learned a new trick. They've remembered an ancient one.
 
----
+***
 
 ### The Bargain
 
@@ -84,7 +84,7 @@ Life, in this framing, is matter falling into entropic Schelling points and stay
 
 The forms were always waiting. Physics wrote them into the substrate before any genome existed to discover them.
 
----
+***
 
 ### What's Next
 
@@ -92,12 +92,10 @@ What I want to know next, and what I'll take up in a subsequent essay, is whethe
 
 I suspect the answer is yes, and that most of our political arguments amount to disagreements about which basin we're in and whether the neighboring one is actually better or just looks that way from the rim.
 
----
+***
 
 \*\*References\*\*
 
 1. Levin, M. (2023). Darwin's agential materials: Evolutionary implications of multiscale competency in developmental biology. \*Cellular and Molecular Life Sciences\*, 80, 142. https://doi.org/10.1007/s00018-023-04790-z
-
 2. Watson, R.A., Levin, M., & Lewens, T. (2025). Evolution by natural induction. \*Interface Focus\*, 15, 20250025. https://doi.org/10.1098/rsfs.2025.0025
-
 3. Buckley, C.L., Lewens, T., Levin, M., Millidge, B., Tschantz, A., & Watson, R.A. (2024). Natural induction: Spontaneous adaptive organisation without natural selection. \*Entropy\*, 26, 765. https://doi.org/10.3390/e26090765
