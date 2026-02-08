@@ -7,6 +7,14 @@
   <style>
     body { margin: 0; }
     /* Hide the preview pane and give editor full width */
+    /* Fix scrolling in new post form */
+    [role="main"], main, form, [class*="editor"], [class*="content"] {
+      overflow: auto !important;
+      max-height: none !important;
+    }
+    body, html {
+      overflow: auto !important;
+    }
   </style>
 </head>
 <body>
