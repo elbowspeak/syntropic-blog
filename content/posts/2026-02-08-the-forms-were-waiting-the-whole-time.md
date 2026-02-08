@@ -14,7 +14,7 @@ But as I argued in the companion essay, [Meditations on the God of Spinoza](http
 
 Michael Levin's bioelectricity research provides the clearest window into this structure.¹ His planarian experiments demonstrate something remarkable: you can manipulate the bioelectric pattern in a flatworm fragment and cause it to regenerate as a different species' head shape without touching the genome. The form wasn't invented; it was accessed. The two-headed planarian configuration was always there, waiting as regions in morphospace where stability comes easier, even though planaria had never arrived at those coordinates in hundreds of millions of years.
 
-Levin calls this 'Platonic morphospace,' which captures the intuition that **forms exist prior to their instantiation**. But 'Platonic' risks making it more mysterious than it needs to be. The simpler framing is thermodynamic: some configurations are easier to maintain than others because the parts fit together without constant struggle. I think of these as entropic Schelling points.
+Levin calls this 'Platonic morphospace,' which captures the intuition that **forms exist prior to their instantiation**. But 'Platonic' risks making it more mysterious than it needs to be. The simpler framing is thermodynamic: some configurations are easier to maintain than others because the parts fit together without constant struggle. I think of these as **entropic Schelling points**.
 
 ***
 
