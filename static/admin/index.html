@@ -6,13 +6,16 @@
   <title>Content Manager | The Syntropic Lens</title>
   <style>
     body { margin: 0; }
-    /* Hide the preview pane and give editor full width */
-    /* Fix scrolling in new post form */
-    [role="main"], main, form, [class*="editor"], [class*="content"] {
-      overflow: auto !important;
-      max-height: none !important;
+    /* Fix scrolling throughout CMS */
+    * {
+      overflow: visible !important;
     }
-    body, html {
+    html, body {
+      overflow: auto !important;
+      height: auto !important;
+      min-height: 100vh;
+    }
+    [style*="overflow: hidden"] {
       overflow: auto !important;
     }
   </style>
