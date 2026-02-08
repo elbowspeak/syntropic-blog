@@ -62,9 +62,9 @@ This is perhaps why we shouldn't expect alien life, if it exists, to be arbitrar
 
 ## Basins and Boundaries
 
-Once you see morphospace as a landscape of basins, several old puzzles dissolve or at least change shape in useful ways.
+Once you see morphospace as a landscape of basins, several old puzzles change shape in useful ways.
 
-Evolvability, the capacity of a lineage to generate adaptive variation, becomes a question of geography. A system sitting near the boundary between two basins can access new forms with small perturbations (the adjacent possible); just a nudge can send it rolling into a neighboring valley.
+Evolvability, the capacity of a lineage to generate adaptive variation, becomes a question of geography. A system sitting near the boundary between two basins can access new forms (the adjacent possible)  with small perturbations; just a nudge can send it rolling into a neighboring valley.
 
 A system deep in a basin's center is stable, which sounds like a limitation until you realize that depth reflects quality. Sharks have looked roughly like sharks for four hundred million years because they landed on a near-global optimum for being a fast predator in water. The depth of their basin reflects how thoroughly that form resolves the constraints of their niche, and the absence of change reflects not stagnation but the absence of anywhere better to go. Lineages at shallow attractors keep rolling; lineages at deep ones stay put because staying put is what success looks like.
 
@@ -76,9 +76,9 @@ Through this lens, cancer becomes coherence collapse; cells lose their connectio
 
 ## The Bargain
 
-The deepest insight in all of this is that entropy and organization aren't opposed, and never were. The old framing, order versus chaos, life versus entropy, complexity clinging to existence against the cosmic tide, gets the relationship exactly backwards. Far-from-equilibrium systems maintain their organization **_through_** entropy production, not against it. They persist because they have found configurations that dissipate energy gradients efficiently enough to sustain their own improbable structure. The Schelling points in morphospace are precisely those configurations where this bargain works, where the system's persistence and the universe's entropy budget are aligned rather than in tension.
+The important insight in all of this is that entropy and organization aren't opposed, and never were. The old framing, order versus chaos, life versus entropy, complexity clinging to existence against the cosmic tide, gets the relationship exactly backwards. Far-from-equilibrium systems maintain their organization **_through_** entropy production, not against it. They persist because they have found configurations that dissipate energy gradients efficiently enough to sustain their own improbable structure. The Schelling points in morphospace are precisely those configurations where this bargain works, where the system's persistence and the universe's entropy budget are aligned rather than in tension.
 
-Life, in this framing, is matter falling into entropic Schelling points and staying there. Natural induction is the explorer, reshaping internal connections until systems settle into configurations that work. Selection curates which explorations persist across generations. Development is the trajectory through morphospace as each new organism settles into its basin. And convergent evolution, the independent discovery of similar solutions by unrelated lineages separated by hundreds of millions of years and thousands of miles of ocean, is the signature of structure that was always already there. Thermodynamic focal points that different explorers find because the landscape itself makes them salient, valleys that keep catching whoever wanders close.
+Life, in this framing, is matter falling into entropic Schelling points and staying there. Natural induction is the explorer, reshaping internal connections until systems settle into configurations that work. Selection is the curator whose explorations persist across generations. Development is the trajectory through morphospace as each new organism settles into its basin. And convergent evolution, the independent discovery of similar solutions by unrelated lineages separated by hundreds of millions of years and thousands of miles of ocean, is the signature of structure that was always already there. Thermodynamic focal points that different explorers find because the landscape itself makes them salient, valleys that keep catching whoever wanders close.
 
 The forms were always waiting. Physics wrote them into the substrate before any genome existed to discover them.
 
