@@ -14,7 +14,7 @@ It's an elegant story, but it gets the relationship between possibility and phys
 
 If fitness is downstream of thermodynamics, if forms persist and leave descendants because they dissipate energy more efficiently (which I argued at length in the companion essay, [Meditations on the God of Spinoza](https://syntropic.xyz/posts/2026-02-01-meditations-on-spinoza-s-god/)), then the canvas cannot be blank. **Morphospace**, that abstract landscape of every possible biological form, must have structure baked into it before any organism arrives to explore. Some configurations are easier to maintain than others. Some arrangements of matter dissipate gradients more efficiently than their neighbors. These configurations don't need to be invented by evolution. They are already there, written into the physics, waiting as valleys in a landscape that no lineage has yet traversed.
 
-Michael Levin's bioelectricity research provides the clearest window into this pre-existing structure.{{< cite 1 >}} His planarian experiments demonstrate something that should unsettle anyone committed to the standard story: you can manipulate the bioelectric pattern in a flatworm fragment, without touching the genome, and cause it to regenerate as a different species' head shape. A flatworm that has looked the same way for hundreds of millions of years suddenly produces a head configuration it has never developed, not because the configuration was engineered, but because it was **accessed**. The two-headed planarian, the four-headed planarian, the planarian wearing another species' face: these forms were always available as regions in morphospace where stability comes easier, coordinates on a map that this particular lineage had simply never visited.
+Michael Levin's bioelectricity research provides the clearest window into this pre-existing structure.¹ His planarian experiments demonstrate something that should unsettle anyone committed to the standard story: you can manipulate the bioelectric pattern in a flatworm fragment, without touching the genome, and cause it to regenerate as a different species' head shape. A flatworm that has looked the same way for hundreds of millions of years suddenly produces a head configuration it has never developed, not because the configuration was engineered, but because it was **accessed**. The two-headed planarian, the four-headed planarian, the planarian wearing another species' face: these forms were always available as regions in morphospace where stability comes easier, coordinates on a map that this particular lineage had simply never visited.
 
 Levin calls this "Platonic morphospace," which captures the intuition that forms exist prior to their instantiation. But "Platonic" risks making the whole thing more mysterious than it needs to be. We don't need the forms to reside in some ethereal realm of ideals. The simpler framing is thermodynamic: certain configurations of biological matter fit together without constant struggle, maintain themselves without burning through resources fighting internal contradictions, persist because the parts cooperate rather than interfere. I think of these as entropic Schelling points.
 
@@ -32,7 +32,7 @@ What organisms do when they develop, then, is not build from a blueprint. They n
 
 ##  The Explorer
 
-The Watson, Levin, and Lewens paper on "natural induction" provides the mechanism that makes this navigation possible, and it's more general than anyone expected.{{< cite 2 3 >}} They show that any dynamical system with viscoelastic connections, connections that give way slightly under stress like a rubber band that stretches and doesn't quite return to its original length, will spontaneously exhibit learning-like behavior. Not metaphorically. The mathematics is identical.
+The Watson, Levin, and Lewens paper on "natural induction" provides the mechanism that makes this navigation possible, and it's more general than anyone expected.²˒³ They show that any dynamical system with viscoelastic connections, connections that give way slightly under stress like a rubber band that stretches and doesn't quite return to its original length, will spontaneously exhibit learning-like behavior. Not metaphorically. The mathematics is identical.
 
 The key is a difference in timescales. When a system encounters stress, whether injury or environmental pressure or the demands of regeneration, it responds quickly, settling into whatever stable state is available given its current configuration. But the connections between its components adjust slowly in the background, accumulating a residue of what the system has been through. Each encounter with stress leaves a trace, and those traces reshape which stable states the system can access next time. The system learns, in the most literal sense: its history of interaction with the world changes its future behavior.
 
@@ -56,7 +56,7 @@ The same logic scales up and down. Body plans cluster into roughly three dozen p
 
 Natural induction is what carries each lineage into these basins. Selection didn't design the eye; natural induction found it, reshaping internal connections under the pressure of environmental demands until the system settled into a configuration that worked, and selection kept it. The explorer discovers; the curator preserves.
 
-This is perhaps why we shouldn't expect alien life, if it exists, to be arbitrarily alien. Any dissipative system complex enough to metabolize, move, and process information faces similar thermodynamic constraints, which means similar attractor landscapes, which means similar Schelling points. The universe may have fewer viable body plans than science fiction imagines, not because of any failure of imagination but because physics constrains the possible more tightly than we assumed. The aliens, if we meet them, might look disturbingly familiar, not because of some cosmic coincidence but because the landscape they explored has the same valleys ours does.
+This is perhaps why we shouldn't expect alien life, if it exists, to be arbitrarily alien. Any dissipative system complex enough to metabolize, move, and process information faces similar thermodynamic constraints, and similar constraints carve similar valleys. The universe may have fewer viable body plans than science fiction imagines, not because of any failure of imagination but because physics constrains the possible more tightly than we assumed. The aliens, if we meet them, might look disturbingly familiar, not because of some cosmic coincidence but because the landscape they explored has the same valleys ours does.
 
 ***
 
@@ -94,10 +94,6 @@ I suspect the answer is yes, and that most of our political arguments amount to 
 
 ## References
 
-<ol class="reference-list">
-{{< ref 1 "Levin, M. (2023). Darwin's agential materials: Evolutionary implications of multiscale competency in developmental biology. *Cellular and Molecular Life Sciences*, 80, 142. [DOI](https://doi.org/10.1007/s00018-023-04790-z)" >}}
-
-{{< ref 2 "Watson, R.A., Levin, M., & Lewens, T. (2025). Evolution by natural induction. *Interface Focus*, 15, 20250025. [DOI](https://doi.org/10.1098/rsfs.2025.0025)" >}}
-
-{{< ref 3 "Buckley, C.L., Lewens, T., Levin, M., Millidge, B., Tschantz, A., & Watson, R.A. (2024). Natural induction: Spontaneous adaptive organisation without natural selection. *Entropy*, 26, 765. [DOI](https://doi.org/10.3390/e26090765)" >}}
-</ol>
+1. Levin, M. (2023). Darwin's agential materials: Evolutionary implications of multiscale competency in developmental biology. \*Cellular and Molecular Life Sciences\*, 80, 142. https://doi.org/10.1007/s00018-023-04790-z
+2. Watson, R.A., Levin, M., & Lewens, T. (2025). Evolution by natural induction. \*Interface Focus\*, 15, 20250025. https://doi.org/10.1098/rsfs.2025.0025
+3. Buckley, C.L., Lewens, T., Levin, M., Millidge, B., Tschantz, A., & Watson, R.A. (2024). Natural induction: Spontaneous adaptive organisation without natural selection. \*Entropy\*, 26, 765. https://doi.org/10.3390/e26090765
