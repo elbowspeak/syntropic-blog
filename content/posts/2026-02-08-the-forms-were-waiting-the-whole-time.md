@@ -32,7 +32,7 @@ When organisms develop, they navigate a pre-structured landscape, falling into b
 
 ##  The Explorer
 
-The Watson, Levin, and Lewens paper on "natural induction" provides the mechanism that makes this navigation possible, and it's more general than anyone expected.²˒³ They show that any dynamical system with viscoelastic connections, connections that give way slightly under stress like a rubber band that stretches and doesn't quite return to its original length, will spontaneously exhibit learning-like behavior. Learning is not a metaphor here, it's literally bayesian updating based on new data.
+The Watson, Levin, and Lewens paper on "natural induction" provides the mechanism that makes this navigation possible, and it's more general than expected.²˒³ They show that any dynamical system with viscoelastic connections, connections that give way slightly under stress like a rubber band that stretches and doesn't quite return to its original length, will spontaneously exhibit learning-like behavior. Learning is not a metaphor here, it's literally bayesian updating based on new data.
 
 The key is a difference in timescales. When a system encounters stress, whether injury or environmental pressure or the demands of regeneration, it responds quickly, settling into whatever stable state is available given its current configuration. But the connections between its components adjust slowly in the background, accumulating a residue of what the system has been through. Each encounter with stress leaves a trace, and those traces reshape which stable states the system can access next time. The system learns, in the most literal sense: its history of interaction with the world changes its future behavior.
 
