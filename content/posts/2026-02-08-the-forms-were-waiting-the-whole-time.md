@@ -26,7 +26,7 @@ A Schelling point, in game theory, is a solution that people converge on without
 
 Entropic Schelling points work the same way, but the "players" are the components of a dissipative system trying to maintain its form, and the "shared knowledge" is the physics of far-from-equilibrium thermodynamics. Certain configurations of biological matter stand out as focal points because they represent efficient solutions to the problem of maintaining organization while dissipating energy. The components don't coordinate explicitly, cells don't negotiate with each other about what body plan to build, and yet they converge on these configurations because the physics of dissipation makes them attractor states, valleys in the landscape that you roll into once you get close enough to the rim.
 
-When organisms develop they navigate a pre-structured landscape, falling into basins that exist independent of their particular evolutionary history. The genome doesn't specify the form, it encodes parameters that bias the system toward one basin rather than another. The basins themselves are defined by physics, whereas the genome should be thought of as a set of directions to a particular valley: go north past the ridge, bear left at the fork, and you'll end up somewhere that works.
+When organisms develop, they navigate a pre-structured landscape, falling into basins that exist independent of their particular evolutionary history. The genome doesn't specify the form, it encodes parameters that bias the system toward one basin rather than another. The basins themselves are defined by physics, whereas the genome should be thought of as a set of directions to a particular valley: go north past the ridge, bear left at the fork, and you'll end up somewhere that works.
 
 ***
 
