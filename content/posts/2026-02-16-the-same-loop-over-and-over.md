@@ -3,16 +3,16 @@ title: The Hill-Climbing Loop Is Free Energy Minimization
 date: 2026-02-15T20:06:00
 draft: true
 description: ''
-image: /images/active-inference.jpg
+image: ''
 image_caption: ''
 tags: []
 ---
 
 **tl;dr**
 
-This post is written in honor of Daniel Miessler. He inspired me to build my PAI-like system starting in the dark ages of last September.
+This post is written in honor of Daniel Miessler. He inspired me to build my PAI-like system starting in the dark ages of last September. 
 
-He just wrote a post that describes an algorithm he calls "Generalized Hill-Climbing": observe, think, plan, build, verify against criteria, learn, repeat.
+He just wrote a post that describes an algorithm he calls "Generalized Hill-Climbing": observe, think, plan, build, verify against criteria, learn, repeat. 
 
 I've been building my own AI infrastructure using active inference as the design principle, less a mathematical framework than a description of how living systems persist under uncertainty, first formalized in 2006. The two systems are nearly isomorphic. Design Thinking arrived at the same loop independently in the 1990s. Three communities, three vocabularies, one architecture. That convergence tells us something important about the shape of the solution space, and the formal framework opens up some useful directions for anyone building these systems.
 
@@ -59,6 +59,55 @@ Neither of us was the first to arrive here. Design Thinking, the methodology tha
 
 Three communities. Three different vocabularies. One loop.
 
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Active Inference (Friston, 2006)</th>
+<th>Design Thinking (IDEO, 1990s)</th>
+<th>Hill-Climbing (Miessler, 2026)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sample reality</td>
+<td>Sense</td>
+<td>Empathize</td>
+<td>Observe</td>
+</tr>
+<tr>
+<td>Build understanding</td>
+<td>Model</td>
+<td>Define</td>
+<td>Think</td>
+</tr>
+<tr>
+<td>Choose action</td>
+<td>Policy selection</td>
+<td>Ideate</td>
+<td>Plan</td>
+</tr>
+<tr>
+<td>Execute</td>
+<td>Act</td>
+<td>Prototype / Build</td>
+<td>Build / Execute</td>
+</tr>
+<tr>
+<td>Check results</td>
+<td>Prediction error</td>
+<td>Test</td>
+<td>Verify against ISC</td>
+</tr>
+<tr>
+<td>Revise</td>
+<td>Model update</td>
+<td>Iterate</td>
+<td>Learn</td>
+</tr>
+</tbody>
+</table>
+
 ## Why They Converge
 
 This pattern of independent rediscovery is convergent evolution. And it has the same explanation convergent evolution always has.
@@ -71,13 +120,13 @@ You must:
 
 - **Sample your environment** (because you can't know everything),
 - **Maintain some model of how things work** (because raw data without structure is noise),
-- **Act based on that model** (because inaction is also a choice, and usually a bad one),
+- **Act based on that model **(because inaction is also a choice, and usually a bad one),
 - **Compare outcomes to expectations** (because that's how you detect model errors),
-- **Update your model** (because a model that doesn't learn is a dogma).
+- **Update your model **(because a model that doesn't learn is a dogma).
 
 This isn't one approach among many. It's an attractor in the space of possible adaptive architectures. Everything that persists eventually converges on it. Friston proved it mathematically. IDEO discovered it by building products. Miessler discovered it by building AI agents. I found it by starting from the math and building toward implementation. We all ended up in the same place because there's nowhere else to end up.
 
-## The Agent Era Makes It Necessary
+## The Agent Era Makes It Obvious
 
 This convergence is becoming more visible now because AI agent frameworks are running the loop in the open.
 
@@ -91,13 +140,13 @@ If practitioners keep arriving at the same loop intuitively, what does thinking 
 
 A few things I've found useful in practice.
 
-**Precision weighting.** Not all signals deserve equal attention, and the formal framework makes that explicit. Active inference gives you a principled way to modulate how much you trust different inputs based on context. Miessler's ISC system already gets at this through effort-level tiering, a typo fix shouldn't trigger the same verification depth as a system redesign. The Bayesian framing extends that intuition: you can weight criteria dynamically as a task evolves, letting the system shift attention toward the prediction errors that matter most right now rather than treating every checkbox equally.
+\*\*Precision weighting.\*\* Not all signals deserve equal attention, and the formal framework makes that explicit. Active inference gives you a principled way to modulate how much you trust different inputs based on context. Miessler's ISC system already gets at this through effort-level tiering, a typo fix shouldn't trigger the same verification depth as a system redesign. The Bayesian framing extends that intuition: you can weight criteria dynamically as a task evolves, letting the system shift attention toward the prediction errors that matter most right now rather than treating every checkbox equally.
 
-**Epistemic action.** Most engineering versions of the loop assume you're always trying to \*do\* something:  build, execute, ship. Active inference adds a category that's easy to overlook: actions taken specifically to reduce uncertainty rather than to produce output. Sometimes the optimal move is to \*learn\* something before committing resources. Miessler's effort-level system is a rough version of thisL deciding how much exploration a task warrants before execution. The formal framework gives you a way to think about the explore/exploit tradeoff explicitly, which turns out to matter a lot when you're building systems that need to know when they don't know enough.
+\*\*Epistemic action.\*\* Most engineering versions of the loop assume you're always trying to \*do\* something:  build, execute, ship. Active inference adds a category that's easy to overlook: actions taken specifically to reduce uncertainty rather than to produce output. Sometimes the optimal move is to \*learn\* something before committing resources. Miessler's effort-level system is a rough version of thisL deciding how much exploration a task warrants before execution. The formal framework gives you a way to think about the explore/exploit tradeoff explicitly, which turns out to matter a lot when you're building systems that need to know when they don't know enough.
 
-**Hierarchical Depth**. Miessler already has this in embryonic form. His two nested loops are a two-level hierarchy, and that structure is a big part of why his system works as well as it does. Active inference extends this to arbitrary depth. Cognitive systems run the loop at many timescales simultaneously: this sentence, this paragraph, this post, this quarter, this career. The math handles the nesting and the interactions between levels. If you're building systems that need to operate across timescales, and agentic AI systems increasingly do, the formal framework gives you a scaffold for thinking about how local decisions propagate up and global preferences propagate down.
+\*\*Hierarchical depth.\*\* Miessler already has this in embryonic form. His two nested loops are a two-level hierarchy, and that structure is a big part of why his system works as well as it does. Active inference extends this to arbitrary depth. Cognitive systems run the loop at many timescales simultaneously: this sentence, this paragraph, this post, this quarter, this career. The math handles the nesting and the interactions between levels. If you're building systems that need to operate across timescales, and agentic AI systems increasingly do, the formal framework gives you a scaffold for thinking about how local decisions propagate up and global preferences propagate down.
 
-**Finding the global maximum**. Here's where thinking in terms of uncertainty, Bayesian mechanics, and free energy minimization really pays off. Hill-climbing, by definition, is vulnerable to local maxima. You optimize against your criteria, hit a plateau, and declare victory. But if your criteria themselves are subtly wrong, you've climbed the wrong hill. Free energy minimization includes model structure in its scope. It's not just asking "did I meet my criteria?" but "are my criteria the right criteria?" That capacity to update the model of the model, to question not just your outputs but your assumptions. is what helps you find the global maximum rather than getting stuck on a local one.
+\*\*Finding the global maximum.\*\* Here's where thinking in terms of uncertainty, Bayesian mechanics, and free energy minimization really pays off. Hill-climbing, by definition, is vulnerable to local maxima. You optimize against your criteria, hit a plateau, and declare victory. But if your criteria themselves are subtly wrong, you've climbed the wrong hill. Free energy minimization includes model structure in its scope. It's not just asking "did I meet my criteria?" but "are my criteria the right criteria?" That capacity to update the model of the model, to question not just your outputs but your assumptions. is what helps you find the global maximum rather than getting stuck on a local one.
 
 ## So What's Next
 
@@ -109,4 +158,4 @@ If you're building these systems, and a lot of people are right now, the active 
 
 Nobody's talking about generalized hill-climbing because everyone's already doing it. They just keep giving it new names.
 
-Let's compare notes.
+Let's start comparing notes.
