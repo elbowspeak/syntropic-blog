@@ -1,8 +1,10 @@
 ---
 title: The Thermodynamic Endgame for AI
+subtitle: When tokens are free, physics becomes the competitive frontier
 date: 2026-01-12T21:49:00
 draft: false
 description: ''
+image_caption: ''
 ---
 
 When tokens are free, physics becomes the competitive frontier
