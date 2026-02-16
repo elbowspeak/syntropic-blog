@@ -59,54 +59,7 @@ Neither of us was the first to arrive here. Design Thinking, the methodology tha
 
 Three communities. Three different vocabularies. One loop.
 
-<table>
-<thead>
-<tr>
-<th>Step</th>
-<th>Active Inference (Friston, 2006)</th>
-<th>Design Thinking (IDEO, 1990s)</th>
-<th>Hill-Climbing (Miessler, 2026)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Sample reality</td>
-<td>Sense</td>
-<td>Empathize</td>
-<td>Observe</td>
-</tr>
-<tr>
-<td>Build understanding</td>
-<td>Model</td>
-<td>Define</td>
-<td>Think</td>
-</tr>
-<tr>
-<td>Choose action</td>
-<td>Policy selection</td>
-<td>Ideate</td>
-<td>Plan</td>
-</tr>
-<tr>
-<td>Execute</td>
-<td>Act</td>
-<td>Prototype / Build</td>
-<td>Build / Execute</td>
-</tr>
-<tr>
-<td>Check results</td>
-<td>Prediction error</td>
-<td>Test</td>
-<td>Verify against ISC</td>
-</tr>
-<tr>
-<td>Revise</td>
-<td>Model update</td>
-<td>Iterate</td>
-<td>Learn</td>
-</tr>
-</tbody>
-</table>
+{{< convergence-table >}}
 
 ## Why They Converge
 
