@@ -1,5 +1,6 @@
 ---
 title: '20 Watts: What Biology Knows About Intelligence'
+subtitle: Why active inference, not scaling, is the path to the physics limit
 date: 2026-01-22T22:33:00-08:00
 draft: false
 description: ''
@@ -9,7 +10,7 @@ image_caption: ''
 
 **Why Active Inference, Not Scaling, is the Path That Gets Us to the Physics Limit**
 
----
+***
 
 The human brain runs on 20 watts. A dim lightbulb.
 
@@ -101,7 +102,7 @@ The companies building with this approach are reimagining what computation for i
 
 So far, the scaling era gave us truly awesome capabilities. The efficiency era will, I hope, give us broad decentralized deployment. And the path from here to there runs through the mathematics that biology discovered first: minimize free energy, minimize surprise, minimize the thermodynamic cost of thought.
 
----
+***
 
 The brain didn't evolve to maximize accuracy. It evolved to minimize regret given scarce metabolic resources. That's the optimization target we should be pursuing. Not "how smart can we make it?" but "how smart can we make it per joule?"
 
