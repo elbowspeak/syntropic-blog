@@ -1,5 +1,5 @@
 ---
-title: The Same Loop, Over and Over
+title: The Hill-Climbing Loop Is Free Energy Minimization
 date: 2026-02-15T20:06:00
 draft: true
 description: ''
@@ -8,11 +8,15 @@ image_caption: ''
 tags: []
 ---
 
-\*\*tl;dr:\*\* 
+**tl;dr**
 
-Daniel Miessler recently described an algorithm he calls "Generalized Hill-Climbing": observe, think, plan, build, verify against criteria, learn, repeat. I've been building my own AI infrastructure using active inference, a mathematical framework first published in 2006, as the design principle. The two systems are nearly isomorphic. Design Thinking arrived at the same loop independently in the 1990s. Three communities, three vocabularies, one architecture. That convergence tells us something important about the shape of the solution space. And the formal framework opens up some useful directions for anyone building these systems.
+This post is written in honor of Daniel Miessler. He inspired me to build my PAI-like system starting in the dark ages of last September. 
 
----
+He just wrote a post that describes an algorithm he calls "Generalized Hill-Climbing": observe, think, plan, build, verify against criteria, learn, repeat. 
+
+I've been building my own AI infrastructure using active inference as the design principle, less a mathematical framework than a description of how living systems persist under uncertainty, first formalized in 2006. The two systems are nearly isomorphic. Design Thinking arrived at the same loop independently in the 1990s. Three communities, three vocabularies, one architecture. That convergence tells us something important about the shape of the solution space, and the formal framework opens up some useful directions for anyone building these systems.
+
+***
 
 ## Miessler's Algorithm
 
@@ -30,15 +34,11 @@ That divergence is why this post exists. Not because either approach is wrong, b
 
 Karl Friston's Free Energy Principle describes how any self-organizing system that persists over time must operate. The core cycle:
 
-- \*\*Sense\*\* the environment. 
-
-- \*\*Model\*\* what you observe — update your beliefs about how things work. 
-
-- \*\*Act\*\* to reduce uncertainty. 
-
-- \*\*Verify\*\* outcomes against predictions. 
-
-- \*\*Update\*\* the model based on prediction errors.
+- **Sense** the environment.
+- **Model** what you observe — update your beliefs about how things work.
+- **Act** to reduce uncertainty.
+- **Verify** outcomes against predictions.
+- **Update** the model based on prediction errors.
 
 This is active inference. It's the mathematical formalization of how organisms, from single cells to human brains, navigate uncertainty. The system maintains prior preferences (what it expects the world to look like), takes actions to bring reality closer to those preferences, and updates its model when reality pushes back.
 
@@ -48,24 +48,16 @@ Step for step, the correspondence is precise. Two systems built independently, o
 
 ## The Third Time Is a Pattern
 
-Neither of us was the first to arrive here. Design Thinking, the methodology that emerged from IDEO and the Stanford d.school in the 1990s, runs the same cycle. 
+Neither of us was the first to arrive here. Design Thinking, the methodology that emerged from IDEO and the Stanford d.school in the 1990s, runs the same cycle.
 
 - Empathize (sense)
-
 - Define (model)
-
 - Ideate (plan/policy selection)
-
 - Prototype (act)
-
-- Test (verify/compute prediction error) 
-
+- Test (verify/compute prediction error)
 - Iterate (update the model)
 
 Three communities. Three different vocabularies. One loop.
-
-
-
 
 ## Why They Converge
 
@@ -73,19 +65,15 @@ This pattern of independent rediscovery is convergent evolution. And it has the 
 
 Eyes evolved independently at least 40 times across different lineages. Not because organisms copied each other, but because the physics of photon detection constrains the solution space. If you need to sense electromagnetic radiation at biological scales, you're going to end up with something lens-shaped.
 
-If you need to operate adaptively under uncertainty; if you don't have a complete model of your environment and you need to act anyway; the solution space is similarly constrained. 
+If you need to operate adaptively under uncertainty; if you don't have a complete model of your environment and you need to act anyway; the solution space is similarly constrained.
 
 You must:
 
-- Sample your environment (because you can't know everything), 
-
-- Maintain some model of how things work (because raw data without structure is noise), 
-
-- Act based on that model (because inaction is also a choice, and usually a bad one), 
-
-- Compare outcomes to expectations (because that's how you detect model errors), 
-
-- Update your model (because a model that doesn't learn is a dogma).
+- **Sample your environment** (because you can't know everything),
+- **Maintain some model of how things work** (because raw data without structure is noise),
+- **Act based on that model **(because inaction is also a choice, and usually a bad one),
+- **Compare outcomes to expectations** (because that's how you detect model errors),
+- **Update your model **(because a model that doesn't learn is a dogma).
 
 This isn't one approach among many. It's an attractor in the space of possible adaptive architectures. Everything that persists eventually converges on it. Friston proved it mathematically. IDEO discovered it by building products. Miessler discovered it by building AI agents. I found it by starting from the math and building toward implementation. We all ended up in the same place because there's nowhere else to end up.
 
