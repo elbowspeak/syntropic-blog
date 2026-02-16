@@ -1,8 +1,9 @@
 ---
 title: On the Wishful Thinking of Free Will Compatibalists
+subtitle: ''
 date: 2026-01-28T13:42:00
 draft: false
-description: ''
+description: Stochastic determinism, active inference, and why the ball always thinks it's steering
 image: /images/pachinko_closeup.jpg
 image_caption: From the cover of Pachinko by Min Jin Lee
 tags:
@@ -16,7 +17,7 @@ In [Julius's recent Less Wrong post](https://www.lesswrong.com/posts/tnSagkAADcj
 
 I agree with every word of this except that last clause. The feeling is absolutely vivid and persistent and, IMO,  almost certainly misleading.
 
----
+***
 
 The free will debate has run for millennia, and the contemporary version typically arranges itself into three camps.
 
@@ -30,7 +31,7 @@ Julius pushes back from the compatibilist direction, arguing that the "deliberat
 
 I think Harris gets the phenomenology mostly right but doesn't fully specify the mechanism. And I think the compatibilists are engaged in wishful thinking that collapses under scrutiny. What follows is my attempt to articulate a third position, one that takes the neuroscience seriously, integrates what we're learning about the mathematics of self-organizing systems, and arrives at a conclusion that is neither classical determinism nor compatibilist rescue.
 
----
+***
 
 ## I. The Pachinko Model
 
@@ -42,7 +43,7 @@ Now: where is "you" in this model? The compatibilist wants to say you _are_ the 
 
 The crucial claim is that this narrative construction, however sophisticated, is _downstream_ of the process that actually determines the path. Consciousness doesn't steer the ball. It watches the ball and tells a story about steering.
 
----
+***
 
 ## II. Why Compatibilism Doesn't Escape This
 
@@ -62,7 +63,7 @@ Is it, though? Aaron Schurger's reinterpretation of the famous Libet experiments
 
 None of this _proves_ consciousness is epiphenomenal. But it's consistent with a model where consciousness is observing and narrating rather than directing. The timing is wrong for authorship, our awareness comes too late. And the confabulation research shows that the narrative of authorship is generated even when we know the action was driven by something else.
 
----
+***
 
 ## III. Harris Gets Close But Stops Short
 
@@ -76,7 +77,7 @@ Derk Pereboom's "hard incompatibilism" {{< cite 3 >}} is the closest philosophic
 
 This is right IMO, but Pereboom frames it primarily as an argument about moral responsibility rather than a positive model of what consciousness is doing. He's clearing ground rather than building on it.
 
----
+***
 
 ## IV. So What Is Consciousness Actually Doing?
 
@@ -104,7 +105,7 @@ The felt sense of authorship is what it's like to be a system running inference 
 
 Consciousness isn't epiphenomenal in the crude sense of "does nothing." It's doing inference, which is computationally essential to the system's function. But inference isn't authorship. The process that selects your actions is the same process but scaled up, more recursive, richer in temporal horizon, that selects the bacterium's direction of travel. Neither of you is "choosing" in the way the folk concept implies. Both of you are minimizing free energy. The only difference is that your system is complex enough to generate a narrative about what it's doing and call that narrative "will."
 
----
+***
 
 ## V. Objections
 
@@ -124,11 +125,11 @@ _"If this is true, why does it matter?"_
 
 Because the compatibilist sleight-of-hand has practical consequences. If "you" (the conscious experiencer) aren't actually authoring your decisions, then frameworks of moral responsibility that depend on authorship need revisiting. The retributive intuition, the sense that wrongdoers _deserve_ to suffer for their choices, assumes a kind of authorship that this model denies.
 
-This doesn't mean we abandon responsibility entirely. Harris, Pereboom, and others have argued persuasively that forward-looking, inference over future states considerations (deterrence, rehabilitation, public safety) can ground moral and legal practices without backward-looking desert. The system that constitutes *you* still responds to incentives, still learns, still updates. Holding people accountable changes future behavior, regardless of whether anyone is "truly" the author of their actions. {{< cite 1 2 5 >}}
+This doesn't mean we abandon responsibility entirely. Harris, Pereboom, and others have argued persuasively that forward-looking, inference over future states considerations (deterrence, rehabilitation, public safety) can ground moral and legal practices without backward-looking desert. The system that constitutes _you_ still responds to incentives, still learns, still updates. Holding people accountable changes future behavior, regardless of whether anyone is "truly" the author of their actions. {{< cite 1 2 5 >}}
 
 But it does mean we should be suspicious of the emotional satisfaction that comes from blame and punishment. That satisfaction is predicated on a model of authorship that probably doesn't describe how things actually work.
 
----
+***
 
 ## VI. Implications
 
@@ -144,7 +145,7 @@ And I'm not claiming epistemic certainty either. This is a model, informed by cu
 
 What I am claiming is that the compatibilist rescue fails. You can't save free will by redefining it as "reasons-responsive information processing," because that processing is continuous with what bacteria do, and bacteria don't have free will in any sense worth preserving. The special ingredient the compatibilist needs, the thing that makes human deliberation different in kind, keeps dissolving under examination.
 
----
+***
 
 ## VII. Coda
 
@@ -160,16 +161,16 @@ The compatibilist wants to say: that's enough. That's all "free will" ever meant
 
 I think that's wishful thinking. But I would say that, wouldn't I? The ball always thinks it's steering.
 
----
+***
 
 ## References
 
 <ol class="reference-list">
-{{< ref 1 "Harris, Sam. *Free Will* (2012)" >}}
+{{< ref 1 "Harris, Sam. _Free Will_ (2012)" >}}
 {{< ref 2 "Julius. \"Contra Sam Harris on Free Will.\" LessWrong (2026)" >}}
-{{< ref 3 "Pereboom, Derk. *Living Without Free Will* (2001)" >}}
-{{< ref 4 "Rolls, Edmund T. \"Willed action, free will, and the stochastic neurodynamics of decision-making.\" *Frontiers in Integrative Neuroscience* (2012)" >}}
-{{< ref 5 "Schurger, Aaron, et al. \"An accumulator model for spontaneous neural activity prior to self-initiated movement.\" *PNAS* (2012)" >}}
-{{< ref 6 "Haynes, John-Dylan. \"Decoding and predicting intentions.\" *Annals of the New York Academy of Sciences* (2011)" >}}
-{{< ref 7 "Friston, Karl. \"The free-energy principle: a unified brain theory?\" *Nature Reviews Neuroscience* (2010)" >}}
+{{< ref 3 "Pereboom, Derk. _Living Without Free Will_ (2001)" >}}
+{{< ref 4 "Rolls, Edmund T. \"Willed action, free will, and the stochastic neurodynamics of decision-making.\" _Frontiers in Integrative Neuroscience_ (2012)" >}}
+{{< ref 5 "Schurger, Aaron, et al. \"An accumulator model for spontaneous neural activity prior to self-initiated movement.\" _PNAS_ (2012)" >}}
+{{< ref 6 "Haynes, John-Dylan. \"Decoding and predicting intentions.\" _Annals of the New York Academy of Sciences_ (2011)" >}}
+{{< ref 7 "Friston, Karl. \"The free-energy principle: a unified brain theory?\" _Nature Reviews Neuroscience_ (2010)" >}}
 </ol>
