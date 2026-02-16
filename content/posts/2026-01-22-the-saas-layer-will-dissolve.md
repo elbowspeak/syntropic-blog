@@ -1,5 +1,6 @@
 ---
 title: The SaaS Layer Will Dissolve
+subtitle: Agentic AI will collapse the application tier within five years
 date: 2026-01-14T23:45:00
 draft: false
 description: ''
@@ -9,7 +10,7 @@ image_caption: ''
 
 ## **Agentic AI will collapse the SaaS application tier within five years**
 
----
+***
 
 Since the 90s, the most valuable real estate in enterprise software has been the application layer. I think 90% of it will become worthless in the next 5 years, give or take.
 
@@ -63,7 +64,7 @@ For enterprises: Your competitive advantage is in your data and what you can do 
 
 For the SaaS incumbents: Your runway is shorter than you think. Either become infrastructure (the boring but durable play) or become so embedded in customer data that you're irreplaceable. The middle ground focused on nice UIs and generic workflows will become the killing field in short order.
 
----
+***
 
 The commercial application layer was always an artifact of a specific technological moment: when building software required specialized skills and huge time investment. That moment is ending. What remains is a thin coordination layer between human intent and machine capability, assembled fresh for each class of problem, often dissolved when the problem is solved.
 
