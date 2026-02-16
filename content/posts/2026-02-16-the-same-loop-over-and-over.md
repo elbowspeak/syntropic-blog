@@ -20,7 +20,7 @@ I've been building my own AI infrastructure using active inference as the design
 
 ## Miessler's Algorithm
 
-Daniel Miessler recently published a piece called "Nobody is Talking About Generalized Hill-Climbing." He describes an algorithm built into his Personal AI Infrastructure: observe the situation, think about what you see, plan your approach, build the thing, execute, verify against criteria, learn from the results.
+Daniel Miessler recently published a piece called "[Nobody is Talking About Generalized Hill-Climbing](https://danielmiessler.com/blog/nobody-is-talking-about-generalized-hill-climbing)." He describes an algorithm built into his Personal AI Infrastructure: observe the situation, think about what you see, plan your approach, build the thing, execute, verify against criteria, learn from the results.
 
 The centerpiece is what he calls "Ideal State Criteria" — 8-12 word binary-testable statements that describe what *done* looks like. You iterate against those criteria. When verification fails, you update and cycle again. He structures the whole thing as two nested loops: an outer loop driving from current state to ideal state, and an inner loop running the scientific method to climb within it.
 
