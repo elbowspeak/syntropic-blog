@@ -158,8 +158,8 @@ Daniel Miessler built a sophisticated personal AI infrastructure through enginee
 
 The brain runs this loop on 20 watts. IDEO runs it with Post-it notes. Miessler runs it with LLM agents. I run it with a math approximation framework and a lot of Claude Code. The substrate changes. The loop doesn't.
 
-If you're building these systems, and a lot of people are right now, the active inference literature is worth your time. Not because it'll replace your engineering intuitions, but because it'll give you a formal language for the thing you're already doing, and that language opens up directions you might not find otherwise.
+If you're building these systems, and a lot of people are right now, the active inference literature is worth your time because it will give you a formal language for the thing you're already doing. And that language opens up directions you might not find otherwise.
 
-Nobody's talking about generalized hill-climbing because everyone's already doing it. They just keep giving it new names.
+Nobody's talking about generalized hill-climbing because everyone's already doing it under different names.
 
-Let's start comparing notes.
+Let's compare notes.
