@@ -16,7 +16,7 @@ tags:
 
 This post is written in honor of Daniel Miessler. He inspired me to build my PAI-like system starting in the dark ages of last September.
 
-He just wrote a post that describes an algorithm he calls "Generalized Hill-Climbing": observe, think, plan, build, verify against criteria, learn, repeat.
+He just [wrote a post](https://danielmiessler.com/blog/nobody-is-talking-about-generalized-hill-climbing) that describes an algorithm he calls "Generalized Hill-Climbing": observe, think, plan, build, verify against criteria, learn, repeat.
 
 I've been building my own AI infrastructure using active inference as the design principle, a description of how living systems persist under uncertainty, first formalized in 2006 by Karl Friston. The two systems are nearly isomorphic. Design Thinking arrived at the same loop independently in the 1990s. Three communities, three vocabularies, one architecture. That convergence tells us something important about the shape of the solution space, and the formal framework opens up some useful directions for anyone building these systems.
 
