@@ -33,7 +33,7 @@ His core claim: you can't improve what you can't test. Define the destination pr
 
 Full disclosure: Daniel's work was the direct inspiration for my own system. Back in September 2025, I started building out a personal AI infrastructure, and when I dug into his architecture, I adopted large parts of it: the task decomposition, the skills library, and much more. Where we diverged was the systems design principle. Mine has been, from the start, active inference.
 
-That divergence is why this post exists. Not because either approach is wrong, but because the convergence between them is so striking that it deserves attention.
+That divergence is why this post exists. Because the convergence between our two systems is so striking that it deserves attention.
 
 ## The Same Loop, Formalized
 
