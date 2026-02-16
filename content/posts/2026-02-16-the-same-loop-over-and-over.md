@@ -37,7 +37,7 @@ That divergence is why this post exists. Because the convergence between our two
 
 ## The Same Loop, Formalized
 
-Karl Friston's Free Energy Principle describes how any self-organizing system that persists over time must operate. The core cycle:
+Karl Friston's Free Energy Principle, a process that reduces uncertainty, describes how any self-organizing system that persists over time must operate. The core cycle:
 
 - **Sense** the environment.
 - **Model** what you observe — update your beliefs about how things work.
