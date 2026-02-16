@@ -10,11 +10,11 @@ tags: []
 
 **tl;dr**
 
-This post is written in honor of Daniel Miessler. He inspired me to build my PAI-like system starting in the dark ages of last September. 
+This post is written in honor of Daniel Miessler. He inspired me to build my PAI-like system starting in the dark ages of last September.
 
-He just wrote a post that describes an algorithm he calls "Generalized Hill-Climbing": observe, think, plan, build, verify against criteria, learn, repeat. 
+He just wrote a post that describes an algorithm he calls "Generalized Hill-Climbing": observe, think, plan, build, verify against criteria, learn, repeat.
 
-I've been building my own AI infrastructure using active inference as the design principle, less a mathematical framework than a description of how living systems persist under uncertainty, first formalized in 2006. The two systems are nearly isomorphic. Design Thinking arrived at the same loop independently in the 1990s. Three communities, three vocabularies, one architecture. That convergence tells us something important about the shape of the solution space, and the formal framework opens up some useful directions for anyone building these systems.
+I've been building my own AI infrastructure using active inference as the design principle, a description of how living systems persist under uncertainty, first formalized in 2006 by Karl Friston. The two systems are nearly isomorphic. Design Thinking arrived at the same loop independently in the 1990s. Three communities, three vocabularies, one architecture. That convergence tells us something important about the shape of the solution space, and the formal framework opens up some useful directions for anyone building these systems.
 
 ***
 
@@ -22,7 +22,7 @@ I've been building my own AI infrastructure using active inference as the design
 
 Daniel Miessler recently [wrote a post](https://danielmiessler.com/blog/nobody-is-talking-about-generalized-hill-climbing) called "Nobody is Talking About Generalized Hill-Climbing." He describes an algorithm built into his Personal AI Infrastructure: observe the situation, think about what you see, plan your approach, build the thing, execute, verify against criteria, learn from the results.
 
-The centerpiece is what he calls "Ideal State Criteria" — 8-12 word binary-testable statements that describe what *done* looks like. You iterate against those criteria. When verification fails, you update and cycle again. He structures the whole thing as two nested loops: an outer loop driving from current state to ideal state, and an inner loop running the scientific method to climb within it.
+The centerpiece is what he calls "Ideal State Criteria" — 8-12 word binary-testable statements that describe what _done_ looks like. You iterate against those criteria. When verification fails, you update and cycle again. He structures the whole thing as two nested loops: an outer loop driving from current state to ideal state, and an inner loop running the scientific method to climb within it.
 
 His core claim: you can't improve what you can't test. Define the destination precisely, iterate toward it, verify, update.
 
@@ -132,7 +132,7 @@ This convergence is becoming more visible now because AI agent frameworks are ru
 
 Every competent agentic framework converges on the same pattern. Anthropic's tool-use loop, LangGraph's cycles, AutoGPT's iterations, the observe-plan-execute-verify pattern running inside OpenClaw's autonomous workflows. They all arrive at sense-model-act-verify-update because nothing else works when you can't hardcode the solution.
 
-Miessler's specific contribution, and it's a genuinely useful one, is the engineering formalization of prior preferences. Defining what *done* looks like as discrete, binary-testable statements before you start working is powerful discipline. Active inference tells you that prior preferences are necessary for any adaptive system. Miessler figured out how to write them down in a way a machine can verify. That's a meaningful bridge between a mathematical framework and practical implementation, and it's one I've adopted in my own system.
+Miessler's specific contribution, and it's a genuinely useful one, is the engineering formalization of prior preferences. Defining what _done_ looks like as discrete, binary-testable statements before you start working is powerful discipline. Active inference tells you that prior preferences are necessary for any adaptive system. Miessler figured out how to write them down in a way a machine can verify. That's a meaningful bridge between a mathematical framework and practical implementation, and it's one I've adopted in my own system.
 
 ## Where the Formal Framework Opens Things Up
 
@@ -142,7 +142,7 @@ A few things I've found useful in practice.
 
 **Precision weighting.** Not all signals deserve equal attention, and the formal framework makes that explicit. Active inference gives you a principled way to modulate how much you trust different inputs based on context. Miessler's ISC system already gets at this through effort-level tiering, a typo fix shouldn't trigger the same verification depth as a system redesign. The Bayesian framing extends that intuition: you can weight criteria dynamically as a task evolves, letting the system shift attention toward the prediction errors that matter most right now rather than treating every checkbox equally.
 
-**Epistemic action.** Most engineering versions of the loop assume you're always trying to *do* something:  build, execute, ship. Active inference adds a category that's easy to overlook: actions taken specifically to reduce uncertainty rather than to produce output. Sometimes the optimal move is to *learn* something before committing resources. Miessler's effort-level system is a rough version of this: deciding how much exploration a task warrants before execution. The formal framework gives you a way to think about the explore/exploit tradeoff explicitly, which turns out to matter a lot when you're building systems that need to know when they don't know enough.
+**Epistemic action.** Most engineering versions of the loop assume you're always trying to _do_ something:  build, execute, ship. Active inference adds a category that's easy to overlook: actions taken specifically to reduce uncertainty rather than to produce output. Sometimes the optimal move is to _learn_ something before committing resources. Miessler's effort-level system is a rough version of this: deciding how much exploration a task warrants before execution. The formal framework gives you a way to think about the explore/exploit tradeoff explicitly, which turns out to matter a lot when you're building systems that need to know when they don't know enough.
 
 **Hierarchical depth.** Miessler already has this in embryonic form. His two nested loops are a two-level hierarchy, and that structure is a big part of why his system works as well as it does. Active inference extends this to arbitrary depth. Cognitive systems run the loop at many timescales simultaneously: this sentence, this paragraph, this post, this quarter, this career. The math handles the nesting and the interactions between levels. If you're building systems that need to operate across timescales, and agentic AI systems increasingly do, the formal framework gives you a scaffold for thinking about how local decisions propagate up and global preferences propagate down.
 
