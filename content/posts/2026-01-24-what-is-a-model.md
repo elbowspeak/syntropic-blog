@@ -1,5 +1,6 @@
 ---
 title: What is a Model?
+subtitle: What Georgia O'Keeffe knew about Information Compression
 date: 2026-01-24T23:40:00
 draft: false
 description: ''
