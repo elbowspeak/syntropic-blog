@@ -3,9 +3,13 @@ title: The Hill-Climbing Loop Is Free Energy Minimization
 date: 2026-02-15T20:06:00
 draft: false
 description: ''
-image: ''
+image: /images/Active-Inference-Psychological-Change-Model-1024x538.webp
 image_caption: ''
-tags: []
+tags:
+  - active-inference
+  - free-energy-principle
+  - convergent-evolution
+  - agentic-ai
 ---
 
 **tl;dr**
