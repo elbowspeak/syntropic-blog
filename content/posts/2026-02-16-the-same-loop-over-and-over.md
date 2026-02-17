@@ -1,5 +1,5 @@
 ---
-title: The Hill-Climbing Loop Is Free Energy Minimization
+title: The Hill-Climbing Loop Is Convergent Evolution
 subtitle: Why biology, design thinking, and AI agent frameworks converge on the same algorithm
 date: 2026-02-15T20:06:00
 draft: false
