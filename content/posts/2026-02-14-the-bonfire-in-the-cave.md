@@ -1,8 +1,9 @@
 ---
 title: The Bonfire in the Cave
+subtitle: AI and the Force No One Will Name
 date: 2026-02-14T15:37:00
 draft: false
-description: Entropy, AI, and what Nobody will Name
+description: Entropy, AI, and the Force that No one will Name
 image: /images/fire-flame-bonfire-heat-campfire-event-1551617-pxhere.com.jpg
 image_caption: ''
 tags: []
