@@ -59,13 +59,14 @@
     // Update content area
     let featuredImage = '';
     if (post.image) {
-      const caption = post.imageCaption ? `<figcaption>${escapeHtml(post.imageCaption)}</figcaption>` : '';
+      const caption = post.image_caption ? `<figcaption>${escapeHtml(post.image_caption)}</figcaption>` : '';
       featuredImage = `<figure class="article-featured-figure"><img class="article-featured-image" src="${post.image}" alt="Featured image for ${escapeHtml(post.title)}">${caption}</figure>`;
     }
     articleContent.innerHTML = `
       <a href="/" class="mobile-back" onclick="window.mobileBack(); return false;">← Back to posts</a>
       <header class="article-header">
         <h1 class="article-title"><a href="${post.slug}">${escapeHtml(post.title)}</a></h1>
+        ${post.subtitle ? `<p class="article-subtitle">${escapeHtml(post.subtitle)}</p>` : ''}
         <p class="article-meta">
           <time>${post.date}</time>
           <span class="separator">•</span>

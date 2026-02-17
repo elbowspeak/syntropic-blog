@@ -253,6 +253,14 @@ body {
   color: #8A5CF4;
 }
 
+.article-subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--text-secondary);
+  margin: 0 0 8px;
+  line-height: 1.4;
+}
+
 .article-meta {
   font-size: 13px;
   color: var(--text-secondary);
