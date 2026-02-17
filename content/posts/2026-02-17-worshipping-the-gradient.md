@@ -1,6 +1,6 @@
 ---
 title: Worshipping the Gradient
-subtitle: "## What e/acc Gets Right, and Why It's So Wrong"
+subtitle: What e/acc Gets Right, and Why It's So Wrong
 date: 2026-02-17T12:36:00
 draft: false
 description: ''
