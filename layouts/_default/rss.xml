@@ -1,10 +1,13 @@
-{{- $pctx := . -}}
-{{- if .IsHome -}}{{ $pctx = .Site }}{{- end -}}
 {{- $pages := slice -}}
-{{- if or $.IsHome $.IsSection -}}
-{{- $pages = $pctx.RegularPages -}}
+{{- if .IsHome -}}
+{{- $essays := where .Site.RegularPages "Section" "posts" -}}
+{{- $writing := where .Site.RegularPages "Section" "writing" -}}
+{{- $pages = union $essays $writing -}}
+{{- $pages = $pages.ByDate.Reverse -}}
+{{- else if .IsSection -}}
+{{- $pages = .RegularPages -}}
 {{- else -}}
-{{- $pages = $pctx.Pages -}}
+{{- $pages = .Pages -}}
 {{- end -}}
 {{- $limit := .Site.Config.Services.RSS.Limit -}}
 {{- if ge $limit 1 -}}
@@ -20,8 +23,8 @@
     <language>{{ .Site.LanguageCode }}</language>{{ with .Site.Author.email }}
     <managingEditor>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</managingEditor>{{ end }}{{ with .Site.Author.email }}
     <webMaster>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</webMaster>{{ end }}{{ with .Site.Copyright }}
-    <copyright>{{.}}</copyright>{{ end }}{{ if not .Date.IsZero }}
-    <lastBuildDate>{{ (index $pages.ByLastmod.Reverse 0).Lastmod.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+    <copyright>{{.}}</copyright>{{ end }}{{ if and (not .Date.IsZero) $pages }}
+    <lastBuildDate>{{ (index $pages 0).Lastmod.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
     {{- with .OutputFormats.Get "RSS" -}}
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end -}}

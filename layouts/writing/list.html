@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="writing-list">
+  <h1>Writing</h1>
+  <p class="section-subtitle">Shorter pieces on AI, strategy, and the work</p>
+  {{- range .Pages }}
+  <div class="writing-item">
+    <a href="{{ .RelPermalink }}">
+      <h2 class="writing-title">{{ .Title }}</h2>
+      <p class="writing-meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+        {{- if .ReadingTime }}
+        <span>&middot;</span>
+        <span>{{ .ReadingTime }} min read</span>
+        {{- end }}
+      </p>
+      {{- with .Params.description }}
+      <p class="writing-excerpt">{{ . }}</p>
+      {{- else }}
+      <p class="writing-excerpt">{{ .Summary | plainify | htmlUnescape | truncate 160 }}</p>
+      {{- end }}
+    </a>
+  </div>
+  {{- end }}
+</div>
+{{ end }}

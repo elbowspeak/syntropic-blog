@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+      text { font-family: 'Inter', -apple-system, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="800" fill="#0D0D0D"/>
+
+  <!-- Ring strokes at r=340, 255, 170, 80 from center 400,400 -->
+  <!-- That means strokes cross y-axis at: 60/740, 145/655, 230/570, 320/480 -->
+
+  <!-- Layer 4: Knowledge Substrate (outermost) r=340 -->
+  <circle cx="400" cy="400" r="340" fill="#8A5CF4" fill-opacity="0.015" stroke="#555" stroke-width="1.5" stroke-dasharray="8 6" opacity="0.7"/>
+
+  <!-- Layer 3: Integrations r=255 -->
+  <circle cx="400" cy="400" r="255" fill="#5CA0F4" fill-opacity="0.03" stroke="#5CA0F4" stroke-width="2" opacity="0.45"/>
+
+  <!-- Layer 2: Skills & Agents r=170 -->
+  <circle cx="400" cy="400" r="170" fill="#8A5CF4" fill-opacity="0.04" stroke="#8A5CF4" stroke-width="2.5" opacity="0.55"/>
+
+  <!-- Layer 1: Telos (innermost) r=80 -->
+  <circle cx="400" cy="400" r="80" fill="#8A5CF4" fill-opacity="0.1" stroke="#8A5CF4" stroke-width="3" opacity="0.85"/>
+
+  <!-- Radial connection lines -->
+  <line x1="400" y1="320" x2="400" y2="232" stroke="#8A5CF4" stroke-width="0.8" opacity="0.2"/>
+  <line x1="400" y1="480" x2="400" y2="568" stroke="#8A5CF4" stroke-width="0.8" opacity="0.2"/>
+  <line x1="320" y1="400" x2="232" y2="400" stroke="#8A5CF4" stroke-width="0.8" opacity="0.2"/>
+  <line x1="480" y1="400" x2="568" y2="400" stroke="#8A5CF4" stroke-width="0.8" opacity="0.2"/>
+
+  <!-- ============ TITLE (above everything) ============ -->
+  <text x="400" y="38" text-anchor="middle" fill="#8A5CF4" font-size="26" font-weight="700" letter-spacing="10">KAYT</text>
+
+  <!-- ============ TELOS CORE (inside r=80, safe zone y=320-480) ============ -->
+  <text x="400" y="395" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="700" letter-spacing="5">TELOS</text>
+  <text x="400" y="422" text-anchor="middle" fill="#C4A8FF" font-size="13" font-weight="400" letter-spacing="1">mission · beliefs · models</text>
+
+  <!-- ============ SKILLS ZONE (between r=80 and r=170, y=230-320 top, y=480-570 bottom) ============ -->
+  <!-- Ring label: centered in top of zone, y~260 (well clear of strokes at 230 and 320) -->
+  <text x="400" y="258" text-anchor="middle" fill="#8A5CF4" font-size="13" font-weight="600" letter-spacing="3" opacity="0.8">SKILLS &amp; AGENTS</text>
+
+  <!-- Skill labels placed inside the ring zone -->
+  <!-- Top: y~285 (between stroke at 230 and 320) -->
+  <text x="400" y="288" text-anchor="middle" fill="#E0E0E0" font-size="16" font-weight="500">Research</text>
+  <!-- Right side at y=400: x needs to be between r=80 (x=480) and r=170 (x=570), so ~x=525 -->
+  <text x="528" y="355" text-anchor="middle" fill="#E0E0E0" font-size="16" font-weight="500">Competitive Intel</text>
+  <text x="540" y="450" text-anchor="middle" fill="#E0E0E0" font-size="16" font-weight="500">Consulting</text>
+  <!-- Bottom: y~540 (between stroke at 480 and 570) -->
+  <text x="400" y="530" text-anchor="middle" fill="#E0E0E0" font-size="16" font-weight="500">Network</text>
+  <!-- Left side -->
+  <text x="268" y="355" text-anchor="middle" fill="#E0E0E0" font-size="16" font-weight="500">Writing</text>
+  <text x="262" y="450" text-anchor="middle" fill="#E0E0E0" font-size="16" font-weight="500">Portfolio</text>
+
+  <!-- ============ INTEGRATIONS ZONE (between r=170 and r=255, y=145-230 top, y=570-655 bottom) ============ -->
+  <!-- Ring label: y~175 (between strokes at 145 and 230) -->
+  <text x="400" y="178" text-anchor="middle" fill="#5CA0F4" font-size="13" font-weight="600" letter-spacing="3" opacity="0.8">INTEGRATIONS</text>
+
+  <!-- Integration labels inside the zone -->
+  <!-- Top: y~205 -->
+  <text x="400" y="208" text-anchor="middle" fill="#8BBEF7" font-size="15" font-weight="400">Atlassian</text>
+  <!-- Right: x between r=170 (x=570) and r=255 (x=655), so ~x=612 -->
+  <text x="612" y="405" text-anchor="middle" fill="#8BBEF7" font-size="15" font-weight="400">HubSpot</text>
+  <!-- Bottom: y~615 -->
+  <text x="400" y="618" text-anchor="middle" fill="#8BBEF7" font-size="15" font-weight="400">Web</text>
+  <!-- Left: x~188 -->
+  <text x="188" y="405" text-anchor="middle" fill="#8BBEF7" font-size="15" font-weight="400">GDrive</text>
+  <!-- Upper-right diagonal: integrations zone at ~45deg, midpoint of r=170 and r=255 is r~212 -->
+  <text x="548" y="258" text-anchor="middle" fill="#8BBEF7" font-size="15" font-weight="400">Slack</text>
+  <!-- Lower-left diagonal -->
+  <text x="252" y="548" text-anchor="middle" fill="#8BBEF7" font-size="15" font-weight="400">Excel</text>
+
+  <!-- ============ KNOWLEDGE SUBSTRATE ZONE (between r=255 and r=340, y=60-145 top, y=655-740 bottom) ============ -->
+  <!-- Ring label: y~90 (between strokes at 60 and 145) -->
+  <text x="400" y="92" text-anchor="middle" fill="#AAA" font-size="13" font-weight="600" letter-spacing="3" opacity="0.7">KNOWLEDGE SUBSTRATE</text>
+
+  <!-- Substrate labels at corners, inside zone -->
+  <text x="610" y="185" text-anchor="middle" fill="#AAA" font-size="14" font-weight="400" opacity="0.8">Obsidian Vault</text>
+  <text x="630" y="580" text-anchor="middle" fill="#AAA" font-size="14" font-weight="400" opacity="0.8">Memory</text>
+  <text x="170" y="580" text-anchor="middle" fill="#AAA" font-size="14" font-weight="400" opacity="0.8">Logs</text>
+  <text x="185" y="185" text-anchor="middle" fill="#AAA" font-size="14" font-weight="400" opacity="0.8">Sessions</text>
+
+  <!-- Dot accents where radials meet ring strokes -->
+  <circle cx="400" cy="230" r="3" fill="#8A5CF4" opacity="0.5"/>
+  <circle cx="400" cy="570" r="3" fill="#8A5CF4" opacity="0.5"/>
+  <circle cx="230" cy="400" r="3" fill="#8A5CF4" opacity="0.5"/>
+  <circle cx="570" cy="400" r="3" fill="#8A5CF4" opacity="0.5"/>
+
+  <circle cx="400" cy="145" r="2.5" fill="#5CA0F4" opacity="0.4"/>
+  <circle cx="400" cy="655" r="2.5" fill="#5CA0F4" opacity="0.4"/>
+  <circle cx="145" cy="400" r="2.5" fill="#5CA0F4" opacity="0.4"/>
+  <circle cx="655" cy="400" r="2.5" fill="#5CA0F4" opacity="0.4"/>
+</svg>

@@ -1,0 +1,10 @@
+{{ define "main" }}
+<div class="projects-grid">
+  <h1>Current Projects</h1>
+  <div class="projects-cards">
+    {{- range .Pages }}
+    {{ partial "project-card.html" . }}
+    {{- end }}
+  </div>
+</div>
+{{ end }}

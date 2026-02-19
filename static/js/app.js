@@ -63,7 +63,7 @@
       featuredImage = `<figure class="article-featured-figure"><img class="article-featured-image" src="${post.image}" alt="Featured image for ${escapeHtml(post.title)}">${caption}</figure>`;
     }
     articleContent.innerHTML = `
-      <a href="/" class="mobile-back" onclick="window.mobileBack(); return false;">← Back to posts</a>
+      <a href="/posts/" class="mobile-back" onclick="window.mobileBack(); return false;">← Back to essays</a>
       <header class="article-header">
         <h1 class="article-title"><a href="${post.slug}">${escapeHtml(post.title)}</a></h1>
         ${post.subtitle ? `<p class="article-subtitle">${escapeHtml(post.subtitle)}</p>` : ''}
@@ -259,8 +259,8 @@
     if (window.innerWidth <= 768) {
       app.classList.add('is-list-view');
       app.classList.remove('is-article-view');
-      history.pushState(null, '', '/');
-      document.title = document.querySelector('.site-title')?.textContent || 'Blog';
+      history.pushState(null, '', '/posts/');
+      document.title = 'Essays | ' + (document.querySelector('.nav-logo')?.textContent || 'syntropic.xyz');
     } else {
       history.back();
     }

@@ -3,17 +3,13 @@
   <header>
     <h1 class="page-title">{{ .Title }}</h1>
     {{- with .Params.subtitle }}<p class="page-subtitle">{{ . }}</p>{{- end }}
-    {{- if .Date.IsZero | not }}
-    {{- if ne .Section "" }}
     <p class="page-meta">
       <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
       {{- if .ReadingTime }}
-      <span class="separator">&middot;</span>
+      <span>&middot;</span>
       <span>{{ .ReadingTime }} min read</span>
       {{- end }}
     </p>
-    {{- end }}
-    {{- end }}
   </header>
   {{- with .Params.image }}
   <figure class="article-featured-figure">

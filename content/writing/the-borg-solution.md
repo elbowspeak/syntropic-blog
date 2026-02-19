@@ -6,6 +6,8 @@ draft: false
 description: ''
 image: /images/bcbb1d8a-7ec2-41df-a864-537eef05720f.webp
 image_caption: ''
+aliases:
+  - /posts/2026-01-25-breaking-information-silos-into-negentropy/
 ---
 
 I've watched organizational mergers and enterprise integrations fail more times than I can count. But the systemic friction is always misidentified.

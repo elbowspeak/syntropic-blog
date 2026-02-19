@@ -1,56 +1,22 @@
 {{ define "main" }}
-<aside class="sidebar">
-  <header class="sidebar-header">
-    <h1 class="site-title"><a href="/">{{ .Site.Title }}</a></h1>
-    {{ with .Site.Params.description }}<p class="site-tagline">{{ . }}</p>{{ end }}
-  </header>
-  <nav class="post-list" role="navigation" aria-label="Blog posts">
-    {{- $posts := .Pages -}}
-    {{- $grouped := $posts.GroupByDate "Monday, January 2, 2006" -}}
-    {{- range $grouped }}
-    <div class="date-group">
-      <h2 class="date-header">{{ .Key }}</h2>
-      {{- range .Pages }}
-      <article class="post-item" data-slug="{{ .RelPermalink }}" tabindex="0">
-        <div class="post-item-content">
-          <h3 class="post-item-title">{{ .Title }}</h3>
-          <p class="post-item-excerpt">{{ with .Params.subtitle }}{{ . }}{{ else }}{{ .Summary | plainify | htmlUnescape | truncate 100 }}{{ end }}</p>
-        </div>
-        {{- with .Params.image }}
-        <img class="post-item-thumb" src="{{ . }}" alt="" loading="lazy">
-        {{- end }}
-      </article>
-      {{- end }}
-    </div>
+<div class="page-content">
+  <h1 class="page-title">{{ .Title }}</h1>
+  {{- with .Content }}
+  <div class="article-body prose" style="margin-bottom: 32px;">
+    {{ . }}
+  </div>
+  {{- end }}
+  {{- if .Pages }}
+  <ul class="home-list">
+    {{- range .Pages }}
+    <li>
+      <a href="{{ .RelPermalink }}">
+        <span class="title">{{ .Title }}</span>
+        <span class="date">{{ .Date.Format "Jan 2, 2006" }}</span>
+      </a>
+    </li>
     {{- end }}
-  </nav>
-</aside>
-<main class="content" role="main">
-  <article class="article" id="article-content">
-    {{- with (index .Pages 0) }}
-    {{- partial "article.html" . }}
-    {{- else }}
-    <div class="empty-state">
-      <p>No posts in this section.</p>
-    </div>
-    {{- end }}
-  </article>
-</main>
-
-<script id="posts-data" type="application/json">
-{{- $posts := .Pages -}}
-[
-{{- range $i, $p := $posts -}}
-{{- if $i }},{{ end }}
-{
-  "slug": {{ $p.RelPermalink | jsonify }},
-  "title": {{ $p.Title | jsonify }},
-  "subtitle": {{ with $p.Params.subtitle }}{{ . | jsonify }}{{ else }}""{{ end }},
-  "date": {{ $p.Date.Format "January 2, 2006" | jsonify }},
-  "readingTime": {{ $p.ReadingTime }},
-  "content": {{ $p.Content | jsonify }}
-}
-{{- end }}
-]
-</script>
+  </ul>
+  {{- end }}
+</div>
 {{ end }}

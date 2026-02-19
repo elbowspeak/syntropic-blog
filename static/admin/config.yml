@@ -8,7 +8,7 @@ public_folder: /images
 
 collections:
   - name: posts
-    label: Posts
+    label: Essays
     folder: content/posts
     create: true
     sortable_fields: ['date', 'title']
@@ -23,11 +23,84 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: Title, name: title, widget: string }
-      - { label: Subtitle, name: subtitle, widget: string, required: false, hint: "Shown in sidebar under title. Falls back to first line of body if empty." }
+      - { label: Subtitle, name: subtitle, widget: string, required: false, hint: "Shown in sidebar under title" }
       - { label: Publish Date, name: date, widget: datetime }
       - { label: Draft, name: draft, widget: boolean, default: false }
       - { label: Description, name: description, widget: string, required: false }
       - { label: Featured Image, name: image, widget: image, required: false }
-      - { label: Image Caption, name: image_caption, widget: string, required: false, hint: "e.g., Photo by Jane Doe" }
+      - { label: Image Caption, name: image_caption, widget: string, required: false }
       - { label: Tags, name: tags, widget: list, required: false }
       - { label: Body, name: body, widget: markdown }
+
+  - name: writing
+    label: Writing
+    folder: content/writing
+    create: true
+    sortable_fields: ['date', 'title']
+    sort: "date:desc"
+    filter: { field: "title", pattern: ".+" }
+    slug: "{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Subtitle, name: subtitle, widget: string, required: false }
+      - { label: Publish Date, name: date, widget: datetime }
+      - { label: Draft, name: draft, widget: boolean, default: false }
+      - { label: Description, name: description, widget: string, required: false }
+      - { label: Featured Image, name: image, widget: image, required: false }
+      - { label: Image Caption, name: image_caption, widget: string, required: false }
+      - { label: Tags, name: tags, widget: list, required: false }
+      - { label: Body, name: body, widget: markdown }
+
+  - name: projects
+    label: Projects
+    folder: content/projects
+    create: true
+    sortable_fields: ['weight', 'title']
+    filter: { field: "title", pattern: ".+" }
+    slug: "{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Description, name: description, widget: string }
+      - { label: Status, name: status, widget: select, options: ["active", "building", "investing", "archived"] }
+      - { label: External URL, name: url_external, widget: string, required: false }
+      - { label: Weight (sort order), name: weight, widget: number, default: 10 }
+      - { label: Body, name: body, widget: markdown }
+
+  - name: pages
+    label: Pages
+    files:
+      - label: "Homepage"
+        name: "home"
+        file: "content/_index.md"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: string, required: false }
+          - { label: Body, name: body, widget: markdown }
+      - label: "About"
+        name: "about"
+        file: "content/about/index.md"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: string, required: false }
+          - { label: Body, name: body, widget: markdown }
+      - label: "Telos"
+        name: "telos"
+        file: "content/telos/index.md"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: string, required: false }
+          - { label: Body, name: body, widget: markdown }
+      - label: "Consulting"
+        name: "consulting"
+        file: "content/consulting/index.md"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: string, required: false }
+          - { label: Body, name: body, widget: markdown }
+      - label: "System"
+        name: "system"
+        file: "content/system/index.md"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: string, required: false }
+          - { label: Body, name: body, widget: markdown }

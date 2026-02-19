@@ -1,0 +1,9 @@
+<a href="{{ with .Params.url_external }}{{ . }}{{ else }}{{ .RelPermalink }}{{ end }}" class="project-card">
+  {{- with .Params.status }}
+  <p class="project-status {{ . }}">{{ . }}</p>
+  {{- end }}
+  <h2 class="project-name">{{ .Title }}</h2>
+  {{- with .Params.description }}
+  <p class="project-desc">{{ . }}</p>
+  {{- end }}
+</a>

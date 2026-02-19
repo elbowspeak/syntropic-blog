@@ -1,50 +1,117 @@
 {{ define "main" }}
-<aside class="sidebar">
-  <header class="sidebar-header">
-    <h1 class="site-title"><a href="/">{{ .Site.Title }}</a></h1>
-    {{ with .Site.Params.description }}<p class="site-tagline">{{ . }}</p>{{ end }}
-  </header>
-  <nav class="post-list" role="navigation" aria-label="Blog posts">
-    {{- $posts := where .Site.RegularPages "Section" "posts" -}}
-    {{- $grouped := $posts.GroupByDate "Monday, January 2, 2006" -}}
-    {{- range $grouped }}
-    <div class="date-group">
-      <h2 class="date-header">{{ .Key }}</h2>
-      {{- range .Pages }}
-      <article class="post-item" data-slug="{{ .RelPermalink }}" tabindex="0">
-        <div class="post-item-content">
-          <h3 class="post-item-title">{{ .Title }}</h3>
-          <p class="post-item-excerpt">{{ .Summary | plainify | htmlUnescape | truncate 100 }}</p>
-        </div>
-        {{- with .Params.image }}
-        <img class="post-item-thumb" src="{{ . }}" alt="Thumbnail for {{ $.Title }}" loading="lazy">
-        {{- end }}
-      </article>
-      {{- end }}
-    </div>
-    {{- end }}
-  </nav>
-</aside>
-<main class="content" role="main">
-  <div class="sr-only" aria-live="polite" id="article-announcement"></div>
-  <article class="article" id="article-content">
-    {{- with (index (where .Site.RegularPages "Section" "posts") 0) }}
-    {{- partial "article.html" . }}
-    {{- else }}
-    <div class="empty-state">
-      <p>No posts yet. Add your first post to content/posts/</p>
-    </div>
-    {{- end }}
-  </article>
-</main>
+<section class="home-hero">
+  <h1>Syntropic</h1>
+  <p class="home-defn">adjective · the tendency of living systems to organize toward greater complexity and coherence</p>
+  <div class="intro">
+    {{ .Content }}
+  </div>
+</section>
 
-<script id="posts-data" type="application/json">
-{{- $posts := where .Site.RegularPages "Section" "posts" -}}
-{{- $data := slice -}}
-{{- range $p := $posts -}}
-  {{- $item := dict "slug" $p.RelPermalink "title" $p.Title "date" ($p.Date.Format "January 2, 2006") "readingTime" $p.ReadingTime "content" $p.Content "image" $p.Params.image "imageCaption" $p.Params.image_caption -}}
-  {{- $data = $data | append $item -}}
-{{- end -}}
-{{ $data | jsonify (dict "indent" "  ") | safeJS }}
-</script>
+<div class="home-sections">
+  {{- $essays := (where .Site.RegularPages "Section" "posts") -}}
+  {{- if $essays }}
+  <section class="home-section">
+    <h2><a href="/posts/">Essays</a></h2>
+    <p class="home-section-desc">Long-form on intelligence, entropy, and complex systems</p>
+    <ul class="home-list">
+      {{- range first 5 $essays }}
+      <li>
+        <a href="{{ .RelPermalink }}">
+          <span class="title">{{ .Title }}</span>
+          <span class="date">{{ .Date.Format "Jan 2" }}</span>
+        </a>
+      </li>
+      {{- end }}
+    </ul>
+    {{- if gt (len $essays) 5 }}
+    <a href="/posts/" class="section-link">All essays &rarr;</a>
+    {{- end }}
+  </section>
+  {{- end }}
+
+  {{- $writing := (where .Site.RegularPages "Section" "writing") -}}
+  {{- if $writing }}
+  <section class="home-section">
+    <h2><a href="/writing/">Writing</a></h2>
+    <p class="home-section-desc">Shorter pieces on AI, strategy, and the work</p>
+    <ul class="home-list">
+      {{- range first 3 $writing }}
+      <li>
+        <a href="{{ .RelPermalink }}">
+          <span class="title">{{ .Title }}</span>
+          <span class="date">{{ .Date.Format "Jan 2" }}</span>
+        </a>
+      </li>
+      {{- end }}
+    </ul>
+    <a href="/writing/" class="section-link">All writing &rarr;</a>
+  </section>
+  {{- end }}
+
+  {{- $signals := where (where .Site.RegularPages "Section" "intelligence") ".Params.stream" "signals" -}}
+  {{- if $signals }}
+  <section class="home-section">
+    <h2><a href="/intelligence/">Signals</a></h2>
+    <p class="home-section-desc">Live analysis produced autonomously by Kayt</p>
+    <ul class="home-list">
+      {{- range first 3 (sort $signals ".Date" "desc") }}
+      <li>
+        <a href="{{ .RelPermalink }}">
+          <span class="title">{{ .Title }}</span>
+          <span class="date">{{ .Date.Format "Jan 2" }}</span>
+        </a>
+      </li>
+      {{- end }}
+    </ul>
+    <a href="/intelligence/" class="section-link">All signals &rarr;</a>
+  </section>
+  {{- end }}
+
+  {{- $projects := (where .Site.RegularPages "Section" "projects") -}}
+  {{- if $projects }}
+  <section class="home-section">
+    <h2><a href="/projects/">Current Projects</a></h2>
+    <ul class="home-list">
+      {{- range $projects }}
+      <li>
+        <a href="{{ .RelPermalink }}">
+          <span class="title">{{ .Title }}</span>
+          <span class="date">{{ with .Params.status }}{{ . }}{{ end }}</span>
+        </a>
+      </li>
+      {{- end }}
+    </ul>
+  </section>
+  {{- end }}
+
+  <section class="home-section">
+    <h2>Elsewhere</h2>
+    <ul class="home-list">
+      <li>
+        <a href="/telos/">
+          <span class="title">Telos</span>
+          <span class="date">What drives this</span>
+        </a>
+      </li>
+      <li>
+        <a href="/about/">
+          <span class="title">About</span>
+          <span class="date">Background & contact</span>
+        </a>
+      </li>
+      <li>
+        <a href="/consulting/">
+          <span class="title">Consulting</span>
+          <span class="date">Working together</span>
+        </a>
+      </li>
+      <li>
+        <a href="/system/">
+          <span class="title">System</span>
+          <span class="date">How Kayt works</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+</div>
 {{ end }}

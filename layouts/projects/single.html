@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="page-content">
+  <header>
+    <p class="project-status {{ with .Params.status }}{{ . }}{{ end }}">{{ with .Params.status }}{{ . }}{{ end }}</p>
+    <h1 class="page-title">{{ .Title }}</h1>
+    {{- with .Params.description }}<p class="page-subtitle">{{ . }}</p>{{- end }}
+    {{- with .Params.url_external }}
+    <p class="page-meta"><a href="{{ . }}" target="_blank" rel="noopener">{{ . }}</a></p>
+    {{- end }}
+  </header>
+  {{- with .Params.image }}
+  <figure class="article-featured-figure">
+    <img class="article-featured-image" src="{{ . }}" alt="Screenshot of {{ $.Title }}">
+    {{- with $.Params.image_caption }}<figcaption>{{ . }}</figcaption>{{- end }}
+  </figure>
+  {{- end }}
+  <div class="article-body prose">
+    {{ .Content }}
+  </div>
+</div>
+{{ end }}

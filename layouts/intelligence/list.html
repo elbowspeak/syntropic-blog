@@ -1,0 +1,63 @@
+{{ define "main" }}
+<div class="page-content">
+  <header>
+    <h1 class="page-title">{{ .Title }}</h1>
+    {{- with .Params.description }}<p class="page-subtitle">{{ . }}</p>{{- end }}
+  </header>
+  <div class="article-body prose">
+    {{ .Content }}
+  </div>
+
+  {{ if eq .Kind "section" }}
+    {{/* Top-level /intelligence/ page — render each subsection as a category card */}}
+    <div class="intel-categories">
+      {{ range .Sections }}
+      {{ $pages := .RegularPages }}
+      <div class="intel-category">
+        <div class="intel-category-header">
+          <div>
+            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            {{- with .Params.description }}<p>{{ . }}</p>{{- end }}
+          </div>
+          {{ if $pages }}
+          <span class="intel-category-badge">{{ len $pages }} reports</span>
+          {{ end }}
+        </div>
+        {{ if $pages }}
+        <div class="intel-category-reports">
+          {{ range first 3 (sort $pages ".Date" "desc") }}
+          <a href="{{ .RelPermalink }}" class="intel-report-card">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+            <span class="intel-report-title">{{ .Title }}</span>
+            <span class="intel-report-preview">{{ .Summary | plainify | truncate 120 }}</span>
+          </a>
+          {{ end }}
+        </div>
+        {{ if gt (len $pages) 3 }}
+        <div class="intel-category-footer">
+          <a href="{{ .RelPermalink }}">View all &rarr;</a>
+        </div>
+        {{ end }}
+        {{ else }}
+        <div class="intel-category-empty">
+          <p>Coming soon</p>
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+
+  {{ else }}
+    {{/* Sub-section list page */}}
+    <div class="intel-category-reports intel-category-reports--full">
+      {{ range sort .Pages ".Date" "desc" }}
+      <a href="{{ .RelPermalink }}" class="intel-report-card">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+        <span class="intel-report-title">{{ .Title }}</span>
+        <span class="intel-report-preview">{{ .Summary | plainify | truncate 140 }}</span>
+      </a>
+      {{ end }}
+    </div>
+  {{ end }}
+</div>
+{{ end }}
