@@ -948,7 +948,7 @@ body {
 .intel-categories {
   display: grid;
   gap: 24px;
-  margin-top: 12px;
+  margin-top: 40px;
 }
 
 /* Remove the 120px scroll spacer on intelligence list page */
