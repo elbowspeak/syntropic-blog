@@ -1,11 +1,11 @@
 ---
 title: "Sufi Healing Archive"
-description: "Digitization, analysis, and synthesis of decades of Sufi Healing Order teachings into a living knowledge base."
+description: "Pro bono digitization, analysis, and synthesis of decades of Sufi Healing Order teachings into a living knowledge base."
 status: "active"
 weight: 4
 ---
 
-A comprehensive digitization, analysis, and synthesis project for the teachings of Devi and the Sufi Healing Order of North America. Decades of written, audio, and video content, scattered across formats, platforms, and physical media, being aggregated into a structured knowledge base that can power books, courses, and community resources.
+A volunteer digitization, analysis, and synthesis project for the teachings of Devi and the Sufi Healing Order of North America. Decades of written, audio, and video content, scattered across formats, platforms, and physical media, being aggregated into a structured knowledge base that can power books, courses, and community resources.
 
 ## What this is
 
