@@ -35,7 +35,7 @@ On any given day, Kayt is:
 
 - Generating morning prioritization based on calendar, tasks, and open threads
 - Monitoring competitive signals across client industries
-- Running 13-dimension weekly portfolio analysis across 7 companies
+- Running 13-dimension weekly portfolio analysis
 - Managing pipeline, lead scoring, and account intelligence for S37
 - Synthesizing research from multiple sources into structured deliverables
 - Maintaining this site and the writing on it
