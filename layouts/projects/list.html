@@ -2,7 +2,7 @@
 <div class="projects-grid">
   <h1>Current Projects</h1>
   <div class="projects-cards">
-    {{- range .Pages }}
+    {{- range .Pages.ByWeight }}
     {{ partial "project-card.html" . }}
     {{- end }}
   </div>
