@@ -4,6 +4,10 @@ date: 2026-02-19
 description: "How AI collaboration closes the execution gap for individuals and teams"
 ---
 
+**tl;dr:** I have ADHD. AI collaboration eliminated the grind between having ideas and producing finished work. The same dynamic applies to organizations: the constraint is rarely intelligence, it's the bandwidth between insight and action. AI adds a delegation layer that compresses that gap, freeing the thinking that was already there to operate at its actual level.
+
+---
+
 I've had ADHD my whole life. I figured it out in college, got the formal diagnosis much later, tried medication and couldn't sleep, too buzzy, not for me. So I managed it through sheer structural overcompensation. Calendars, systems, the kind of elaborate personal infrastructure that looks like discipline from the outside but is actually a coping mechanism for a brain that won't do what you tell it to.
 
 Here's what that meant in practice: I always had more ideas than I could execute. The gap between having an insight and turning it into something (an essay, a framework, a working tool) was enormous. The thinking was easy. The grind was the problem. The part where you sit down and push words around a screen for hours, maintaining focus on a single thread while your brain throws up seventeen more interesting threads it would rather chase. That's where my ideas went to die.
