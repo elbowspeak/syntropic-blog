@@ -25,4 +25,4 @@ The system builds a causal model of the relevant domain, identifies the variable
 
 ## Current state
 
-Alpha. The core modeling approach is proven through client engagements at Xtract and S37. Now generalizing the architecture into a standalone product.
+Alpha. The core modeling approach is proven through client engagements at S37. Now generalizing the architecture into a standalone product.
