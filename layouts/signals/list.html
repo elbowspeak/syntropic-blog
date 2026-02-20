@@ -8,7 +8,7 @@
     {{ .Content }}
   </div>
 
-  {{ if eq .Kind "section" }}
+  {{ if and (eq .Kind "section") (.Sections) }}
     {{/* Top-level /signals/ page — render each subsection as a category card */}}
     <div class="intel-categories">
       {{ range .Sections }}
