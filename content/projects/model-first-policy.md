@@ -2,7 +2,7 @@
 title: "Model-First Policy"
 description: "A coordination tool for people who share values but disagree on how to act. Uses Active Inference to surface the model mismatches that make well-designed interventions fail."
 status: "active"
-weight: 0
+weight: -1
 ---
 
 A coordination tool for people who share values but disagree on how to act together.
