@@ -57,7 +57,7 @@ Model-First Policy treats that extension as a practical design problem. If the f
 
 ## Get involved
 
-The MVP spec is public on GitHub. Development is in a private repository; if you want to contribute, request access there.
+The [MVP spec and repository are on GitHub](https://github.com/elbowspeak/model-first-policy).
 
 ---
 
