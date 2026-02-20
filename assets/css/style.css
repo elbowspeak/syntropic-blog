@@ -951,7 +951,7 @@ body {
   margin-top: 40px;
 }
 
-/* Remove the 120px scroll spacer on intelligence list page */
+/* Remove the 120px scroll spacer on signals list page */
 .article-body.prose:has(+ .intel-categories)::after {
   display: none;
 }
@@ -1088,8 +1088,8 @@ body {
   margin-top: 24px;
 }
 
-/* Intelligence single report */
-.intelligence-stream-label {
+/* Signals single report */
+.signals-stream-label {
   font-size: 11px;
   font-weight: 500;
   text-transform: uppercase;
@@ -1098,29 +1098,29 @@ body {
   margin-bottom: 8px;
 }
 
-.intelligence-stream-label.signals {
+.signals-stream-label.signals {
   color: var(--accent-secondary);
 }
 
-.intelligence-stream-label.agents {
+.signals-stream-label.agents {
   color: #5CF49A;
 }
 
-.intelligence-report h2 {
+.signals-report h2 {
   font-size: 20px;
   font-weight: 600;
   margin-top: 2em;
   margin-bottom: 0.5em;
 }
 
-.intelligence-report h3 {
+.signals-report h3 {
   font-size: 16px;
   font-weight: 600;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
 }
 
-.intelligence-nav {
+.signals-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1130,12 +1130,12 @@ body {
   font-size: 14px;
 }
 
-.intelligence-nav a {
+.signals-nav a {
   color: var(--accent-primary);
   text-decoration: none;
 }
 
-.intelligence-nav a:hover {
+.signals-nav a:hover {
   text-decoration: underline;
 }
 

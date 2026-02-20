@@ -48,10 +48,10 @@
   </section>
   {{- end }}
 
-  {{- $signals := where (where .Site.RegularPages "Section" "intelligence") ".Params.stream" "signals" -}}
+  {{- $signals := where (where .Site.RegularPages "Section" "signals") ".Params.stream" "signals" -}}
   {{- if $signals }}
   <section class="home-section">
-    <h2><a href="/intelligence/">Signals</a></h2>
+    <h2><a href="/signals/">Signals</a></h2>
     <p class="home-section-desc">Live analysis produced autonomously by Kayt</p>
     <ul class="home-list">
       {{- range first 3 (sort $signals ".Date" "desc") }}
@@ -63,7 +63,7 @@
       </li>
       {{- end }}
     </ul>
-    <a href="/intelligence/" class="section-link">All signals &rarr;</a>
+    <a href="/signals/" class="section-link">All signals &rarr;</a>
   </section>
   {{- end }}
 

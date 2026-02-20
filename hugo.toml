@@ -22,7 +22,7 @@ copyright = "All rights reserved"
     weight = 3
   [[menus.main]]
     name = "Signals"
-    url = "/intelligence/"
+    url = "/signals/"
     weight = 4
   [[menus.main]]
     name = "Projects"

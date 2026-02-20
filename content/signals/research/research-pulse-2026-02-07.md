@@ -2,7 +2,6 @@
 title: "Query-Aware Agent Memory, CORAL Steering, and More"
 date: 2026-02-07
 stream: research
-layout: intelligence-single
 author: Automated via research-pulse-weekly.py + Claude synthesis
 tags:
   - research

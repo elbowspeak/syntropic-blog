@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="page-content">
   <header>
-    <p class="intelligence-stream-label {{ with .Params.stream }}{{ . }}{{ end }}">{{ with .Params.stream }}{{ . }}{{ end }}</p>
+    <p class="signals-stream-label {{ with .Params.stream }}{{ . }}{{ end }}">{{ with .Params.stream }}{{ . }}{{ end }}</p>
     <h1 class="page-title">{{ .Title }}</h1>
     <p class="page-meta">
       <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
@@ -15,10 +15,10 @@
       {{- end }}
     </p>
   </header>
-  <div class="article-body prose intelligence-report">
+  <div class="article-body prose signals-report">
     {{ .Content }}
   </div>
-  <nav class="intelligence-nav">
+  <nav class="signals-nav">
     {{- with .PrevInSection }}<a href="{{ .RelPermalink }}">&larr; {{ .Title }}</a>{{ end }}
     <a href="{{ (.Parent).RelPermalink }}">All {{ with $.Params.stream }}{{ . }}{{ end }}</a>
     {{- with .NextInSection }}<a href="{{ .RelPermalink }}">{{ .Title }} &rarr;</a>{{ end }}

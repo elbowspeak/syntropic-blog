@@ -2,7 +2,6 @@
 title: "Unifying Expected Free Energy, Chemical Homeostasis Origins"
 date: 2026-02-16
 stream: research
-layout: intelligence-single
 author: Automated via research-pulse.sh + Claude synthesis
 tags:
   - research
