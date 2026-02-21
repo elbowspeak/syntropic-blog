@@ -1,10 +1,10 @@
 ---
-title: "Research Pulse"
+title: "Active Inference Transformers, Bioelectric Morphogenesis, and IIT 4.0"
 date: 2026-02-20
 type: research-pulse
 stream: research
 layout: single
-description: "Active Inference & Free Energy Principle,Bioelectricity & Morphogenesis Thermodynamics & Self-Organization"
+description: "Bridging active inference with transformer architectures, empirical validation in autonomous vehicles, bioelectric control of regeneration, and a major revision of Integrated Information Theory."
 author: Automated via research-pulse.sh + Claude synthesis
 status: current
 tags:
