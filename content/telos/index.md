@@ -17,7 +17,11 @@ Build on-ramps that expand what people can aspire to and achieve in service of h
 
 ## Beliefs
 
-Entropy is the driver. Cooperation is the strategy. The barriers to coordination aren't fundamental — they're friction. We should be building technologies that lower coordination costs without flattening the human relationships that make cooperation worth pursuing.
+Energy dissipates, and the interesting question is what gets built along the way. Life, culture, institutions, relationships are all temporary structures that exist because they dissipate energy more effectively than the alternatives. This is the most optimistic frame I know, because it means that what we build together emerges from physics, participating in the beauty and grandeur of what the universe is already doing.
+
+Cooperation is how complex systems hold together long enough to matter. Coordinated action is thermodynamically cheaper than everyone grinding against each other in the dark, which is reason enough to take it seriously. And the fact that it can also be beautiful is a bonus the universe didn't owe us. The catch is that cooperation requires shared models as well as some mutual understanding of what's actually going on. Unfortunately, those models diverge constantly, silently, in ways that look more like personality conflicts or strategic disagreements. I think they're just people navigating different maps of the same territory.
+
+Most of the friction I've seen in thirty years of working inside and alongside organizations comes from exactly this: misalignment that nobody can quite name. Entropy, cooperation, the quiet divergence of mental models. Everything else I do follows from there.
 
 ## Models
 
