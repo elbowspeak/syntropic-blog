@@ -45,7 +45,7 @@ e/acc treats the selection pressure as though it were an demand. Identifying the
 
 ### Engineering confidence, eschatological faith
 
-e/acc presents itself as engineering realism. Hard-nosed, unsentimental, following the physics where it leads. But the central claim isn't an engineering claim at all. It's a profession of faith: the technological systems we're building will generate solutions to the problems those systems create, and they will do so on a timeline compatible with the survival of the things we value.
+e/acc presents itself as engineering realism. Hard-nosed, unsentimental, following the physics where it leads. But the central claim reduces to a profession of faith: the technological systems we're building will generate solutions to the problems those systems create, and they will do so on a timeline compatible with the survival of the things we value.
 
 Sometimes this is stated explicitly. Sometimes it's the silent load-bearing assumption beneath arguments about how regulation will slow us down and slowing down is the real danger. But it's always there, and **it is structurally identical to eschatology**. The technology will provide because the thermodynamic sequence has gotten us this far, and faith dictates that it will carry us the rest of the way.
 
