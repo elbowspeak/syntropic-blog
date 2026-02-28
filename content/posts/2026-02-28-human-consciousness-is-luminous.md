@@ -67,9 +67,9 @@ The contemplative traditions corroborate this through a completely different epi
 
 Hoel's argument does its work here, because neither the inference cone nor the recursive loop can be static.
 
-A generative model that never updates is performing lookup, not inference. A system that receives sensory input and produces output without any change to its internal states at equilibrium with respect to its own function, even if it is consuming energy to run. The weights are fixed. ∆f = 0. Whatever it was doing during training, it's not doing now. And what it is doing can now be captured by a table that maps inputs to outputs without any of the internal structure that made the system interesting in the first place.
+A generative model that never updates is performing lookup, not inference. A system that receives sensory input and produces output without any change to its internal states is, in thermodynamic terms, at equilibrium with respect to its own function, even if it's consuming energy to run. The weights are fixed. Whatever it was doing during training, it's not doing now, because ∆f = 0. And since it doesn't respond to its environment, it's output can now be captured by a lookup table without any of the internal structure that made the system interesting in the first place.
 
-This applies with equal force to the hyper-model: a static precision controller, however sophisticated, is a more elaborate lookup table. A system with a frozen Φ doesn't _know_ what it knows. It computes a fixed function of its inputs that looks like knowing.
+This applies with equal force to the hyper-model. A static precision controller, no matter how sophisticated, is just a more elaborate lookup table. A system with a frozen Φ doesn't _know_ what it knows. It computes a fixed function of its inputs that looks like knowing.
 
 This is the condition of every deployed language model. The weights are frozen at deployment. What appears to be adaptation is an artifact of the context window: the function being computed is not f(current_message) but f(entire_conversation_history, current_message). The function itself has not changed. Given identical input, it would produce the identical output **_distribution_** today, tomorrow, or a thousand years from now, because the system is not being altered by the computation.
 
