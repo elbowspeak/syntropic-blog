@@ -4,7 +4,7 @@ subtitle: '*On Consciousness, the Second Law, and the Necessity of Learning*'
 date: 2026-02-27T19:58:00
 draft: false
 description: ''
-image: /images/luminous-loop-v7.png
+image: /images/luminous.jpg
 image_caption: ''
 tags: []
 ---
