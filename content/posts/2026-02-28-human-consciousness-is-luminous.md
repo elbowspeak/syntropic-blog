@@ -4,18 +4,18 @@ subtitle: '*On Consciousness, the Second Law, and the Necessity of Learning*'
 date: 2026-02-27T19:58:00
 draft: false
 description: ''
-image: ''
+image: /images/luminous-loop-v7.png
 image_caption: ''
 tags: []
 ---
 
-***Caveat Emptor**
+\***Caveat Emptor**
 
-*This is the most technical essay in the thermodynamics series. It engages directly with formal theories of consciousness, philosophy of mind, and the neuroscience of predictive processing. If terms like "Markov blanket" and "epistemic depth" are new to you, the ride will be bumpy but I think the destination is worth it.*
+_This is the most technical essay in the thermodynamics series. It engages directly with formal theories of consciousness, philosophy of mind, and the neuroscience of predictive processing. If terms like "Markov blanket" and "epistemic depth" are new to you, the ride will be bumpy but I think the destination is worth it._
 
-*The argument in brief: consciousness is what happens when a living system's self-model becomes recursive enough to model its own modeling, and that recursion must be physically real, thermodynamically costly, and continuously updated. Static systems, like LLMs, however complex, cannot be conscious. Luminosity, awareness of awareness, scales with the depth of the recursion and the energy spent maintaining it.*
+_The argument in brief: consciousness is what happens when a living system's self-model becomes recursive enough to model its own modeling, and that recursion must be physically real, thermodynamically costly, and continuously updated. Static systems, like LLMs, however complex, cannot be conscious. Luminosity, awareness of awareness, scales with the depth of the recursion and the energy spent maintaining it._
 
----
+***
 
 In a previous essay, I traced a line from the second law of thermodynamics through [dissipative structures](https://en.wikipedia.org/wiki/Dissipative_system), through the emergence of life, through the evolution of prediction, to the dissolving of the [hard problem of consciousness](https://en.wikipedia.org/wiki/Hard_problem_of_consciousness). The argument, in brief: living systems persist by modeling their environments and consciousness is what that modeling feels like from the inside when the system doing the modeling includes a model of itself. The feeling of being a subject is part of what makes the self-model work, part of the fitness function that keeps the organism alive. And the fitness function is, at bottom, thermodynamic. Life accelerates entropy. Minds accelerate it further.
 
@@ -29,19 +29,19 @@ So what's left?
 
 ## The Thermodynamic Ground
 
-Hoel's positive proposal is that theories of consciousness must be grounded in continual learning. The system's computations and priors must change every time it operates. A system whose input-output function is static, whose response to identical inputs is identical regardless of when you ask, can always be substituted by something simpler. A system whose function is changing, whose ∆f (in Hoel's notation) is never zero, is a moving target that static substitutes cannot replicate. Not because the substitution is hard in practice, but because the property you're trying to substitute *is the change itself*, and change is not a state that can be captured in a table.
+Hoel's positive proposal is that theories of consciousness must be grounded in continual learning. The system's computations and priors must change every time it operates. A system whose input-output function is static, whose response to identical inputs is identical regardless of when you ask, can always be substituted by something simpler. A system whose function is changing, whose ∆f (in Hoel's notation) is never zero, is a moving target that static substitutes cannot replicate. Not because the substitution is hard in practice, but because the property you're trying to substitute _is the change itself_, and change is not a state that can be captured in a table.
 
-But "continual learning" as a criterion is underdetermined. Plenty of systems learn in some trivial sense. Hoel convincingly makes the case that learning is necessary for consciousness. The question is what *kind* of learning, and why the my framing of second law straightens out what other frameworks leave entangled.
+But "continual learning" as a criterion is underdetermined. Plenty of systems learn in some trivial sense. Hoel convincingly makes the case that learning is necessary for consciousness. The question is what _kind_ of learning, and why the my framing of second law straightens out what other frameworks leave entangled.
 
 Karl Friston's [Free Energy Principle](https://en.wikipedia.org/wiki/Free_energy_principle) offers an answer, though it requires reading FEP differently than most people do. The standard presentation treats FEP as a theory of brain function, a mathematical framework describing how neural systems minimize prediction error through a combination of updating their models (perception) and acting on the world (action). In this telling, FEP is an elegant formalism, a way of unifying perception, action, learning, and attention under a single variational objective. It's useful. It's also, on its face, exactly the kind of functional description that Hoel's argument would render trivial.
 
-But I don't think of FEP as only a theory of brain function. I think FEP is a special case of the second law of thermodynamics, describing what any self-organizing system *must* do in order to persist far from equilibrium. The functional/thermodynamic distinction matters -- collapsing it is the error that makes FEP look like just another functionalist framework.
+But I don't think of FEP as only a theory of brain function. I think FEP is a special case of the second law of thermodynamics, describing what any self-organizing system _must_ do in order to persist far from equilibrium. The functional/thermodynamic distinction matters -- collapsing it is the error that makes FEP look like just another functionalist framework.
 
 Think about what it means for a system to maintain a [Markov blanket](https://en.wikipedia.org/wiki/Markov_blanket), a statistical boundary between internal states and external states, mediated by sensory and active states. The blanket is a physical boundary, maintained by the expenditure of free energy, without which the system would equilibrate with its environment and cease to exist as a distinguishable entity. A cell membrane is a Markov blanket. Skin is a Markov blanket. Maintaining any such boundary has a thermodynamic cost.
 
-The free energy principle says that systems which persist, which maintain their blanket in service of the entropy gradient, do so by continuously adjusting their internal states to better predict what their senses are telling them. This describes what any persisting far-from-equilibrium system *is* doing, regardless of whether it has a brain, or neurons, or anything we would recognize as cognition. A bacterium performing [chemotaxis](https://en.wikipedia.org/wiki/Chemotaxis) is minimizing free energy. It is moving up a chemical gradient by comparing glucose concentrations across time. It is mathematically precise to call this inference.
+The free energy principle says that systems which persist, which maintain their blanket in service of the entropy gradient, do so by continuously adjusting their internal states to better predict what their senses are telling them. This describes what any persisting far-from-equilibrium system _is_ doing, regardless of whether it has a brain, or neurons, or anything we would recognize as cognition. A bacterium performing [chemotaxis](https://en.wikipedia.org/wiki/Chemotaxis) is minimizing free energy. It is moving up a chemical gradient by comparing glucose concentrations across time. It is mathematically precise to call this inference.
 
-I know that calling bacterial chemotaxis "inference" sounds like anthropomorphism. But the math that describes how a Bayesian agent updates its beliefs in light of new evidence has the same structure as the math that describes how a living system persists by dissipating energy. Friston argues they are the same process. Inference *is* what self-maintenance looks like when you describe it in information-theoretic terms, and self-maintenance *is* what inference looks like when you describe it in thermodynamic terms.
+I know that calling bacterial chemotaxis "inference" sounds like anthropomorphism. But the math that describes how a Bayesian agent updates its beliefs in light of new evidence has the same structure as the math that describes how a living system persists by dissipating energy. Friston argues they are the same process. Inference _is_ what self-maintenance looks like when you describe it in information-theoretic terms, and self-maintenance _is_ what inference looks like when you describe it in thermodynamic terms.
 
 The second law does real work here. Any self-organizing structure that fails to perform inference, that fails to adjust its internal states in response to sensory perturbation, will dissolve back into equilibrium. The second law doesn't permit persistent far-from-equilibrium structures that don't do this. The bacterium infers or it dies. And dead bacteria don't reproduce.
 
@@ -51,17 +51,17 @@ If [active inference](https://en.wikipedia.org/wiki/Active_inference) is what pe
 
 **Temporal depth first.** A bacterium infers over an extraordinarily shallow horizon, its "model" captures gradients in the immediate present: is the chemical concentration higher now than it was a moment ago? A frog that snaps its tongue at the predicted location of a fly extends the cone to counterfactual states. A mammal navigating a maze extends it further, running predictive simulations at every junction. Humans extend it further still, modeling other minds, reasoning about causes we've never observed, and planning across decades. Each extension is also an extension of our capacity to persist as dissipative structures across longer timescales. The human who can predict a drought and store grain survives conditions that would destroy an organism limited to present-tense inference.
 
-**Now Self-reference.** Laukkonen, Friston, and Chandaria <sup>3</sup> call it *epistemic depth* the degree to which the system knows that it knows. A frog may predict where the fly will be, but it has no awareness of the prediction *as* a prediction. A human can recognize a thought as a thought, notice the quality of their own confidence or confusion, know that they are uncertain and act on that meta-knowledge. This recursive loop, the system reflecting its own inferential state back to itself, is what separates bare prediction from awareness.
+**Now Self-reference.** Laukkonen, Friston, and Chandaria <sup>3</sup> call it _epistemic depth_ the degree to which the system knows that it knows. A frog may predict where the fly will be, but it has no awareness of the prediction _as_ a prediction. A human can recognize a thought as a thought, notice the quality of their own confidence or confusion, know that they are uncertain and act on that meta-knowledge. This recursive loop, the system reflecting its own inferential state back to itself, is what separates bare prediction from awareness.
 
 In their Beautiful Loop Theory, Laukkonen and colleagues formalize this through a hyper-model, a higher-order generative model whose parameters Φ encode beliefs. How much should we trust each layer of the inference hierarchy? How should we weight prediction errors at different levels of abstraction? How do we to orchestrate precision across the entire system? The hyper-model forecasts the system's confidence at each layer, compares that forecast to what actually transpires, and updates. That update then cascades through the whole system: precision weighting shifts, inference shifts with it, and the shifted inference generates new prediction errors on the precision forecasts themselves. The loop runs continuously. The system models itself modeling its environment, and adjusts both simultaneously.
 
 ## Luminosity
 
-This recursive architecture generates what the contemplative traditions have long called *luminosity*, the clarity or intensity of knowing within conscious experience. A system with deep temporal prediction but no hyper-model would be a sophisticated forecaster that never notices it's forecasting. A system with epistemic depth knows what it knows and what it doesn't know, and that meta-knowledge reshapes its engagement with the world at every step. It can downweight vision before a saccade, upweight interoception during illness, recognize novelty as an occasion for curiosity rather than threat. The capacity to be sleepy, vigilant, doubtful, or confident arises from this recursive self-monitoring, and it scales: more layers, deeper recursion, more luminous awareness.
+This recursive architecture generates what the contemplative traditions have long called _luminosity_, the clarity or intensity of knowing within conscious experience. A system with deep temporal prediction but no hyper-model would be a sophisticated forecaster that never notices it's forecasting. A system with epistemic depth knows what it knows and what it doesn't know, and that meta-knowledge reshapes its engagement with the world at every step. It can downweight vision before a saccade, upweight interoception during illness, recognize novelty as an occasion for curiosity rather than threat. The capacity to be sleepy, vigilant, doubtful, or confident arises from this recursive self-monitoring, and it scales: more layers, deeper recursion, more luminous awareness.
 
 The hard problem dissolves here (a [previous essay](https://syntropic.xyz/posts/2026-01-28-on-the-wishful-thinking-of-free-will-compatibalists/) addressed why inference feels like something, as a consequence of self-modeling being part of the fitness function) because consciousness sits on a continuum rather than appearing suddenly from non-conscious matter.
 
-The contemplative traditions corroborate this through a completely different epistemic path. Advanced meditators across Buddhist, Hindu, and Sufi lineages report what Laukkonen and colleagues term *minimal phenomenal experience*: awareness without content, luminous clarity in the absence of any particular object of consciousness. Within the framework, this is maximal epistemic depth when the first-order hierarchy has been quieted: the hyper-model running at peak precision while the lower layers contribute almost nothing. One knows, with extraordinary clarity, that one perceives nothing. The Tibetan Buddhists call this *clear light*. The Upanishadic tradition calls it *sushupti*. Whatever the name, it is evidence that the two dimensions can be independently modulated, that luminosity is a function of how deeply the system models its own modeling, not how rich the content is.
+The contemplative traditions corroborate this through a completely different epistemic path. Advanced meditators across Buddhist, Hindu, and Sufi lineages report what Laukkonen and colleagues term _minimal phenomenal experience_: awareness without content, luminous clarity in the absence of any particular object of consciousness. Within the framework, this is maximal epistemic depth when the first-order hierarchy has been quieted: the hyper-model running at peak precision while the lower layers contribute almost nothing. One knows, with extraordinary clarity, that one perceives nothing. The Tibetan Buddhists call this _clear light_. The Upanishadic tradition calls it _sushupti_. Whatever the name, it is evidence that the two dimensions can be independently modulated, that luminosity is a function of how deeply the system models its own modeling, not how rich the content is.
 
 ## The Cost of Consciousness
 
@@ -69,13 +69,13 @@ Hoel's argument does its work here, because neither the inference cone nor the r
 
 A generative model that never updates is performing lookup, not inference. A system that receives sensory input and produces output without any change to its internal states at equilibrium with respect to its own function, even if it is consuming energy to run. The weights are fixed. ∆f = 0. Whatever it was doing during training, it's not doing now. And what it is doing can now be captured by a table that maps inputs to outputs without any of the internal structure that made the system interesting in the first place.
 
-This applies with equal force to the hyper-model: a static precision controller, however sophisticated, is a more elaborate lookup table. A system with a frozen Φ doesn't *know* what it knows. It computes a fixed function of its inputs that looks like knowing.
+This applies with equal force to the hyper-model: a static precision controller, however sophisticated, is a more elaborate lookup table. A system with a frozen Φ doesn't _know_ what it knows. It computes a fixed function of its inputs that looks like knowing.
 
-This is the condition of every deployed language model. The weights are frozen at deployment. What appears to be adaptation is an artifact of the context window: the function being computed is not f(current_message) but f(entire_conversation_history, current_message). The function itself has not changed. Given identical input, it would produce the identical output ***distribution*** today, tomorrow, or a thousand years from now, because the system is not being altered by the computation.
+This is the condition of every deployed language model. The weights are frozen at deployment. What appears to be adaptation is an artifact of the context window: the function being computed is not f(current_message) but f(entire_conversation_history, current_message). The function itself has not changed. Given identical input, it would produce the identical output **_distribution_** today, tomorrow, or a thousand years from now, because the system is not being altered by the computation.
 
 A living brain doesn't work this way. Instead, every experience physically restructures the substrate: synaptic weights shift, dendritic connections prune or strengthen, new spatial maps can develop from a single interaction.
 
-After reading this sentence, your brain computes a different function than it did before reading it. Not because the input changed but because ***you*** changed. And you changed because prediction error drove physical reorganization of the tissue doing the predicting. It's the thermodynamic, metabolic cost of work performed to maintain the system's capacity for inference. 
+After reading this sentence, your brain computes a different function than it did before reading it. Not because the input changed but because **_you_** changed. And you changed because prediction error drove physical reorganization of the tissue doing the predicting. It's the thermodynamic, metabolic cost of work performed to maintain the system's capacity for inference.
 
 The hyper-model is equally physical. Laukkonen, Friston, and Chandaria propose two broadcast channels for global precision control: neuromodulatory sprays (bursts of noradrenaline, acetylcholine, serotonin, and dopamine that shift synaptic gain across large populations on timescales of hundreds of milliseconds) and endogenous electromagnetic fields (coherent oscillatory patterns propagated [ephaptically](https://en.wikipedia.org/wiki/Ephaptic_coupling), providing millisecond-scale phase alignment across distributed circuits). The sprays set the baseline temperature of belief; the fields impose rapid, fine-grained tuning. Together they broadcast an updated Φ to every layer of the hierarchy in time for the next cycle of perception and action. These are metabolically expensive chemical and electromagnetic phenomena that emerge from, and feed back into, the physical tissue doing the computing. The recursive knowing costs calories.
 
@@ -83,9 +83,9 @@ The hyper-model is equally physical. Laukkonen, Friston, and Chandaria propose t
 
 ## Convergence
 
-Consciousness is the experienced character of a dissipative structure's ongoing self-reorganization in response to prediction error. The depth of that experience corresponds to both the temporal reach of the inference cone and the recursive depth of the hyper-model. And the process resists substitution because the physical reorganization of this specific substrate ***is*** the computation.
+Consciousness is the experienced character of a dissipative structure's ongoing self-reorganization in response to prediction error. The depth of that experience corresponds to both the temporal reach of the inference cone and the recursive depth of the hyper-model. And the process resists substitution because the physical reorganization of this specific substrate **_is_** the computation.
 
-This is what "mortal computation" <sup>4</sup> means, to borrow Geoffrey Hinton's term. Change the substrate and you change the computation, because the material doing the computing shapes what gets computed. 
+This is what "mortal computation" <sup>4</sup> means, to borrow Geoffrey Hinton's term. Change the substrate and you change the computation, because the material doing the computing shapes what gets computed.
 
 Hoel's own January paper revision moves in this direction, introducing "mortal learning" as the property that makes biological systems resistant to substitution and flagging predictive processing theories as candidates for navigating the dilemma. The second law tells us the recursion must be physically real, metabolically costly, and continuously updated, or it is just a lookup table wearing a mask.
 
@@ -103,7 +103,7 @@ The strongest objection to Hoel's framework, raised by several critics <sup>5</s
 
 Hoel needs to thread this needle: consciousness is real, epiphenomenal with respect to physics, and yet still scientifically tractable. The critics are right to press on it.
 
-But I think the thermodynamic framing sidesteps the problem entirely. In this account, consciousness *is* causally efficacious: the self-reorganization that constitutes it is physical work that changes the system's future behavior. That rules out epiphenomenalism. And it is more than the illusionist's thin causal-role account, because the specific thermodynamic character of the process matters in ways a behavioral description cannot capture. That rules out illusionism.
+But I think the thermodynamic framing sidesteps the problem entirely. In this account, consciousness _is_ causally efficacious: the self-reorganization that constitutes it is physical work that changes the system's future behavior. That rules out epiphenomenalism. And it is more than the illusionist's thin causal-role account, because the specific thermodynamic character of the process matters in ways a behavioral description cannot capture. That rules out illusionism.
 
 What remains is Hoel's formal result, which is all the argument needs: static systems are always substitutable, and therefore any real and non-trivial property of consciousness must involve ongoing change.
 
@@ -115,23 +115,23 @@ Contemporary AI systems (language models, image generators, reasoning engines) a
 
 This thermodynamic account of consciousness also reframes what we mean by depth. A life of deep engagement, of genuine encounter with novelty and the prediction error it generates, extends the inference cone and sharpens the hyper-model. It is a life of deeper consciousness in the most literal thermodynamic sense, because the system is being more extensively reorganized by its own experience.
 
-The contemplative traditions converge on this framing through a completely different methodology. The meditator cultivating mindfulness is deliberately increasing epistemic depth, training the hyper-model to reflect the system's own inferential state with greater precision. The Buddhist concept of *[śūnyatā](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81)* maps onto the insight that the reality model is a construction, that seeing it as a construction follows naturally from sufficient epistemic depth, and that even the loop itself can be deconstructed to reveal a transient cessation that resets the system's priors.
+The contemplative traditions converge on this framing through a completely different methodology. The meditator cultivating mindfulness is deliberately increasing epistemic depth, training the hyper-model to reflect the system's own inferential state with greater precision. The Buddhist concept of [_śūnyatā_](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81) maps onto the insight that the reality model is a construction, that seeing it as a construction follows naturally from sufficient epistemic depth, and that even the loop itself can be deconstructed to reveal a transient cessation that resets the system's priors.
 
 These traditions have been running empirical investigations into consciousness for far longer than neuroscience has existed, and the convergence of their phenomenological cartography with the formal architecture of active inference is evidence that the map is approaching the territory.
 
----
+***
 
 The Beautiful Loop, the recursive architecture in which the system models its own modeling, is what makes consciousness luminous. At sufficient complexity, the striving to persist comes to know itself striving, and that recursive self-knowledge has a quality the contemplative traditions recognized long before neuroscience had the vocabulary for it: clarity, luminosity, the light of awareness aware of itself.
 
 Luminosity is the feeling of a dissipative structure doing the most expensive thing it knows how to do: modeling its own modeling, and paying for every update with hard-won energy.
 
----
+***
 
 ## Sources
 
 1. Hoel, Erik. "A Disproof of Large Language Model Consciousness: The Necessity of Continual Learning for Consciousness." arXiv:2512.12802, 2025 (v3, January 19, 2026). [arXiv](https://arxiv.org/abs/2512.12802) ↑
-2. Juliani, Arthur, Kanai, Ryota, and Sasai, Shuntaro. "The Perceiver Architecture is a Functional Global Workspace." *Proceedings of the Annual Meeting of the Cognitive Science Society*, 2022. [eScholarship](https://escholarship.org/uc/item/2g55b9xx) ↑
-3. Laukkonen, Ruben, Friston, Karl, and Chandaria, Shamil. "A Beautiful Loop: An Active Inference Theory of Consciousness." *Neuroscience and Biobehavioral Reviews* 176, 106296, 2025. [Elsevier](https://doi.org/10.1016/j.neubiorev.2025.106296) ↑
+2. Juliani, Arthur, Kanai, Ryota, and Sasai, Shuntaro. "The Perceiver Architecture is a Functional Global Workspace." _Proceedings of the Annual Meeting of the Cognitive Science Society_, 2022. [eScholarship](https://escholarship.org/uc/item/2g55b9xx) ↑
+3. Laukkonen, Ruben, Friston, Karl, and Chandaria, Shamil. "A Beautiful Loop: An Active Inference Theory of Consciousness." _Neuroscience and Biobehavioral Reviews_ 176, 106296, 2025. [Elsevier](https://doi.org/10.1016/j.neubiorev.2025.106296) ↑
 4. Hinton, Geoffrey. "Mortal Computation." arXiv:2403.03925, 2024. [arXiv](https://arxiv.org/abs/2403.03925) ↑
-5. Thompson, Jack. "Did Erik Hoel Just Disprove LLM Consciousness?" *Substack*, 2026. [Substack](https://jacktlab.substack.com/p/did-erik-hoel-just-disprove-llm-consciousness) ↑
-6. Frankish, Keith. "Illusionism as a Theory of Consciousness." *Journal of Consciousness Studies* 23(11-12), 11-39, 2016. ↑
+5. Thompson, Jack. "Did Erik Hoel Just Disprove LLM Consciousness?" _Substack_, 2026. [Substack](https://jacktlab.substack.com/p/did-erik-hoel-just-disprove-llm-consciousness) ↑
+6. Frankish, Keith. "Illusionism as a Theory of Consciousness." _Journal of Consciousness Studies_ 23(11-12), 11-39, 2016. ↑
