@@ -1,6 +1,6 @@
 ---
 title: Human Consciousness is Luminous
-subtitle: '*On Consciousness, the Second Law, and the Necessity of Learning*'
+subtitle: On Consciousness, the Second Law, and the Necessity of Learning
 date: 2026-02-27T19:58:00
 draft: false
 description: ''
