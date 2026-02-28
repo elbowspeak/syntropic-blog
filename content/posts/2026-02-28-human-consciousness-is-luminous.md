@@ -9,9 +9,7 @@ image_caption: ''
 tags: []
 ---
 
-**Caveat Emptor**
-
-_This is the most technical essay in the thermodynamics series. It engages directly with formal theories of consciousness, philosophy of mind, and the neuroscience of predictive processing. If terms like "Markov blanket" and "epistemic depth" are new to you, the ride will be bumpy but I think the destination is worth it._
+_This is the most technical essay in the thermodynamics series. It engages formal theories of consciousness, philosophy of mind, and the neuroscience of predictive processing. _
 
 _The argument in brief: consciousness is what happens when a living system's self-model becomes recursive enough to model its own modeling, and that recursion must be physically real, thermodynamically costly, and continuously updated. Static systems, like LLMs, however complex, cannot be conscious. Luminosity, awareness of awareness, scales with the depth of the recursion and the energy spent maintaining it._
 
