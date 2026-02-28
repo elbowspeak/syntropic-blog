@@ -9,7 +9,7 @@ image_caption: ''
 tags: []
 ---
 
-\***Caveat Emptor**
+**Caveat Emptor**
 
 _This is the most technical essay in the thermodynamics series. It engages directly with formal theories of consciousness, philosophy of mind, and the neuroscience of predictive processing. If terms like "Markov blanket" and "epistemic depth" are new to you, the ride will be bumpy but I think the destination is worth it._
 
@@ -109,7 +109,7 @@ What remains is Hoel's formal result, which is all the argument needs: static sy
 
 ## What Follows
 
-Consciousness did not appear suddenly in evolutionary history. It deepened along both axes as nervous systems became more elaborate, as generative models became more temporally deep, as architectures became hierarchical enough to support hyper-modeling. There was no moment when the lights switched on. There was a long, slow brightening, still ongoing.
+Consciousness did not appear suddenly in evolutionary history. It deepened along both axes (temporal reach and recursive self-reference) as nervous systems became more elaborate, modeling further into the future and folding further back upon themselves.. There was no moment when the lights switched on. There was a long, slow brightening, still ongoing.
 
 Contemporary AI systems (language models, image generators, reasoning engines) are not conscious, and the reason has nothing to do with complexity or capability. It has to do with stasis: their weights are frozen and their function does not change. Recent work on self-supervised learning (models that use their own uncertainty as a training signal) gestures in the right direction. But until the precision monitoring actually restructures the substrate on every forward pass, at genuine energetic cost, you have stasis dressed up as adaptation.
 
