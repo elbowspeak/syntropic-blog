@@ -3,7 +3,7 @@ title: Burning It Down to the Filter
 subtitle: The Great Filter is whether you burn down the launch pad before liftoff.
 date: 2026-03-04T15:00:00
 draft: false
-description: 'The polycrisis isn't a Venn diagram of overlapping risks. It's white light through a prism — a single thermodynamic beam split into what look like separate phenomena.'
+description: "The polycrisis isn't a Venn diagram of overlapping risks. It's white light through a prism — a single thermodynamic beam split into what look like separate phenomena."
 image: /images/smoking-cigarette.jpg
 image_caption: ''
 tags: []
