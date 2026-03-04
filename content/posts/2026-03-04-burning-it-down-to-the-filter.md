@@ -1,6 +1,6 @@
 ---
 title: Burning It Down to the Filter
-subtitle: Can we avoid burning down the launch platform before liftoff?
+subtitle: Destroying the launchpad before liftoff
 date: 2026-03-04T15:00:00
 draft: false
 description: ''
