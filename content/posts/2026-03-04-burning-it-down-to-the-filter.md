@@ -1,6 +1,6 @@
 ---
 title: Burning It Down to the Filter
-subtitle: The Great Filter is whether you burn down the launch pad before liftoff.
+subtitle: Can we avoid burning down the launch platform before liftoff?
 date: 2026-03-04T15:00:00
 draft: false
 description: ''
