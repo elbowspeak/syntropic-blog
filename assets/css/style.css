@@ -1106,6 +1106,143 @@ body {
   color: #5CF49A;
 }
 
+.signals-stream-label.iran-war {
+  color: #F45C5C;
+}
+
+/* Iran War — IranStrike Event Feed */
+.iranstrike-feed {
+  margin: 1.5em 0;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.iranstrike-feed-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  background: #1a1a18;
+  border-bottom: 1px solid var(--border-color);
+  font-size: 12px;
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary);
+}
+
+.iranstrike-feed-header .feed-title {
+  color: #F45C5C;
+  font-weight: 600;
+}
+
+.iranstrike-feed-header .feed-stats {
+  color: var(--text-tertiary);
+}
+
+.iranstrike-spotlight {
+  padding: 12px 14px;
+  background: rgba(244, 92, 92, 0.08);
+  border-bottom: 1px solid var(--border-color);
+  font-size: 13px;
+}
+
+.iranstrike-spotlight .spotlight-label {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 2px 6px;
+  border-radius: 3px;
+  background: #F45C5C;
+  color: #000;
+  margin-right: 6px;
+}
+
+.iranstrike-spotlight .spotlight-text {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.iranstrike-event {
+  display: grid;
+  grid-template-columns: 56px 64px 60px 1fr;
+  gap: 0;
+  padding: 6px 14px;
+  border-bottom: 1px solid rgba(53, 53, 51, 0.5);
+  font-size: 12px;
+  font-family: var(--font-mono);
+  line-height: 1.5;
+  align-items: start;
+}
+
+.iranstrike-event:last-child {
+  border-bottom: none;
+}
+
+.iranstrike-event:hover {
+  background: var(--bg-hover);
+}
+
+.iranstrike-event .ev-time {
+  color: var(--text-tertiary);
+  font-size: 11px;
+}
+
+.iranstrike-event .ev-severity {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.iranstrike-event .ev-severity.critical { color: #FF3B3B; }
+.iranstrike-event .ev-severity.high { color: #FF8C42; }
+.iranstrike-event .ev-severity.medium { color: #FFD93D; }
+.iranstrike-event .ev-severity.low { color: var(--text-tertiary); }
+
+.iranstrike-event .ev-route {
+  color: var(--text-secondary);
+  font-size: 11px;
+  text-align: center;
+}
+
+.iranstrike-event .ev-desc {
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: 13px;
+}
+
+.iranstrike-event .ev-desc a {
+  color: var(--text-tertiary);
+  text-decoration: none;
+  font-size: 11px;
+  font-family: var(--font-mono);
+}
+
+.iranstrike-event .ev-desc a:hover {
+  color: var(--accent-primary);
+}
+
+.iranstrike-stats {
+  display: flex;
+  gap: 16px;
+  padding: 10px 14px;
+  background: #1a1a18;
+  border-top: 1px solid var(--border-color);
+  font-size: 11px;
+  font-family: var(--font-mono);
+  color: var(--text-tertiary);
+  flex-wrap: wrap;
+}
+
+.iranstrike-stats .stat-value { color: var(--text-secondary); font-weight: 600; }
+.iranstrike-stats .stat-critical { color: #FF3B3B; }
+.iranstrike-stats .stat-high { color: #FF8C42; }
+.iranstrike-stats .stat-medium { color: #FFD93D; }
+
 .signals-report h2 {
   font-size: 20px;
   font-weight: 600;
