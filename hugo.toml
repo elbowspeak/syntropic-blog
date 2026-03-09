@@ -25,13 +25,17 @@ copyright = "All rights reserved"
     url = "/signals/"
     weight = 4
   [[menus.main]]
+    name = "Reading"
+    url = "/readings/"
+    weight = 5
+  [[menus.main]]
     name = "Projects"
     url = "/projects/"
-    weight = 5
+    weight = 6
   [[menus.main]]
     name = "About"
     url = "/about/"
-    weight = 6
+    weight = 7
 
 [markup]
   [markup.highlight]

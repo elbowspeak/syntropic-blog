@@ -1,0 +1,33 @@
+{{ define "main" }}
+<div class="page-content">
+  <header>
+    <h1 class="page-title">{{ .Title }}</h1>
+    {{- with .Description }}<p class="page-subtitle">{{ . }}</p>{{- end }}
+  </header>
+  <div class="readings-archive">
+    {{ range .RegularPages.ByDate.Reverse }}
+    {{ $sourceURL := .Params.source_url }}
+    <a href="{{ $sourceURL }}" class="reading-card reading-card--wide" target="_blank" rel="noopener">
+      <span class="reading-source">
+        {{ with $sourceURL }}{{ $parsed := urls.Parse . }}<img src="https://www.google.com/s2/favicons?domain={{ $parsed.Host }}&sz=16" alt="" class="reading-favicon" loading="lazy">{{ end }}
+        {{ .Params.source_name | default "Source" }}
+      </span>
+      <span class="reading-title">{{ .Title }}</span>
+      {{ with .Params.description }}<span class="reading-description">{{ . | truncate 200 }}</span>{{ end }}
+      {{ with .Content }}
+      <span class="reading-annotation">
+        <span class="reading-annotation-label">Annotation:</span>
+        {{ . | plainify | truncate 200 }}
+      </span>
+      {{ end }}
+      {{ with .Params.tags }}
+      <span class="reading-tags">
+        {{ range . }}<span class="reading-tag" data-tag="{{ . }}">{{ . }}</span>{{ end }}
+      </span>
+      {{ end }}
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+    </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
