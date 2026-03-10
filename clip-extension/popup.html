@@ -112,16 +112,7 @@
   <button id="clip-btn">Clip</button>
   <div class="shortcut">&#8984;+Enter to clip</div>
   <div class="status" id="status"></div>
-  <script>
-    const ta = document.getElementById('annotation');
-    function autoGrow() {
-      ta.style.height = 'auto';
-      ta.style.height = Math.max(80, ta.scrollHeight) + 'px';
-      document.body.style.height = 'auto';
-    }
-    ta.addEventListener('input', autoGrow);
-    ta.addEventListener('paste', () => setTimeout(autoGrow, 0));
-  </script>
+  <script src="autogrow.js"></script>
   <script src="popup.js"></script>
 </body>
 </html>
