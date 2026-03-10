@@ -4,8 +4,11 @@
   <meta charset="utf-8">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
+    html, body {
       width: 360px;
+      min-height: min-content;
+    }
+    body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       background: #262624;
       color: #e5e5e5;
@@ -114,6 +117,7 @@
     function autoGrow() {
       ta.style.height = 'auto';
       ta.style.height = Math.max(80, ta.scrollHeight) + 'px';
+      document.body.style.height = 'auto';
     }
     ta.addEventListener('input', autoGrow);
     ta.addEventListener('paste', () => setTimeout(autoGrow, 0));
