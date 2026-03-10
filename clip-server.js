@@ -1,6 +1,23 @@
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
+const { execFile } = require('child_process');
+
+const REPO_DIR = path.join(__dirname);
+
+function gitPush(filePath) {
+  const file = path.relative(REPO_DIR, filePath);
+  execFile('git', ['add', file], { cwd: REPO_DIR }, (err) => {
+    if (err) return console.error('git add failed:', err.message);
+    execFile('git', ['commit', '-m', `clip: ${path.basename(file, '.md')}`], { cwd: REPO_DIR }, (err) => {
+      if (err) return console.error('git commit failed:', err.message);
+      execFile('git', ['push'], { cwd: REPO_DIR }, (err) => {
+        if (err) return console.error('git push failed:', err.message);
+        console.log(`Pushed: ${file}`);
+      });
+    });
+  });
+}
 
 const PORT = 2847;
 const OUTPUT_DIR = path.join(__dirname, 'content', 'readings');
@@ -78,6 +95,7 @@ const server = http.createServer((req, res) => {
         fs.writeFileSync(filePath, toFrontmatter(data), 'utf8');
 
         console.log(`Clipped: ${path.basename(filePath)}`);
+        gitPush(filePath);
         res.writeHead(200, { 'Content-Type': 'application/json' });
         res.end(JSON.stringify({ ok: true, file: path.basename(filePath) }));
       } catch (err) {

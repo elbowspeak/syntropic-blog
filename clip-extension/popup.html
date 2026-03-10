@@ -42,8 +42,9 @@
       border-color: #D4A04A;
     }
     textarea {
-      resize: vertical;
+      resize: none;
       min-height: 80px;
+      overflow: hidden;
     }
     .source-row {
       display: flex;
@@ -108,6 +109,15 @@
   <button id="clip-btn">Clip</button>
   <div class="shortcut">&#8984;+Enter to clip</div>
   <div class="status" id="status"></div>
+  <script>
+    const ta = document.getElementById('annotation');
+    function autoGrow() {
+      ta.style.height = 'auto';
+      ta.style.height = Math.max(80, ta.scrollHeight) + 'px';
+    }
+    ta.addEventListener('input', autoGrow);
+    ta.addEventListener('paste', () => setTimeout(autoGrow, 0));
+  </script>
   <script src="popup.js"></script>
 </body>
 </html>

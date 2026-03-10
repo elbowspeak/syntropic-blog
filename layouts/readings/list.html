@@ -17,7 +17,7 @@
       {{ with .Content }}
       <span class="reading-annotation">
         <span class="reading-annotation-label">Annotation:</span>
-        {{ . | plainify | truncate 200 }}
+        {{ . | plainify | truncate 200 | safeHTML }}
       </span>
       {{ end }}
       {{ with .Params.tags }}
