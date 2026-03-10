@@ -11,9 +11,7 @@ Working with AI has unlocked what's inside my ADHD brain. Ideas used to stay tra
 
 I want to help people feel that unlock, that expansion of aspiration and possibility. Not just from ADHD, but from any complexity or cognitive wall they feel constrained by. That's who this work is for.
 
-## Mission
-
-Build on-ramps that expand what people can aspire to and achieve in service of human flourishing.
+I'm building on-ramps that expand what people can aspire to and achieve in service of human flourishing.
 
 ## Beliefs
 
