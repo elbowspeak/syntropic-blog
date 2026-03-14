@@ -17,7 +17,7 @@
       {{ with .Content }}
       <span class="reading-annotation">
         <span class="reading-annotation-label">Annotation:</span>
-        {{ . | plainify }}
+        {{ . | plainify | htmlUnescape }}
       </span>
       {{ end }}
       {{ with .Params.tags }}
