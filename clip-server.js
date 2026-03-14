@@ -7,13 +7,16 @@ const REPO_DIR = path.join(__dirname);
 
 function gitPush(filePath) {
   const file = path.relative(REPO_DIR, filePath);
-  execFile('git', ['add', file], { cwd: REPO_DIR }, (err) => {
-    if (err) return console.error('git add failed:', err.message);
-    execFile('git', ['commit', '-m', `clip: ${path.basename(file, '.md')}`], { cwd: REPO_DIR }, (err) => {
-      if (err) return console.error('git commit failed:', err.message);
-      execFile('git', ['push'], { cwd: REPO_DIR }, (err) => {
-        if (err) return console.error('git push failed:', err.message);
-        console.log(`Pushed: ${file}`);
+  execFile('git', ['pull', '--rebase'], { cwd: REPO_DIR }, (err) => {
+    if (err) console.error('git pull failed:', err.message);
+    execFile('git', ['add', file], { cwd: REPO_DIR }, (err) => {
+      if (err) return console.error('git add failed:', err.message);
+      execFile('git', ['commit', '-m', `clip: ${path.basename(file, '.md')}`], { cwd: REPO_DIR }, (err) => {
+        if (err) return console.error('git commit failed:', err.message);
+        execFile('git', ['push'], { cwd: REPO_DIR }, (err) => {
+          if (err) return console.error('git push failed:', err.message);
+          console.log(`Pushed: ${file}`);
+        });
       });
     });
   });
