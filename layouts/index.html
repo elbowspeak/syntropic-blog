@@ -57,8 +57,8 @@
       {{- range first 4 (sort $signals ".Date" "desc") }}
       <li>
         <a href="{{ .RelPermalink }}">
-          <span class="title">{{ .Title }}</span>
-          <span class="date">{{ .Date.Format "Jan 2" }}</span>
+          <span class="title">{{ with .Parent }}{{ .Title }}{{ end }}</span>
+          <span class="date">{{ .Params.description | truncate 80 }}</span>
         </a>
       </li>
       {{- end }}
