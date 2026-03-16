@@ -1,5 +1,97 @@
 {{ define "main" }}
 <div class="page-content">
+
+  {{ if and (eq .Kind "section") (.Sections) }}
+  {{/* ===== DASHBOARD VIEW (top-level /signals/) ===== */}}
+
+  {{/* Collect all signals across all streams, sorted by date */}}
+  {{ $allSignals := slice }}
+  {{ range .Sections }}
+    {{ range .RegularPages }}
+      {{ $allSignals = $allSignals | append . }}
+    {{ end }}
+  {{ end }}
+  {{ $allSignals = sort $allSignals ".Date" "desc" }}
+
+  {{/* Count recent (last 48h) signals */}}
+  {{ $now := now }}
+  {{ $recentCount := 0 }}
+  {{ range $allSignals }}
+    {{ if gt .Date.Unix (sub $now.Unix 172800) }}
+      {{ $recentCount = add $recentCount 1 }}
+    {{ end }}
+  {{ end }}
+
+  <header class="dash-header">
+    <div class="dash-header-top">
+      <div>
+        <h1 class="dash-title">Signals</h1>
+        <p class="dash-subtitle">Live analysis produced autonomously by <a href="/system/">Kayt</a></p>
+      </div>
+      <div class="dash-meta">
+        <span class="dash-stat">{{ len $allSignals }} reports</span>
+        <span class="dash-stat">{{ len .Sections }} streams</span>
+        {{ if gt $recentCount 0 }}
+        <span class="dash-stat dash-stat--live">{{ $recentCount }} new / 48h</span>
+        {{ end }}
+      </div>
+    </div>
+  </header>
+
+  {{/* ---- RECENT ACTIVITY FEED ---- */}}
+  <section class="dash-section">
+    <h2 class="dash-section-title">Recent Activity</h2>
+    <div class="dash-feed">
+      {{ range first 10 $allSignals }}
+      <a href="{{ .RelPermalink }}" class="dash-feed-item">
+        <div class="dash-feed-left">
+          <span class="dash-feed-stream {{ with .Params.stream }}{{ . }}{{ end }}">{{ with .Parent }}{{ .Title }}{{ end }}</span>
+          <span class="dash-feed-title">{{ .Title }}</span>
+          <span class="dash-feed-preview">{{ .Summary | plainify | truncate 100 }}</span>
+        </div>
+        <time class="dash-feed-time" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2" }}</time>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+
+  {{/* ---- STREAM STATUS GRID ---- */}}
+  <section class="dash-section">
+    <h2 class="dash-section-title">Streams</h2>
+    <div class="dash-streams">
+      {{ range sort .Sections "Params.weight" "asc" }}
+      {{ $pages := sort .RegularPages ".Date" "desc" }}
+      {{ if $pages }}
+      {{ $latest := index $pages 0 }}
+      <a href="{{ .RelPermalink }}" class="dash-stream-card">
+        <div class="dash-stream-top">
+          <span class="dash-stream-indicator {{ with .Params.stream }}{{ . }}{{ end }}"></span>
+          <span class="dash-stream-name">{{ .Title }}</span>
+          <span class="dash-stream-count">{{ len $pages }}</span>
+        </div>
+        {{ with .Params.description }}
+        <p class="dash-stream-desc">{{ . }}</p>
+        {{ end }}
+        <div class="dash-stream-latest">
+          <span class="dash-stream-latest-title">{{ $latest.Title | truncate 55 }}</span>
+          <time datetime="{{ $latest.Date.Format "2006-01-02" }}">{{ $latest.Date.Format "Jan 2" }}</time>
+        </div>
+      </a>
+      {{ else }}
+      <div class="dash-stream-card dash-stream-card--empty">
+        <div class="dash-stream-top">
+          <span class="dash-stream-indicator {{ with .Params.stream }}{{ . }}{{ end }}"></span>
+          <span class="dash-stream-name">{{ .Title }}</span>
+        </div>
+        <p class="dash-stream-desc">Coming soon</p>
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+  </section>
+
+  {{ else }}
+  {{/* ===== SUB-SECTION LIST (e.g. /signals/batteries/) ===== */}}
   <header>
     <h1 class="page-title">{{ .Title }}</h1>
     {{- with .Params.description }}<p class="page-subtitle">{{ . }}</p>{{- end }}
@@ -8,55 +100,16 @@
     {{ .Content }}
   </div>
 
-  {{ if and (eq .Kind "section") (.Sections) }}
-    <div class="intel-categories">
-      {{ range .Sections }}
-      {{ $pages := .RegularPages }}
-      <div class="intel-category">
-        <div class="intel-category-header">
-          <div>
-            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-            {{- with .Params.description }}<p>{{ . }}</p>{{- end }}
-          </div>
-          {{ if $pages }}
-          <span class="intel-category-badge">{{ len $pages }} reports</span>
-          {{ end }}
-        </div>
-        {{ if $pages }}
-        <div class="intel-category-reports">
-          {{ range first 3 (sort $pages ".Date" "desc") }}
-          <a href="{{ .RelPermalink }}" class="intel-report-card">
-            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-            <span class="intel-report-title">{{ .Title }}</span>
-            <span class="intel-report-preview">{{ .Summary | plainify | truncate 120 }}</span>
-          </a>
-          {{ end }}
-        </div>
-        {{ if gt (len $pages) 3 }}
-        <div class="intel-category-footer">
-          <a href="{{ .RelPermalink }}">View all &rarr;</a>
-        </div>
-        {{ end }}
-        {{ else }}
-        <div class="intel-category-empty">
-          <p>Coming soon</p>
-        </div>
-        {{ end }}
-      </div>
-      {{ end }}
-    </div>
-
-  {{ else }}
-    {{/* Sub-section list page */}}
-    <div class="intel-category-reports intel-category-reports--full">
-      {{ range sort .Pages ".Date" "desc" }}
-      <a href="{{ .RelPermalink }}" class="intel-report-card">
-        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-        <span class="intel-report-title">{{ .Title }}</span>
-        <span class="intel-report-preview">{{ .Summary | plainify | truncate 140 }}</span>
-      </a>
-      {{ end }}
-    </div>
+  <div class="intel-category-reports intel-category-reports--full">
+    {{ range sort .Pages ".Date" "desc" }}
+    <a href="{{ .RelPermalink }}" class="intel-report-card">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+      <span class="intel-report-title">{{ .Title }}</span>
+      <span class="intel-report-preview">{{ .Summary | plainify | truncate 140 }}</span>
+    </a>
+    {{ end }}
+  </div>
   {{ end }}
+
 </div>
 {{ end }}

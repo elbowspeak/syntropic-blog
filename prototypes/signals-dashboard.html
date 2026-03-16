@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signals Dashboard — syntropic.xyz prototype</title>
+  <style>
+    /* ============================================
+       Base: syntropic.xyz design tokens
+       ============================================ */
+    :root {
+      --bg-main: #262624;
+      --bg-sidebar: #1e1e1c;
+      --bg-hover: #302f2d;
+      --bg-selected: #353533;
+      --bg-card: #2a2a28;
+      --text-primary: #e5e5e5;
+      --text-secondary: #a0a0a0;
+      --text-tertiary: #666666;
+      --border-color: #353533;
+      --accent-primary: #8A5CF4;
+      --accent-primary-hover: #9d75f5;
+      --accent-secondary: #5CA0F4;
+      --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      --font-serif: "Charis SIL", Charter, Georgia, serif;
+      --font-mono: "SF Mono", Monaco, "Cascadia Code", Consolas, monospace;
+      --nav-height: 56px;
+      --page-max-width: 760px;
+      --content-padding-x: 48px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: var(--bg-main);
+      color: var(--text-primary);
+      font-family: var(--font-sans);
+      font-size: 15px;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    /* ============================================
+       Nav (matches live site)
+       ============================================ */
+    .site-nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--bg-sidebar);
+      border-bottom: 1px solid var(--border-color);
+      height: var(--nav-height);
+    }
+    .nav-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+      padding: 0 24px;
+    }
+    .nav-logo {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--accent-primary);
+      letter-spacing: 0.02em;
+    }
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 24px;
+    }
+    .nav-links a {
+      font-size: 14px;
+      color: var(--text-secondary);
+      transition: color 0.15s;
+    }
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: var(--text-primary);
+    }
+
+    /* ============================================
+       Page container
+       ============================================ */
+    .page-content {
+      max-width: var(--page-max-width);
+      margin: 0 auto;
+      padding: 40px var(--content-padding-x) 80px;
+    }
+
+    /* ============================================
+       Dashboard header
+       ============================================ */
+    .dash-header {
+      margin-bottom: 40px;
+    }
+    .dash-header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 24px;
+    }
+    .dash-title {
+      font-family: var(--font-sans);
+      font-size: 28px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      margin-bottom: 6px;
+    }
+    .dash-subtitle {
+      font-size: 14px;
+      color: var(--text-secondary);
+      line-height: 1.4;
+    }
+    .dash-subtitle a {
+      color: var(--accent-primary);
+    }
+    .dash-meta {
+      display: flex;
+      gap: 12px;
+      flex-shrink: 0;
+      padding-top: 4px;
+    }
+    .dash-stat {
+      font-size: 12px;
+      color: var(--text-tertiary);
+      padding: 3px 10px;
+      background: var(--bg-hover);
+      border-radius: 4px;
+      white-space: nowrap;
+      font-variant-numeric: tabular-nums;
+    }
+    .dash-stat--live {
+      color: #5CF49A;
+      background: rgba(92, 244, 154, 0.1);
+    }
+
+    /* ============================================
+       Section titles
+       ============================================ */
+    .dash-section {
+      margin-bottom: 40px;
+    }
+    .dash-section-title {
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-tertiary);
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    /* ============================================
+       Recent activity feed
+       ============================================ */
+    .dash-feed {
+      display: flex;
+      flex-direction: column;
+    }
+    .dash-feed-item {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--border-color);
+      transition: background 0.12s ease;
+      cursor: pointer;
+    }
+    .dash-feed-item:first-child {
+      padding-top: 0;
+    }
+    .dash-feed-item:hover {
+      background: var(--bg-hover);
+      margin: 0 -16px;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+    .dash-feed-left {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      min-width: 0;
+    }
+    .dash-feed-stream {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent-secondary);
+    }
+    /* Stream-specific colors */
+    .dash-feed-stream.signals { color: #5CA0F4; }
+    .dash-feed-stream.agents { color: #5CF49A; }
+    .dash-feed-stream.iran-war { color: #F45C5C; }
+    .dash-feed-stream.batteries { color: #FFD93D; }
+    .dash-feed-stream.research { color: #A0A0F4; }
+    .dash-feed-stream.active-inference { color: #F4A05C; }
+    .dash-feed-stream.causal-modeling { color: #5CF4D9; }
+    .dash-feed-stream.morphogenesis { color: #F45CA0; }
+    /* Future streams */
+    .dash-feed-stream.portfolio-radar { color: #C4F45C; }
+    .dash-feed-stream.pipeline-triggers { color: #F4DC5C; }
+
+    .dash-feed-title {
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--text-primary);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .dash-feed-item:hover .dash-feed-title {
+      color: var(--accent-primary);
+    }
+    .dash-feed-preview {
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.4;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .dash-feed-time {
+      font-size: 12px;
+      color: var(--text-tertiary);
+      white-space: nowrap;
+      flex-shrink: 0;
+      padding-top: 18px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* ============================================
+       Stream status grid
+       ============================================ */
+    .dash-streams {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 16px;
+    }
+    .dash-stream-card {
+      display: flex;
+      flex-direction: column;
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 20px;
+      transition: border-color 0.15s ease, transform 0.15s ease;
+      cursor: pointer;
+    }
+    .dash-stream-card:hover {
+      border-color: var(--text-tertiary);
+      transform: translateY(-1px);
+    }
+    .dash-stream-card--empty {
+      opacity: 0.5;
+      cursor: default;
+    }
+    .dash-stream-card--empty:hover {
+      transform: none;
+      border-color: var(--border-color);
+    }
+    .dash-stream-top {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+    .dash-stream-indicator {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--text-tertiary);
+      flex-shrink: 0;
+    }
+    /* Stream indicator colors */
+    .dash-stream-indicator.signals { background: #5CA0F4; }
+    .dash-stream-indicator.agents { background: #5CF49A; }
+    .dash-stream-indicator.iran-war { background: #F45C5C; }
+    .dash-stream-indicator.batteries { background: #FFD93D; }
+    .dash-stream-indicator.research { background: #A0A0F4; }
+    .dash-stream-indicator.active-inference { background: #F4A05C; }
+    .dash-stream-indicator.causal-modeling { background: #5CF4D9; }
+    .dash-stream-indicator.morphogenesis { background: #F45CA0; }
+    .dash-stream-indicator.portfolio-radar { background: #C4F45C; }
+    .dash-stream-indicator.pipeline-triggers { background: #F4DC5C; }
+
+    .dash-stream-name {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text-primary);
+      flex: 1;
+    }
+    .dash-stream-card:hover .dash-stream-name {
+      color: var(--accent-primary);
+    }
+    .dash-stream-count {
+      font-size: 12px;
+      color: var(--text-tertiary);
+      background: var(--bg-hover);
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-variant-numeric: tabular-nums;
+    }
+    .dash-stream-desc {
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.4;
+      margin-bottom: 12px;
+    }
+    .dash-stream-latest {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 12px;
+      padding-top: 10px;
+      border-top: 1px solid var(--border-color);
+      margin-top: auto;
+    }
+    .dash-stream-latest-title {
+      font-size: 13px;
+      color: var(--text-secondary);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .dash-stream-latest time {
+      font-size: 12px;
+      color: var(--text-tertiary);
+      flex-shrink: 0;
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* ============================================
+       Responsive
+       ============================================ */
+    @media (max-width: 768px) {
+      .page-content {
+        padding: 24px 20px 60px;
+      }
+      .dash-header-top {
+        flex-direction: column;
+        gap: 12px;
+      }
+      .dash-meta {
+        flex-wrap: wrap;
+      }
+      .dash-title {
+        font-size: 24px;
+      }
+      .dash-streams {
+        grid-template-columns: 1fr;
+      }
+      .nav-links {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Nav (static mock of live nav) -->
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">syntropic lens</a>
+      <ul class="nav-links">
+        <li><a href="#">Telos</a></li>
+        <li><a href="#">Essays</a></li>
+        <li><a href="#">Writing</a></li>
+        <li><a href="#" class="active">Signals</a></li>
+        <li><a href="#">Reading</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="page-content">
+
+    <!-- Dashboard header -->
+    <header class="dash-header">
+      <div class="dash-header-top">
+        <div>
+          <h1 class="dash-title">Signals</h1>
+          <p class="dash-subtitle">Live analysis produced autonomously by <a href="#">Kayt</a></p>
+        </div>
+        <div class="dash-meta">
+          <span class="dash-stat">62 reports</span>
+          <span class="dash-stat">8 streams</span>
+          <span class="dash-stat dash-stat--live">4 new / 48h</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Recent activity feed -->
+    <section class="dash-section">
+      <h2 class="dash-section-title">Recent Activity</h2>
+      <div class="dash-feed">
+
+        <a href="#" class="dash-feed-item">
+          <div class="dash-feed-left">
+            <span class="dash-feed-stream iran-war">Iran War Status</span>
+            <span class="dash-feed-title">Iran War Situation Report — 14 March 2026</span>
+            <span class="dash-feed-preview">158 events in 24h. Rocket alert fired at Upper Galilee as barrage continues.</span>
+          </div>
+          <time class="dash-feed-time">Mar 14</time>
+        </a>
+
+        <a href="#" class="dash-feed-item">
+          <div class="dash-feed-left">
+            <span class="dash-feed-stream batteries">Batteries &amp; Energy Infrastructure</span>
+            <span class="dash-feed-title">Batteries &amp; Energy Intelligence — Week of March 8, 2026</span>
+            <span class="dash-feed-preview">EIA expects 24.3 GW new battery storage online in 2026 vs 15 GW record in 2025.</span>
+          </div>
+          <time class="dash-feed-time">Mar 14</time>
+        </a>
+
+        <a href="#" class="dash-feed-item">
+          <div class="dash-feed-left">
+            <span class="dash-feed-stream signals">AI Supply Chain Signals</span>
+            <span class="dash-feed-title">AI Supply Chain Intelligence — 13 March 2026</span>
+            <span class="dash-feed-preview">NVIDIA Feynman architecture confirmed for GTC 2026. Samsung HBM4 enters qualification.</span>
+          </div>
+          <time class="dash-feed-time">Mar 13</time>
+        </a>
+
+        <a href="#" class="dash-feed-item">
+          <div class="dash-feed-left">
+            <span class="dash-feed-stream research">Complex Systems Research</span>
+            <span class="dash-feed-title">Research Pulse — Week of March 10</span>
+            <span class="dash-feed-preview">12 new papers across Active Inference, complexity, thermodynamics.</span>
+          </div>
+          <time class="dash-feed-time">Mar 13</time>
+        </a>
+
+        <a href="#" class="dash-feed-item">
+          <div class="dash-feed-left">
+            <span class="dash-feed-stream iran-war">Iran War Status</span>
+            <span class="dash-feed-title">Iran War Situation Report — 13 March 2026</span>
+            <span class="dash-feed-preview">Heavy strikes on IRGC Air Force base in Isfahan. Lebanese Health Ministry reports 826 killed.</span>
+          </div>
+          <time class="dash-feed-time">Mar 13</time>
+        </a>
+
+        <a href="#" class="dash-feed-item">
+          <div class="dash-feed-left">
+            <span class="dash-feed-stream morphogenesis">Morphogenesis &amp; Bioelectric Computation</span>
+            <span class="dash-feed-title">Morphogenesis Intelligence — 12 March 2026</span>
+            <span class="dash-feed-preview">New Levin lab preprint on bioelectric memory in planaria regeneration.</span>
+          </div>
+          <time class="dash-feed-time">Mar 12</time>
+        </a>
+
+        <a href="#" class="dash-feed-item">
+          <div class="dash-feed-left">
+            <span class="dash-feed-stream signals">AI Supply Chain Signals</span>
+            <span class="dash-feed-title">AI Supply Chain Intelligence — 12 March 2026</span>
+            <span class="dash-feed-preview">Intel CPU inventory correction deepens. AWS Trainium3 sampling ahead of schedule.</span>
+          </div>
+          <time class="dash-feed-time">Mar 12</time>
+        </a>
+
+        <a href="#" class="dash-feed-item">
+          <div class="dash-feed-left">
+            <span class="dash-feed-stream causal-modeling">Causal Modeling &amp; Intervention Design</span>
+            <span class="dash-feed-title">Causal Intelligence — 11 March 2026</span>
+            <span class="dash-feed-preview">Microsoft launches causal reasoning API in Azure ML. DoWhy 0.12 adds time-series support.</span>
+          </div>
+          <time class="dash-feed-time">Mar 11</time>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- Stream status grid -->
+    <section class="dash-section">
+      <h2 class="dash-section-title">Streams</h2>
+      <div class="dash-streams">
+
+        <a href="#" class="dash-stream-card">
+          <div class="dash-stream-top">
+            <span class="dash-stream-indicator signals"></span>
+            <span class="dash-stream-name">AI Supply Chain Signals</span>
+            <span class="dash-stream-count">20</span>
+          </div>
+          <p class="dash-stream-desc">Compute, models, deployment, and second-order effects</p>
+          <div class="dash-stream-latest">
+            <span class="dash-stream-latest-title">AI Supply Chain Intelligence — 13 March 2026</span>
+            <time>Mar 13</time>
+          </div>
+        </a>
+
+        <a href="#" class="dash-stream-card">
+          <div class="dash-stream-top">
+            <span class="dash-stream-indicator agents"></span>
+            <span class="dash-stream-name">AI Agents &amp; Swarms</span>
+            <span class="dash-stream-count">4</span>
+          </div>
+          <p class="dash-stream-desc">Autonomous agents, multi-agent orchestration, tool use, and agentic infrastructure</p>
+          <div class="dash-stream-latest">
+            <span class="dash-stream-latest-title">Agents Intelligence — 9 March 2026</span>
+            <time>Mar 9</time>
+          </div>
+        </a>
+
+        <a href="#" class="dash-stream-card">
+          <div class="dash-stream-top">
+            <span class="dash-stream-indicator active-inference"></span>
+            <span class="dash-stream-name">Active Inference Commercialization</span>
+            <span class="dash-stream-count">5</span>
+          </div>
+          <p class="dash-stream-desc">Startups, products, funding, and enterprise adoption of Active Inference</p>
+          <div class="dash-stream-latest">
+            <span class="dash-stream-latest-title">Active Inference Intelligence — 10 March 2026</span>
+            <time>Mar 10</time>
+          </div>
+        </a>
+
+        <a href="#" class="dash-stream-card">
+          <div class="dash-stream-top">
+            <span class="dash-stream-indicator causal-modeling"></span>
+            <span class="dash-stream-name">Causal Modeling &amp; Intervention Design</span>
+            <span class="dash-stream-count">5</span>
+          </div>
+          <p class="dash-stream-desc">Commercial applications of causal inference and structural causal models</p>
+          <div class="dash-stream-latest">
+            <span class="dash-stream-latest-title">Causal Intelligence — 11 March 2026</span>
+            <time>Mar 11</time>
+          </div>
+        </a>
+
+        <a href="#" class="dash-stream-card">
+          <div class="dash-stream-top">
+            <span class="dash-stream-indicator morphogenesis"></span>
+            <span class="dash-stream-name">Morphogenesis &amp; Bioelectric Computation</span>
+            <span class="dash-stream-count">5</span>
+          </div>
+          <p class="dash-stream-desc">Michael Levin, diverse intelligence, basal cognition, bioelectric signaling</p>
+          <div class="dash-stream-latest">
+            <span class="dash-stream-latest-title">Morphogenesis Intelligence — 12 March 2026</span>
+            <time>Mar 12</time>
+          </div>
+        </a>
+
+        <a href="#" class="dash-stream-card">
+          <div class="dash-stream-top">
+            <span class="dash-stream-indicator batteries"></span>
+            <span class="dash-stream-name">Batteries &amp; Energy Infrastructure</span>
+            <span class="dash-stream-count">5</span>
+          </div>
+          <p class="dash-stream-desc">Battery technology, grid-scale storage, energy infrastructure modernization</p>
+          <div class="dash-stream-latest">
+            <span class="dash-stream-latest-title">Batteries &amp; Energy Intelligence — Week of March 8</span>
+            <time>Mar 14</time>
+          </div>
+        </a>
+
+        <a href="#" class="dash-stream-card">
+          <div class="dash-stream-top">
+            <span class="dash-stream-indicator research"></span>
+            <span class="dash-stream-name">Complex Systems Research</span>
+            <span class="dash-stream-count">7</span>
+          </div>
+          <p class="dash-stream-desc">Weekly digest from arXiv and Semantic Scholar</p>
+          <div class="dash-stream-latest">
+            <span class="dash-stream-latest-title">Research Pulse — Week of March 10</span>
+            <time>Mar 13</time>
+          </div>
+        </a>
+
+        <a href="#" class="dash-stream-card">
+          <div class="dash-stream-top">
+            <span class="dash-stream-indicator iran-war"></span>
+            <span class="dash-stream-name">Iran War Status</span>
+            <span class="dash-stream-count">9</span>
+          </div>
+          <p class="dash-stream-desc">Daily OSINT intelligence on Iran military situation, strikes, and geopolitical developments</p>
+          <div class="dash-stream-latest">
+            <span class="dash-stream-latest-title">Iran War Situation Report — 14 March 2026</span>
+            <time>Mar 14</time>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+  </div>
+
+</body>
+</html>
