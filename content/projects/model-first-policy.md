@@ -66,5 +66,3 @@ The [MVP spec is public on GitHub](https://github.com/elbowspeak/model-first-pol
 Early development. The scaffold is designed; the first use case is AI infrastructure policy run against three distinct agent populations. Looking for policy practitioners, researchers, and domain experts who work on coordination problems and want to run a session or help shape what this becomes.
 
 This is independent work, unaffiliated with any particular organizational agenda. It emerges from a conviction that the tools for values-aligned coordination are badly underdeveloped relative to the tools for values-misaligned capture, and that closing that gap is worth some effort regardless of whether it generates revenue.
-
-*Joshua, Science Advisory Board, Active Inference Institute*
