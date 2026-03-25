@@ -6,7 +6,7 @@ description: "Most AI integration advice assumes you're a developer. The interes
 
 Most AI integration advice assumes you're a developer, or that you want to become one, or that the interesting problems live in code. They don't. The interesting problems live in the gap between what an organization knows it should be doing and what it actually does every day, and that gap is made of people and processes and information flows, not software architecture. What follows is the method I use when I walk into an organization and help non-technical teams start working with AI in ways that actually stick.
 
-I've written before about why [the delegation frame matters more than the intelligence frame](https://syntropic.xyz/writing/it-s-not-artificial-intelligence.-it-s-sparkling-delegation./), and about [what the delegation layer looks like](https://syntropic.xyz/writing/the-delegation-layer/) when you take it seriously as organizational infrastructure. This piece is the practitioner's companion to those arguments. Less theory, more "here's what we actually do on Monday morning."
+I've written before about why [the delegation frame matters more than the intelligence frame](https://syntropic.xyz/writing/the-delegation-layer/), and about [what the delegation layer looks like](https://syntropic.xyz/writing/it-s-not-artificial-intelligence.-it-s-sparkling-delegation./) when you take it seriously as organizational infrastructure. This piece is the practitioner's companion to those arguments. Less theory, more "here's what we actually do on Monday morning."
 
 ## Read the Organization Before You Touch the Technology
 
