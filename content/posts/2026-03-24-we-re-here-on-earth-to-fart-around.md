@@ -3,10 +3,13 @@ title: We're Here on Earth to Fart Around
 subtitle: ''
 date: 2026-03-24T11:24:00
 draft: false
-description: ''
+description: "Kurt Vonnegut, the optimization of friction, and what we lost when we engineered away the need for each other."
 image: /images/GettyImages-1180056975-2400x1350-1667930065.jpg
 image_caption: ''
 tags: []
+related:
+  - "2026-02-14-the-bonfire-in-the-cave"
+  - "2026-01-25-the-storm-blowing-in-from-paradise"
 ---
 
 Kurt Vonnegut used to tell this story about going out to buy an envelope. His wife would say, why don't you just order them, and he'd say no, I'm going out, and he'd walk to the store, and he'd chat with the person at the counter, and maybe he'd run into someone he knew, and he'd come home with his one envelope having touched five or six lives along the way. "We're here on Earth to fart around," he said, "and don't let anyone tell you different."

@@ -3,9 +3,12 @@ title: What is a Model?
 subtitle: What Georgia O'Keeffe knew about Information Compression
 date: 2026-01-24T23:40:00
 draft: false
-description: ''
+description: "What Georgia O'Keefe knew about selection, elimination, and emphasis as the real tools of understanding."
 image: /images/scr-20260124-nmov.webp
 image_caption: "Georgia O'Keefe, From a Lake #1"
+related:
+  - "2026-02-16-the-same-loop-over-and-over"
+  - "2026-01-22-20-watts-what-biology-knows-about-intelligence"
 ---
 
 ### What Georgia O'Keefe Knew about Models ###

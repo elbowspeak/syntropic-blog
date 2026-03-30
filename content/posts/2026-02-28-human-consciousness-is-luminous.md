@@ -3,10 +3,13 @@ title: Human Consciousness is Luminous
 subtitle: On Consciousness, the Second Law, and the Necessity of Learning
 date: 2026-02-27T19:58:00
 draft: false
-description: ''
+description: "Consciousness as recursive self-modeling — thermodynamically costly, continuously updated, and unavailable to static systems."
 image: /images/luminous.jpg
 image_caption: ''
 tags: []
+related:
+  - "2026-02-22-finding-space-for-non-biological-consciousness"
+  - "2026-01-22-20-watts-what-biology-knows-about-intelligence"
 ---
 
 _This is the most technical essay in the thermodynamics series. It engages formal theories of consciousness, philosophy of mind, and the neuroscience of predictive processing._

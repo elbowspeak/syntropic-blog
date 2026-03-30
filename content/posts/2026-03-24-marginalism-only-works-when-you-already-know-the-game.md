@@ -3,10 +3,13 @@ title: Marginalism Only Works When You Already Know the Game
 subtitle: ''
 date: 2026-03-24T10:44:00
 draft: false
-description: ''
+description: "Marginal analysis asks what's the best move at the edge. But someone has to first figure out where the edges are."
 image: /images/coffee-cup-filled-with-coffee-beans-1619540354.jpg
 image_caption: ''
 tags: []
+related:
+  - "2026-01-25-the-entrepreneurial-delusion-machine"
+  - "2026-02-17-worshipping-the-gradient"
 ---
 
 The most successful economics blog is called Marginal Revolution. Tyler Cowen chose the name because of the huge diagnostic impact marginalism has had on modern economics. It begins with a way of thinking, not a set of conclusions, and the blog has spent two decades demonstrating the power of that thinking across every domain it touches.

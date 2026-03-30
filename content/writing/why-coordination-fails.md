@@ -2,6 +2,9 @@
 title: "Why Coordination Fails Among People Who Agree"
 date: 2026-02-20
 description: "Coordination fails among people who agree on values because they're running different models of how the world works."
+related:
+  - "the-borg-solution"
+  - "the-delegation-layer"
 ---
 
 **tl;dr**

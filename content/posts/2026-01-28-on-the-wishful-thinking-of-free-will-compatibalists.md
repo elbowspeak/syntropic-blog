@@ -9,6 +9,9 @@ image_caption: From the cover of Pachinko by Min Jin Lee
 tags:
   - '#Free Will'
   - '#Active Inference'
+related:
+  - "2026-02-01-meditations-on-spinoza-s-god"
+  - "2026-02-28-human-consciousness-is-luminous"
 ---
 
 In [Julius's recent Less Wrong post](https://www.lesswrong.com/posts/tnSagkAADcjRRtbAu/contra-sam-harris-on-free-will) {{< cite 2 >}} defending compatibilism, they write:

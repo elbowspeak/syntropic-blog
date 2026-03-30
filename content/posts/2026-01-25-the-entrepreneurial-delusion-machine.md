@@ -3,9 +3,12 @@ title: The Entrepreneurial Delusion Machine
 subtitle: How functional delusion becomes socially maladaptive
 date: 2026-01-25T00:33:00-08:00
 draft: false
-description: ''
+description: "How Silicon Valley's most prestigious institutions manufacture the delusions necessary to sustain their power."
 image: /images/scr-20260124-ooga.webp
 image_caption: ''
+related:
+  - "2026-01-24-what-is-a-model"
+  - "2026-01-25-the-storm-blowing-in-from-paradise"
 ---
 
 [Andrej Karpathy's talk at Y Combinator last year](https://www.youtube.com/watch?v=LCEmiRjPEtQ), supposedly about the evolution of software paradigms, reveals a core Straussian substrate of Silicon Valley that’s more interesting and significant than the explicit topic. It gives us an unintended glimpse into how Silicon Valley's most prestigious institutions manufacture the delusions necessary to sustain their economic, social and political positions of power; and how those delusions, either selected for or internalized by successful entrepreneurs, metastasize into broader social and political dysfunction.

@@ -7,6 +7,9 @@ description: Entropy, AI, and the Force that No one will Name
 image: /images/fire-flame-bonfire-heat-campfire-event-1551617-pxhere.com.jpg
 image_caption: ''
 tags: []
+related:
+  - "2026-02-01-meditations-on-spinoza-s-god"
+  - "2026-02-17-worshipping-the-gradient"
 ---
 
 Dario Amodei is, by any reasonable measure, the most thoughtful person building the most powerful technology in human history. He is careful where others are reckless, worried where others are giddy, and possessed of a genuine moral seriousness that distinguishes him from nearly everyone else in the conversation, which is why his [recent interview with Dwarkesh Patel](https://www.dwarkesh.com/p/dario-amodei-2)<sup>1</sup> is so difficult for me to sit with. Because what you hear, if you listen closely enough, is the smartest person in the cave describing the shadows in breathtaking detail, and never once turning around to look at the fire.

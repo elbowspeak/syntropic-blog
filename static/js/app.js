@@ -62,6 +62,28 @@
       const caption = post.image_caption ? `<figcaption>${escapeHtml(post.image_caption)}</figcaption>` : '';
       featuredImage = `<figure class="article-featured-figure"><img class="article-featured-image" src="${post.image}" alt="Featured image for ${escapeHtml(post.title)}">${caption}</figure>`;
     }
+
+    // Build related essays HTML
+    let relatedHtml = '';
+    if (post.related && post.related.length > 0) {
+      const relatedCards = post.related.map(slug => {
+        const match = posts.find(p => p.slug.includes(slug));
+        if (!match) return '';
+        return `<a href="${match.slug}" class="related-essay-card" onclick="event.preventDefault(); loadPost('${match.slug}');">
+          <p class="related-essay-date">${match.date}</p>
+          <h3 class="related-essay-title">${escapeHtml(match.title)}</h3>
+          ${match.description ? `<p class="related-essay-desc">${escapeHtml(match.description)}</p>` : ''}
+        </a>`;
+      }).filter(Boolean).join('');
+
+      if (relatedCards) {
+        relatedHtml = `<div class="related-essays">
+          <p class="related-essays-label">Related Essays</p>
+          <div class="related-essays-grid">${relatedCards}</div>
+        </div>`;
+      }
+    }
+
     articleContent.innerHTML = `
       <a href="/posts/" class="mobile-back" onclick="window.mobileBack(); return false;">← Back to essays</a>
       <header class="article-header">
@@ -78,6 +100,7 @@
       <div class="article-body prose">
         ${post.content}
       </div>
+      ${relatedHtml}
     `;
 
     // Update URL

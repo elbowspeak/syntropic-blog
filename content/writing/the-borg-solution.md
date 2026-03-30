@@ -3,11 +3,14 @@ title: The Borg Solution
 subtitle: Why merging systems resist what they should absorb
 date: 2026-01-18T01:17:00
 draft: false
-description: ''
+description: "Why merging systems resist what they should absorb, and what active inference reveals about integration failure."
 image: /images/bcbb1d8a-7ec2-41df-a864-537eef05720f.webp
 image_caption: ''
 aliases:
   - /posts/2026-01-25-breaking-information-silos-into-negentropy/
+related:
+  - "why-coordination-fails"
+  - "it-s-not-artificial-intelligence.-it-s-sparkling-delegation."
 ---
 
 I've watched organizational mergers and enterprise integrations fail more times than I can count. But the systemic friction is always misidentified.

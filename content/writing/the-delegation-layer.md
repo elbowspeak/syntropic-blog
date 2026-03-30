@@ -2,6 +2,9 @@
 title: "Intelligence Isn't the Constraint"
 date: 2026-02-19
 description: "How AI collaboration closes the execution gap for individuals and teams"
+related:
+  - "the-saas-layer-will-dissolve"
+  - "why-coordination-fails"
 ---
 
 **tl;dr:** AI collaboration has removed the ADHD friction between having ideas and producing finished work. The same dynamic applies to organizations: the constraint is rarely intelligence, it's the bandwidth between insight and action. AI adds a delegation layer that compresses that gap, freeing the thinking that was already there to finally produce.

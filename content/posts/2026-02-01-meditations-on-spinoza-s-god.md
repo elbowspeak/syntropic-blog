@@ -2,10 +2,13 @@
 title: Meditations on the God of Spinoza
 date: 2026-01-31T16:58:00
 draft: false
-description: ''
+description: "From the Big Bang through dissipative systems to human society, grounded in the second law."
 image: /images/Webb-Pillars-of-Creation-1536x970-3049760444.jpg
 image_caption: The PIllars of Creation, Hubble Telescope
 tags: []
+related:
+  - "2026-02-14-the-bonfire-in-the-cave"
+  - "2026-02-17-worshipping-the-gradient"
 ---
 
 Begin with what we know.

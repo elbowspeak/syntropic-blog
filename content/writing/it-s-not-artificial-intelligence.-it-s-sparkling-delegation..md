@@ -2,13 +2,16 @@
 title: It's not Artificial Intelligence. It's Sparkling Delegation.
 date: 2026-01-27T16:55:00
 draft: false
-description: ''
+description: "The term Artificial Intelligence is sabotaging how you use AI tools. A more useful framing changes everything."
 image: /images/6758_Mirga_08_(C)_Daniela_Schmidt-Langels.jpg
 image_caption: Mirga Gražinytė-Tyla, Birmingham Symphony Orchestra
 tags:
   - '#AI'
 aliases:
   - /posts/2026-01-28-it-s-not-artificial-intelligence.-it-s-sparkling-delegation./
+related:
+  - "disciplined-ai-integration"
+  - "the-saas-layer-will-dissolve"
 ---
 
 The term **Artificial Intelligence** is sabotaging how you use AI tools. A more useful framing is **automated delegation technology**.

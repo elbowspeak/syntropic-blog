@@ -3,10 +3,13 @@ title: Worshipping the Gradient
 subtitle: What e/acc Gets Right and Why It's So Wrong
 date: 2026-02-17T12:36:00
 draft: false
-description: ''
+description: "Effective accelerationists identified the thermodynamic pattern and committed the most consequential intellectual error possible."
 image: /images/worshipping-the-gradient-wide.png
 image_caption: ''
 tags: []
+related:
+  - "2026-02-14-the-bonfire-in-the-cave"
+  - "2026-01-22-the-thermodynamic-endgame"
 ---
 
 In the [first essay in this series](https://claude.ai/chat/link-to-essay-1), I argued that the competitive dynamics driving AI development express a deeper logic: the universe builds increasingly complex structures that dissipate energy gradients faster than what came before, and that thermodynamic pattern, operating through capitalist competition, locks every actor into the acceleration trajectory. Dario Amodei describes these dynamics with extraordinary clarity.<sup>1</sup> He knows he can't exit them because the trap is structural.

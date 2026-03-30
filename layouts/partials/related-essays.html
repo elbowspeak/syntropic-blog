@@ -1,0 +1,29 @@
+{{- if .Params.related }}
+{{- $related := .Params.related }}
+{{- $allPages := .Site.RegularPages }}
+{{- $matches := slice }}
+{{- range $slug := $related }}
+  {{- range $allPages }}
+    {{- $pageSlug := .File.ContentBaseName }}
+    {{- if eq $pageSlug $slug }}
+      {{- $matches = $matches | append . }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+{{- if gt (len $matches) 0 }}
+<div class="related-essays">
+  <p class="related-essays-label">Related Essays</p>
+  <div class="related-essays-grid">
+    {{- range $matches }}
+    <a href="{{ .RelPermalink }}" class="related-essay-card">
+      <p class="related-essay-date">{{ .Date.Format "January 2, 2006" }}</p>
+      <h3 class="related-essay-title">{{ .Title }}</h3>
+      {{- with .Params.description }}
+      <p class="related-essay-desc">{{ . }}</p>
+      {{- end }}
+    </a>
+    {{- end }}
+  </div>
+</div>
+{{- end }}
+{{- end }}

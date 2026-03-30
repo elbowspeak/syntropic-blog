@@ -3,7 +3,7 @@ title: The Hill-Climbing Loop Is Convergent Evolution
 subtitle: Why biology, design thinking, and AI agent frameworks converge on the same algorithm
 date: 2026-02-15T20:06:00
 draft: false
-description: ''
+description: "The same hill-climbing loop appears at every scale, from bacteria to markets to AI."
 image: /images/Active-Inference-Psychological-Change-Model-1024x538.webp
 image_caption: ''
 tags:
@@ -11,6 +11,9 @@ tags:
   - free-energy-principle
   - convergent-evolution
   - agentic-ai
+related:
+  - "2026-02-08-the-forms-were-waiting-the-whole-time"
+  - "2026-01-22-20-watts-what-biology-knows-about-intelligence"
 ---
 
 **tl;dr**

@@ -41,7 +41,7 @@
 {{- $posts := .Pages -}}
 {{- $data := slice -}}
 {{- range $p := $posts -}}
-  {{- $item := dict "slug" $p.RelPermalink "title" $p.Title "subtitle" $p.Params.subtitle "date" ($p.Date.Format "January 2, 2006") "readingTime" $p.ReadingTime "content" $p.Content "image" $p.Params.image "image_caption" $p.Params.image_caption -}}
+  {{- $item := dict "slug" $p.RelPermalink "title" $p.Title "subtitle" $p.Params.subtitle "date" ($p.Date.Format "January 2, 2006") "readingTime" $p.ReadingTime "content" $p.Content "image" $p.Params.image "image_caption" $p.Params.image_caption "related" $p.Params.related "description" $p.Params.description -}}
   {{- $data = $data | append $item -}}
 {{- end -}}
 {{ $data | jsonify (dict "indent" "  ") | safeJS }}

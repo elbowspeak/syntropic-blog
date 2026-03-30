@@ -3,11 +3,14 @@ title: The SaaS Layer Will Dissolve
 subtitle: Agentic AI will collapse the application tier within five years
 date: 2026-01-14T23:45:00
 draft: false
-description: ''
+description: "Agentic AI will collapse the SaaS application tier within five years."
 image: /images/melting-face-3175956084 copy.jpg
 image_caption: ''
 aliases:
   - /posts/2026-01-22-the-saas-layer-will-dissolve/
+related:
+  - "the-delegation-layer"
+  - "the-borg-solution"
 ---
 
 ## **Agentic AI will collapse the SaaS application tier within five years**

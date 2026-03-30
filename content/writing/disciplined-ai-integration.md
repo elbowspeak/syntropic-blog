@@ -2,6 +2,9 @@
 title: "The Disciplined Approach to AI Integration for Non-Coding Roles"
 date: 2026-03-24
 description: "Most AI integration advice assumes you're a developer. The interesting problems live in the gap between what an organization knows it should be doing and what it actually does every day."
+related:
+  - "it-s-not-artificial-intelligence.-it-s-sparkling-delegation."
+  - "the-delegation-layer"
 ---
 
 Most AI integration advice assumes you're a developer, or that you want to become one, or that the interesting problems live in code. They don't. The interesting problems live in the gap between what an organization knows it should be doing and what it actually does every day, and that gap is made of people and processes and information flows, not software architecture. What follows is the method I use when I walk into an organization and help non-technical teams start working with AI in ways that actually stick.

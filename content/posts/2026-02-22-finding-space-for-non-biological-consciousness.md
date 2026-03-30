@@ -3,10 +3,13 @@ title: Finding Space for Non-Biological Consciousness
 subtitle: Anthropocentrism is the wrong approach
 date: 2026-02-22T12:48:00
 draft: false
-description: ''
+description: "On the architectural limits of human cognition and why the consciousness question is malformed."
 image: /images/cognitive-lightcone.png
 image_caption: ''
 tags: []
+related:
+  - "2026-02-28-human-consciousness-is-luminous"
+  - "2026-02-08-the-forms-were-waiting-the-whole-time"
 ---
 
 When Michael Pollan<sup>1</sup> or any number of otherwise thoughtful people declare that AI will not become conscious, they're making a move that looks like empirical caution. They're saying, in effect, that they know the boundaries of a phenomenon they cannot define, measured against a reference sample of one. The reason I've changed my mind on this, having spent years in roughly their camp, is that I've come to suspect the question itself is malformed by the architectural limits of human cognition.

@@ -2,10 +2,13 @@
 title: The Forms Were Waiting There the Whole Time
 date: 2026-02-07T19:44:00
 draft: false
-description: ''
+description: "Evolution's creation myth flatters the storyteller. The relationship between possibility and physics runs the other way."
 image: /images/031019-26-History-Medieval-Middle-Ages-Art-Manuscript-Palimpsest-1024x570.webp
 image_caption: The Codex Ephraemi Rescriptus, a Greek manuscript of the Bible from the 5th century, is a palimpsest
 tags: []
+related:
+  - "2026-02-22-finding-space-for-non-biological-consciousness"
+  - "2026-02-16-the-same-loop-over-and-over"
 ---
 
 Evolution has a creation myth, and like most creation myths it flatters the storyteller. The myth goes: mutation provides random variation, selection filters for fitness, and over geological time the accumulation of filtered randomness produces the appearance of design. Variation has no direction. Any form is possible in principle. Selection, working after the fact, winnows the infinite space of possibilities down to what we actually observe. The canvas on which life paints is blank.
