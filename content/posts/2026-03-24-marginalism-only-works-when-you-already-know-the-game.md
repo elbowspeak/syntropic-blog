@@ -8,7 +8,7 @@ image: /images/coffee-cup-filled-with-coffee-beans-1619540354.jpg
 image_caption: ''
 tags: []
 related:
-  - "2026-01-25-the-entrepreneurial-delusion-machine"
+  - "2026-03-30-the-game-you-dont-know-youre-playing"
   - "2026-02-17-worshipping-the-gradient"
 ---
 
