@@ -67,7 +67,7 @@ One of Oakeshott's subtler observations is that rationalism tends to appeal most
 
 And Oakeshott was deeply suspicious of the idea that the solution to the failures of rationalism was more rationalism, better technique, more sophisticated models. The rationalist who fails doesn't conclude that rationalism is the wrong approach. He concludes that he needs better data, a more refined model, more powerful computational tools. The error, for Oakeshott, is structural rather than quantitative: a category mistake about what kind of knowledge is needed, not insufficient amounts of the right kind. If that's correct, then Cowen's proposed solution to marginalism's decline, "more computation, better algorithms, scaled-up AI," doesn't address the problem. It just makes the wrong answer faster.
 
-## IV. Active Inference as the Formal Apparatus
+## IV. Active Inference, the Formal Apparatus
 
 Oakeshott's practical knowledge, the tacit understanding built through immersion in a practice, maps onto what active inference calls a well-calibrated generative model.[^6] Technical knowledge maps onto the explicit model: the parameterized equations, the derived first-order conditions, the policy prescriptions. The fact that a mid-century conservative philosopher and a 21st-century computational neuroscience framework arrive at structurally identical conclusions about the limits of optimization, from intellectual traditions with no awareness of each other, suggests the underlying insight is a feature of the problem rather than an artifact of either vocabulary.
 
@@ -79,7 +79,7 @@ This distinction between epistemic and pragmatic action is the formal version of
 
 One feature of the framework matters especially here: the free energy functional decomposes into accuracy (how well does the model predict?) and complexity (how much structure does the model assume?). Good inference minimizes both, which is formally equivalent to Bayesian model selection.[^7] The best model is not the most complex one. It's the one that predicts well with the least structural commitment. A 360,000-factor asset pricing model may reduce pricing errors within its training data.[^8] But if its complexity is enormous and its structure is calibrated to a regime that's ending, it will overfit spectacularly when the regime changes. Active inference's complexity penalty is the formal expression of the intuition that you should be suspicious of models that are too good at explaining the past, because they may have learned the noise along with the signal.
 
-## V. The Empirical Case: Development Economics as the Proving Ground
+## V. The Empirical Case: Development Economics 
 
 The Washington Consensus is the cleanest test case, and it's where Oakeshott and active inference meet on the ground.
 
@@ -97,7 +97,7 @@ Countries that adopted the Washington Consensus most faithfully showed uneven re
 
 There's a connection here to an observation Cowen himself makes about minimum wage hikes and the puzzle of zero-elasticity responses: sometimes the margins you think you're operating on aren't the actual margins of the system. Cowen treats this as an interesting puzzle that marginalism can accommodate. The deeper lesson is that discovering the actual margins is an epistemic problem that precedes and conditions any marginalist analysis, and solving it requires the kind of immersive, exploratory engagement that marginalism's own formal structure doesn't demand or reward.
 
-## VI. The AI Displacement Story, Reframed
+## VI. Reframing the AI Displacement Story
 
 Cowen's account of AI and marginalism: AI systems will absorb marginalist insights into their computational substrate, the 360,000-factor model will outperform any human's intuitive marginalism, LLM-simulated agents will generate structural estimates without human theorizing, DeepMind's transformer will play grandmaster chess without search trees.[^12] Marginalism will be baked in but invisible.
 
@@ -107,9 +107,9 @@ DeepMind's grandmaster chess without search required 15 billion data points from
 
 The alternative is AI systems designed as active inference agents, systems that maintain generative models and revise those models under persistent prediction error. These are fundamentally different from frozen-at-training models. They're not cookbooks, however sophisticated. They're something closer to cooks, except that their practical knowledge is computational rather than embodied, and their immersion in the practice is continuous rather than biographical. Whether such systems can develop the equivalent of Oakeshott's practical knowledge, whether continuous computational engagement with a complex environment can produce tacit structural understanding, is an open and genuinely fascinating question. But it's a different question from whether scaling up the current generation of ML models will suffice, and the answer to the latter question is almost certainly no.[^14]
 
-## VII. The Phase Change We're In
+## VII. The Phase Change(s) We're In
 
-The argument so far has been somewhat abstract. It bites hardest when you recognize that we are in something more like a phase change across multiple domains simultaneously, a period when the structure of the game itself is mutating, which means the models calibrated on the old regime may be systematically misleading about the new one.
+The argument so far has been somewhat abstract. It goes hardest when you recognize that we are in something more like a phase change across multiple domains simultaneously, a period when the structure of the game itself is mutating, which means the models calibrated on the old regime may be systematically misleading about the new one.
 
 The ecological dimension: thermodynamic constraints on economic growth are binding in new ways, and the feedback loops are nonlinear. Marginal cost pricing for carbon emissions assumes the damage function is smooth and the system responds proportionally. But climate systems have tipping points, thresholds beyond which the response is discontinuous and irreversible.[^15] The collapse of the Atlantic Meridional Overturning Circulation, the release of methane from permafrost, the dieback of the Amazon: these are regime changes in the planetary system. You can't internalize an externality whose magnitude depends on which side of a tipping point you're on, because the whole point of a tipping point is that the system's behavior changes qualitatively when you cross it.
 
