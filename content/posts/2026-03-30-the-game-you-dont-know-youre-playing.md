@@ -1,19 +1,19 @@
 ---
-title: "The Game You Don't Know You're Playing"
-subtitle: "Marginalism, Phase Changes, and the Limits of Optimization"
+title: The Game You Don't Know You're Playing
+subtitle: Marginalism, Phase Changes, and the Limits of Optimization
 date: 2026-03-30T12:00:00
 draft: false
-description: "A response to Tyler Cowen. Marginalism is dying not because machines will absorb it, but because the conditions under which it works are what we're losing."
-image: ''
+description: A response to Tyler Cowen. Marginalism is dying not because machines will absorb it, but because the conditions under which it works are what we're losing.
+image: /images/mokst.jpg
 image_caption: ''
 related:
-  - "2026-03-24-marginalism-only-works-when-you-already-know-the-game"
-  - "2026-02-14-the-bonfire-in-the-cave"
+  - 2026-03-24-marginalism-only-works-when-you-already-know-the-game
+  - 2026-02-14-the-bonfire-in-the-cave
 ---
 
-## A response to Tyler Cowen's *The Marginal Revolution: Rise and Decline, and the Pending AI Revolution*
+## A response to Tyler Cowen's _The Marginal Revolution: Rise and Decline, and the Pending AI Revolution_
 
----
+***
 
 Tyler Cowen has written a short book about the most important revolution in the history of economics, and about why that revolution is ending and about what might replace it. And I think he's wrong because he doesn't follow the well-trodden path of his own past analysis framework.
 
@@ -22,7 +22,6 @@ On its own terms it's a good econovella. As usual, Cowen is erudite, historicall
 But he thinks marginalism is dying because computation is absorbing it, because AI systems will carry the marginalist torch forward at scales no human mind can hold, because the intuitions that once distinguished economists from everyone else will be baked into the substrate of machine intelligence the way the Four Gospels are baked into an LLM's training data: present everywhere, driving nothing. It's an easy, comfortable version of the story, a graceful retirement narrative for a mode of reasoning that served us well, and like most graceful retirement narratives it avoids the more unsettling implications.
 
 The truth is that marginalism is dying because the conditions under which it works, stable regimes, legible games, well-calibrated models of the environment you're operating in, are what we're losing. The question that matters is not whether machines can do marginalism better than humans. The question is whether marginalism, as a mode of engaging with the world, remains adequate to a world undergoing structural transformation at multiple scales simultaneously. Cowen's answer is that it doesn't matter because the machines will handle it. My answer is that the machines, if designed on the same assumptions, will fail in the same ways, just faster and with more confidence.
-
 
 ## I. What Cowen Gets Right, and How Far It Goes
 
@@ -35,7 +34,6 @@ Cowen also develops what he calls the "asymmetric corridor" metaphor for concept
 All of this is good. But Cowen's historical method reveals a structure without him noticing: every one of his scientific revolution case studies is a story about replacing the game, not optimizing within it. Darwin didn't do better natural theology. He replaced the generative model of how species come to exist. Hutton didn't refine catastrophism. He replaced the model of geological time. Linnaeus didn't improve on John Ray's multi-criteria classification by adjusting the weights. He threw out the organizational principle entirely. Jevons himself didn't improve on classical economics by optimizing its internal logic. He replaced the analytical framework that classical economics had been using to think about value.
 
 Cowen tells these stories beautifully, spending an entire chapter on the parallels between economics and botany, geology, and evolutionary biology. And then he fails to carry the structural lesson forward. If the history of science is a history of generative model replacement, and if we are entering a period that demands yet another such replacement, then the thing we need is not better optimization within the existing model. It's the capacity to perceive when the model itself has become inadequate and to build the next one.
-
 
 ## II. The Hidden Assumption: Marginalism Requires Knowing the Game
 
@@ -51,7 +49,6 @@ Risk marginalism is Cowen's own best example of failure. CAPM was built directly
 
 The through-line: marginalism is an exploit-mode strategy. It works when your model of the environment is good enough that small perturbations produce predictable, proportional responses. It breaks when structural change invalidates the model generating your margins. And the specific way it breaks is by making you more confident, not less, because the formal apparatus keeps working even when the assumptions underneath it have shifted. The equations still balance. The first-order conditions still hold. You just happen to be optimizing the wrong thing.
 
-
 ## III. Oakeshott's Ghost in the Machine
 
 This argument has a philosophical ancestor that Cowen knows very well but never engages, and I think the omission might be telling. Michael Oakeshott's 1947 essay "Rationalism in Politics" makes almost exactly the case being advanced here, in the idiom of mid-century conservative political philosophy.[^4]
@@ -64,12 +61,11 @@ The cruelest part of Oakeshott's critique is that the rationalist doesn't just l
 
 Oakeshott's understanding of tradition here is important. A tradition of practice is not mere inertia or conservatism in the vulgar sense. It is the accumulated residue of generations of practitioners learning through trial and error what works, developing tacit understandings of the system's actual structure that no explicit model fully captures. Traditions can be wrong, they can be hidebound, they can preserve things that should be discarded. But they contain information that the rationalist's model systematically cannot see, because that information was generated by engagement with the world rather than by derivation from first principles.
 
-James C. Scott's *Seeing Like a State* extends this argument with a concept he calls "metis," denoting the practical, local, experiential knowledge that enables people to navigate complex environments.[^5] Scott documents case after case where high-modernist states, armed with explicit models of how systems should work, overrode the metis of local practitioners and produced disaster. The Prussian forestry case is particularly instructive. Officials working from a simplified model of the forest as a timber-production system replanted monoculture rows of Norway spruce to maximize yields. The first generation grew beautifully. The second generation produced what the Germans came to call Waldsterben, forest death, because the model had omitted the soil ecology, the fungal networks, the biodiversity, all the elements of the actual system that the simplified model didn't represent. They optimized at the margins of a model that wasn't the system, and the system eventually refused to cooperate.
+James C. Scott's _Seeing Like a State_ extends this argument with a concept he calls "metis," denoting the practical, local, experiential knowledge that enables people to navigate complex environments.[^5] Scott documents case after case where high-modernist states, armed with explicit models of how systems should work, overrode the metis of local practitioners and produced disaster. The Prussian forestry case is particularly instructive. Officials working from a simplified model of the forest as a timber-production system replanted monoculture rows of Norway spruce to maximize yields. The first generation grew beautifully. The second generation produced what the Germans came to call Waldsterben, forest death, because the model had omitted the soil ecology, the fungal networks, the biodiversity, all the elements of the actual system that the simplified model didn't represent. They optimized at the margins of a model that wasn't the system, and the system eventually refused to cooperate.
 
 One of Oakeshott's subtler observations is that rationalism tends to appeal most to people who are new to a practice, who haven't had time to acquire the practical knowledge that would show them the limits of the technical rules. The newly minted professional, the outside consultant, the reformer who has read the literature but never run the thing: these are Oakeshott's rationalists, and their confidence is inversely proportional to their immersion in the practice they're proposing to optimize. This cuts into Cowen's argument about AI. If LLMs and machine learning systems are the ultimate newcomers to economic practice, trained on text about institutions rather than immersed in the institutions themselves, then their extraordinary facility with technical knowledge may reproduce the rationalist error at computational scale. The cookbook gets better, but the cook doesn't materialize.
 
 And Oakeshott was deeply suspicious of the idea that the solution to the failures of rationalism was more rationalism, better technique, more sophisticated models. The rationalist who fails doesn't conclude that rationalism is the wrong approach. He concludes that he needs better data, a more refined model, more powerful computational tools. The error, for Oakeshott, is structural rather than quantitative: a category mistake about what kind of knowledge is needed, not insufficient amounts of the right kind. If that's correct, then Cowen's proposed solution to marginalism's decline, "more computation, better algorithms, scaled-up AI," doesn't address the problem. It just makes the wrong answer faster.
-
 
 ## IV. Active Inference as the Formal Apparatus
 
@@ -82,7 +78,6 @@ When prediction errors are large and persistent, exploit mode fails. The agent's
 This distinction between epistemic and pragmatic action is the formal version of Oakeshott's point about the cook. Pragmatic action assumes you know enough to act effectively: given what you know, equate returns at the margin. Epistemic action acknowledges that you might not know enough, and prioritizes learning about the structure of the problem over optimizing within your current understanding. This is structurally different from Cowen's reconciliation of intuitive and tautological marginalism, which is "marginalism plus a complementary empirical hypothesis about what the relevant margin is." Epistemic action isn't marginalism plus better empirics. It's a different mode of engagement with the world.
 
 One feature of the framework matters especially here: the free energy functional decomposes into accuracy (how well does the model predict?) and complexity (how much structure does the model assume?). Good inference minimizes both, which is formally equivalent to Bayesian model selection.[^7] The best model is not the most complex one. It's the one that predicts well with the least structural commitment. A 360,000-factor asset pricing model may reduce pricing errors within its training data.[^8] But if its complexity is enormous and its structure is calibrated to a regime that's ending, it will overfit spectacularly when the regime changes. Active inference's complexity penalty is the formal expression of the intuition that you should be suspicious of models that are too good at explaining the past, because they may have learned the noise along with the signal.
-
 
 ## V. The Empirical Case: Development Economics as the Proving Ground
 
@@ -98,10 +93,9 @@ From the marginalist perspective, much of this was irrational. From the active i
 
 India's trajectory shows a complementary pattern. India's liberalization in 1991 was more dramatic and more aligned with Washington Consensus prescriptions than China's gradualism, but even India's reforms were selective, strategically sequenced, and informed by practical knowledge of Indian political and institutional realities.[^10] The sectors liberalized first were those where reformers had the most confidence about likely behavioral responses. India didn't follow the marginalist cookbook. It cooked with the cookbook in one hand and generations of accumulated institutional knowledge in the other.
 
-Countries that adopted the Washington Consensus most faithfully showed uneven results at best. And as Ha-Joon Chang documented in *Kicking Away the Ladder*, every currently wealthy country violated the marginalist prescriptions during its own period of development.[^11] Britain practiced protectionism. The United States had high tariffs throughout its industrialization. Germany used state-directed industrial policy. The ladder of development was not climbed by optimizing at the margins of a free-market model. It was climbed by doing whatever worked, which often meant doing things that the marginalist model said shouldn't work, and the knowledge of what worked was practical knowledge acquired through engagement with the specific economy in question.
+Countries that adopted the Washington Consensus most faithfully showed uneven results at best. And as Ha-Joon Chang documented in _Kicking Away the Ladder_, every currently wealthy country violated the marginalist prescriptions during its own period of development.[^11] Britain practiced protectionism. The United States had high tariffs throughout its industrialization. Germany used state-directed industrial policy. The ladder of development was not climbed by optimizing at the margins of a free-market model. It was climbed by doing whatever worked, which often meant doing things that the marginalist model said shouldn't work, and the knowledge of what worked was practical knowledge acquired through engagement with the specific economy in question.
 
 There's a connection here to an observation Cowen himself makes about minimum wage hikes and the puzzle of zero-elasticity responses: sometimes the margins you think you're operating on aren't the actual margins of the system. Cowen treats this as an interesting puzzle that marginalism can accommodate. The deeper lesson is that discovering the actual margins is an epistemic problem that precedes and conditions any marginalist analysis, and solving it requires the kind of immersive, exploratory engagement that marginalism's own formal structure doesn't demand or reward.
-
 
 ## VI. The AI Displacement Story, Reframed
 
@@ -112,7 +106,6 @@ The problem with every one of these examples is that they involve well-defined g
 DeepMind's grandmaster chess without search required 15 billion data points from Stockfish evaluations, all generated within a game whose rules are perfectly specified and unchanging.[^13] The transformer learned to evaluate positions exhaustively because the game's entire structure was contained in the training data. Transfer this to a domain where the structure of the problem is itself uncertain, where the evaluation function hasn't been established because nobody knows yet what the game is, and the transformer has nothing to train on.
 
 The alternative is AI systems designed as active inference agents, systems that maintain generative models and revise those models under persistent prediction error. These are fundamentally different from frozen-at-training models. They're not cookbooks, however sophisticated. They're something closer to cooks, except that their practical knowledge is computational rather than embodied, and their immersion in the practice is continuous rather than biographical. Whether such systems can develop the equivalent of Oakeshott's practical knowledge, whether continuous computational engagement with a complex environment can produce tacit structural understanding, is an open and genuinely fascinating question. But it's a different question from whether scaling up the current generation of ML models will suffice, and the answer to the latter question is almost certainly no.[^14]
-
 
 ## VII. The Phase Change We're In
 
@@ -128,7 +121,6 @@ And the epistemic dimension may be the most fundamental. The information environ
 
 The connecting thread: the appropriate response to a phase change is not "optimize harder at the margins of the current model" but "develop better machinery for diagnosing which game is actually being played."
 
-
 ## VIII. What Replaces Marginalism
 
 Cowen asks what will replace marginalism and answers "more computation." Oakeshott would answer "return to practice." The right answer draws on both without settling for either.
@@ -142,7 +134,6 @@ For economists and strategists, the valuable skill set is shifting from "derive 
 Cowen notes, with evident concern, that price theory is dying, that Kevin Murphy has retired from Chicago, that Steve Levitt has quit academia declaring price theory "essentially lost to posterity." But the death of price theory is not identical to the death of practical economic reasoning. Price theory was marginalism's last institutional home. What's needed is not its revival but the development of a new mode of reasoning adequate to conditions of structural uncertainty. Active inference provides the formal apparatus. Oakeshott provides the philosophical grounding. The empirical record of development economics provides the evidence that the old approach fails where the new approach predicts it will. What's missing is an institutional home and a community of practice, and the patient accumulation of practical knowledge that Oakeshott argued was necessary for any intellectual tradition to function.
 
 The work that matters now is the development of institutional and intellectual capacity for structural diagnosis under uncertainty. That means building communities of practice around the question of model adequacy rather than model optimization. It means training people, and perhaps eventually AI systems, to ask "is this the right game?" before asking "what's the optimal move?" Whether this capacity gets built inside economics departments, in consulting practices, in policy shops, or in some new institutional form that doesn't yet exist, I don't know. But the need for it is established by the arguments above, and the convergence of Oakeshott, active inference, and the empirical record gives me more confidence in the direction than any one of those sources would alone.
-
 
 ## IX. Coda: Cowen's Own Evidence Against His Own Thesis
 
@@ -160,34 +151,34 @@ And yet his conclusion is that algorithms will carry us forward. That computatio
 
 The cookbook is excellent. The question is whether the robots know how to cook what's coming.
 
----
+***
 
-[^1]: Tyler Cowen, *The Marginal Revolution: Rise and Decline, and the Pending AI Revolution* (Arlington, VA: Mercatus Center at George Mason University, 2026).
+[^1]: Tyler Cowen, _The Marginal Revolution: Rise and Decline, and the Pending AI Revolution_ (Arlington, VA: Mercatus Center at George Mason University, 2026).
 
-[^2]: Cowen draws the Chinese driver example from Geoffrey Sant, "Driven to Kill," *Slate*, September 4, 2015. The other examples are developed throughout chapter one.
+[^2]: Cowen draws the Chinese driver example from Geoffrey Sant, "Driven to Kill," _Slate_, September 4, 2015. The other examples are developed throughout chapter one.
 
-[^3]: Eugene F. Fama and Kenneth R. French, "The Cross-Section of Expected Stock Returns," *The Journal of Finance* 47, no. 2 (1992): 427–65. Cowen discusses this as a turning point for marginalism in finance in chapter four.
+[^3]: Eugene F. Fama and Kenneth R. French, "The Cross-Section of Expected Stock Returns," _The Journal of Finance_ 47, no. 2 (1992): 427–65. Cowen discusses this as a turning point for marginalism in finance in chapter four.
 
-[^4]: Michael Oakeshott, "Rationalism in Politics," in *Rationalism in Politics and Other Essays* (London: Methuen, 1962), originally published 1947. The technical/practical knowledge distinction runs throughout the essay but is developed most explicitly in the opening pages. For the deeper theory of practice that underwrites the distinction, see Oakeshott, *On Human Conduct* (Oxford: Clarendon Press, 1975), especially the first essay, "On the Theoretical Understanding of Human Conduct."
+[^4]: Michael Oakeshott, "Rationalism in Politics," in _Rationalism in Politics and Other Essays_ (London: Methuen, 1962), originally published 1947. The technical/practical knowledge distinction runs throughout the essay but is developed most explicitly in the opening pages. For the deeper theory of practice that underwrites the distinction, see Oakeshott, _On Human Conduct_ (Oxford: Clarendon Press, 1975), especially the first essay, "On the Theoretical Understanding of Human Conduct."
 
-[^5]: James C. Scott, *Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed* (New Haven: Yale University Press, 1998). The Prussian forestry case is developed in the introduction; "metis" is elaborated in chapter nine.
+[^5]: James C. Scott, _Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed_ (New Haven: Yale University Press, 1998). The Prussian forestry case is developed in the introduction; "metis" is elaborated in chapter nine.
 
-[^6]: Karl Friston, "The Free-Energy Principle: A Unified Brain Theory?" *Nature Reviews Neuroscience* 11 (2010): 127–38. For the explore/exploit formalism and epistemic action specifically, see Karl Friston et al., "Active Inference and Epistemic Value," *Cognitive Neuroscience* 6, no. 4 (2015): 187–214. For a broader treatment connecting active inference to evolutionary dynamics, see Michael Levin, Daniel Dennett, and Richard Watson, "The Collective Intelligence of Evolution and Development," *Collective Intelligence* 2, no. 2 (2023).
+[^6]: Karl Friston, "The Free-Energy Principle: A Unified Brain Theory?" _Nature Reviews Neuroscience_ 11 (2010): 127–38. For the explore/exploit formalism and epistemic action specifically, see Karl Friston et al., "Active Inference and Epistemic Value," _Cognitive Neuroscience_ 6, no. 4 (2015): 187–214. For a broader treatment connecting active inference to evolutionary dynamics, see Michael Levin, Daniel Dennett, and Richard Watson, "The Collective Intelligence of Evolution and Development," _Collective Intelligence_ 2, no. 2 (2023).
 
-[^7]: The accuracy-complexity decomposition and its equivalence to Bayesian model selection is developed in Karl Friston and Klaas E. Stephan, "Free-Energy and the Brain," *Synthese* 159, no. 3 (2007): 417–58.
+[^7]: The accuracy-complexity decomposition and its equivalence to Bayesian model selection is developed in Karl Friston and Klaas E. Stephan, "Free-Energy and the Brain," _Synthese_ 159, no. 3 (2007): 417–58.
 
 [^8]: Antoine Didisheim, Shikun (Barry) Ke, Bryan T. Kelly, and Semyon Malamud, "APT or 'AIPT'? The Surprising Dominance of Large Factor Models," NBER Working Paper 33012, September 2024. Cowen cites this approvingly in chapter four.
 
-[^9]: For the canonical statement of the Washington Consensus, see John Williamson, "What Washington Means by Policy Reform," in *Latin American Adjustment: How Much Has Happened?*, ed. John Williamson (Washington, DC: Institute for International Economics, 1990). For the most thorough critique of its application, see Dani Rodrik, "Goodbye Washington Consensus, Hello Washington Confusion?" *Journal of Economic Literature* 44, no. 4 (2006): 973–87.
+[^9]: For the canonical statement of the Washington Consensus, see John Williamson, "What Washington Means by Policy Reform," in _Latin American Adjustment: How Much Has Happened?_, ed. John Williamson (Washington, DC: Institute for International Economics, 1990). For the most thorough critique of its application, see Dani Rodrik, "Goodbye Washington Consensus, Hello Washington Confusion?" _Journal of Economic Literature_ 44, no. 4 (2006): 973–87.
 
-[^10]: On India's strategic sequencing, see Dani Rodrik and Arvind Subramanian, "From 'Hindu Growth' to Productivity Surge: The Mystery of the Indian Growth Transition," *IMF Staff Papers* 52, no. 2 (2005): 193–228.
+[^10]: On India's strategic sequencing, see Dani Rodrik and Arvind Subramanian, "From 'Hindu Growth' to Productivity Surge: The Mystery of the Indian Growth Transition," _IMF Staff Papers_ 52, no. 2 (2005): 193–228.
 
-[^11]: Ha-Joon Chang, *Kicking Away the Ladder: Development Strategy in Historical Perspective* (London: Anthem Press, 2002).
+[^11]: Ha-Joon Chang, _Kicking Away the Ladder: Development Strategy in Historical Perspective_ (London: Anthem Press, 2002).
 
 [^12]: Benjamin S. Manning, Kehang Zhu, and John J. Horton, "Automated Social Science: Language Models as Scientist and Subjects," arXiv, April 24, 2024. Cowen discusses this and the 360,000-factor model (Didisheim et al.) in chapter four.
 
 [^13]: Anian Ruoss et al., "Grandmaster-Level Chess Without Search," arXiv, February 6, 2024. Cowen's discussion is in chapter four.
 
-[^14]: On the design of active inference agents as an alternative AI architecture, see Thomas Parr, Giovanni Pezzulo, and Karl Friston, *Active Inference: The Free Energy Principle in Mind, Brain, and Behavior* (Cambridge, MA: MIT Press, 2022). For the argument that current LLM architectures lack the structural model revision capacity that active inference agents possess, the relevant comparison is between feedforward prediction (pattern completion) and the kind of hierarchical generative modeling with precision optimization that active inference requires.
+[^14]: On the design of active inference agents as an alternative AI architecture, see Thomas Parr, Giovanni Pezzulo, and Karl Friston, _Active Inference: The Free Energy Principle in Mind, Brain, and Behavior_ (Cambridge, MA: MIT Press, 2022). For the argument that current LLM architectures lack the structural model revision capacity that active inference agents possess, the relevant comparison is between feedforward prediction (pattern completion) and the kind of hierarchical generative modeling with precision optimization that active inference requires.
 
-[^15]: Timothy M. Lenton et al., "Tipping Elements in the Earth's Climate System," *Proceedings of the National Academy of Sciences* 105, no. 6 (2008): 1786–93. For an updated assessment, see David I. Armstrong McKay et al., "Exceeding 1.5°C Global Warming Could Trigger Multiple Climate Tipping Points," *Science* 377, no. 6611 (2022).
+[^15]: Timothy M. Lenton et al., "Tipping Elements in the Earth's Climate System," _Proceedings of the National Academy of Sciences_ 105, no. 6 (2008): 1786–93. For an updated assessment, see David I. Armstrong McKay et al., "Exceeding 1.5°C Global Warming Could Trigger Multiple Climate Tipping Points," _Science_ 377, no. 6611 (2022).
