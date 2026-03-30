@@ -15,9 +15,9 @@ related:
 
 ***
 
-Tyler Cowen has written a short book about the most important revolution in the history of economics, and about why that revolution is ending and about what might replace it. And I think he's wrong because he doesn't follow the well-trodden path of his own past analysis framework.
+Tyler Cowen has written a short book about the most important revolution in the history of economics, and about why that revolution is ending and about what might replace it. And I think he's wrong because he doesn't follow his own well-trodden analysis framework.
 
-On its own terms it's a good econovella. As usual, Cowen is erudite, historically rich, genuinely funny in places, and he has a talent for making old ideas feel alive. His taxonomy of marginalisms is helpful and full. His portrait of William Stanley Jevons is the best short treatment I've read. His account of why certain sciences were slow to develop is engaging in ways that extend well beyond economics. And his core claim, that marginalism is dying, is correct.[^1]
+On its own terms, it's a good econovella. As usual, Cowen is erudite, historically rich, genuinely funny in places, and he has a talent for making old ideas feel alive. His taxonomy of marginalisms is helpful and full. His portrait of William Stanley Jevons is the best short treatment I've read. His account of why certain sciences were slow to develop is engaging in ways that extend well beyond economics. And his core claim, that marginalism is dying, is correct.[^1]
 
 But he thinks marginalism is dying because computation is absorbing it, because AI systems will carry the marginalist torch forward at scales no human mind can hold, because the intuitions that once distinguished economists from everyone else will be baked into the substrate of machine intelligence the way the Four Gospels are baked into an LLM's training data: present everywhere, driving nothing. It's an easy, comfortable version of the story, a graceful retirement narrative for a mode of reasoning that served us well, and like most graceful retirement narratives it avoids the more unsettling implications.
 
