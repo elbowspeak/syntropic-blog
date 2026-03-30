@@ -7,8 +7,8 @@ image: /images/Webb-Pillars-of-Creation-1536x970-3049760444.jpg
 image_caption: The PIllars of Creation, Hubble Telescope
 tags: []
 related:
+  - "2026-03-30-conatus-unbound"
   - "2026-02-14-the-bonfire-in-the-cave"
-  - "2026-02-17-worshipping-the-gradient"
 ---
 
 Begin with what we know.
