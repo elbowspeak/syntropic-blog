@@ -11,7 +11,7 @@ related:
   - 2026-02-14-the-bonfire-in-the-cave
 ---
 
-_response to Rebecca Goldstein's "What Spinoza Wrought"_
+A _response to Rebecca Goldstein's "What Spinoza Wrought"_
 
 ***
 
