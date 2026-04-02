@@ -10,8 +10,8 @@ tags:
   - '#Free Will'
   - '#Active Inference'
 related:
-  - "2026-02-01-meditations-on-spinoza-s-god"
-  - "2026-02-28-human-consciousness-is-luminous"
+  - 2026-02-01-meditations-on-spinoza-s-god
+  - 2026-02-28-human-consciousness-is-luminous
 ---
 
 In [Julius's recent Less Wrong post](https://www.lesswrong.com/posts/tnSagkAADcjRRtbAu/contra-sam-harris-on-free-will) {{< cite 2 >}} defending compatibilism, they write:
@@ -42,7 +42,7 @@ Imagine a pachinko ball dropped into the machine. Its path is determined by the 
 
 This is the model I'm proposing for neural decision-making. The brain is a deterministic system in the sense that it obeys physical law, but it operates in a regime where stochastic inputs, neural noise, thermal fluctuations, chaotic sensitivity to initial conditions, constantly perturb the trajectory. The result is neither classical determinism (same inputs, same outputs) nor randomness in the sense of being uncaused. It's path-dependent with probabilistic perturbation. I call this **stochastic determinism**: a system that obeys deterministic laws but whose trajectory is constantly perturbed by noise -- thermal, quantum, environmental -- such that outcomes are unpredictable and non-repeatable without being uncaused or "free."
 
-Now: where is "you" in this model? The compatibilist wants to say you _are_ the system, the whole apparatus of pegs and gravity and ball. When the ball takes a path, that's you choosing. But this conflates the system with the experiencer. Consciousness isn't the machine; it's something more like an observer watching the ball fall, constructing a narrative about why it went left rather than right, and calling that narrative "deliberation."
+Now: where is "you" in this model? The compatibilist wants to say you _are_ the system, the whole apparatus of pegs and gravity and ball. When the ball takes a path, that's you choosing. But this doesn't work. It conflates the system with the experiencer. Consciousness isn't the machine; it's something more like an observer watching the ball fall, constructing a narrative about why it went left rather than right, and calling that narrative "deliberation."
 
 The crucial claim is that this narrative construction, however sophisticated, is _downstream_ of the process that actually determines the path. Consciousness doesn't steer the ball. It watches the ball and tells a story about steering.
 
@@ -170,10 +170,10 @@ I think that's wishful thinking. But I would say that, wouldn't I? The ball alwa
 
 <ol class="reference-list">
 {{< ref 1 "Harris, Sam. _Free Will_ (2012)" >}}
-{{< ref 2 "Julius. \"Contra Sam Harris on Free Will.\" LessWrong (2026)" >}}
+{{< ref 2 "Julius. "Contra Sam Harris on Free Will." LessWrong (2026)" >}}
 {{< ref 3 "Pereboom, Derk. _Living Without Free Will_ (2001)" >}}
-{{< ref 4 "Rolls, Edmund T. \"Willed action, free will, and the stochastic neurodynamics of decision-making.\" _Frontiers in Integrative Neuroscience_ (2012)" >}}
-{{< ref 5 "Schurger, Aaron, et al. \"An accumulator model for spontaneous neural activity prior to self-initiated movement.\" _PNAS_ (2012)" >}}
-{{< ref 6 "Haynes, John-Dylan. \"Decoding and predicting intentions.\" _Annals of the New York Academy of Sciences_ (2011)" >}}
-{{< ref 7 "Friston, Karl. \"The free-energy principle: a unified brain theory?\" _Nature Reviews Neuroscience_ (2010)" >}}
+{{< ref 4 "Rolls, Edmund T. "Willed action, free will, and the stochastic neurodynamics of decision-making." _Frontiers in Integrative Neuroscience_ (2012)" >}}
+{{< ref 5 "Schurger, Aaron, et al. "An accumulator model for spontaneous neural activity prior to self-initiated movement." _PNAS_ (2012)" >}}
+{{< ref 6 "Haynes, John-Dylan. "Decoding and predicting intentions." _Annals of the New York Academy of Sciences_ (2011)" >}}
+{{< ref 7 "Friston, Karl. "The free-energy principle: a unified brain theory?" _Nature Reviews Neuroscience_ (2010)" >}}
 </ol>
