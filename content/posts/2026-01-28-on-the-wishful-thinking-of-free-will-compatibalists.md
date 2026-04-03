@@ -170,10 +170,10 @@ I think that's wishful thinking. But I would say that, wouldn't I? The ball alwa
 
 <ol class="reference-list">
 {{< ref 1 "Harris, Sam. _Free Will_ (2012)" >}}
-{{< ref 2 "Julius. "Contra Sam Harris on Free Will." LessWrong (2026)" >}}
+{{< ref 2 `Julius. "Contra Sam Harris on Free Will." LessWrong (2026)` >}}
 {{< ref 3 "Pereboom, Derk. _Living Without Free Will_ (2001)" >}}
-{{< ref 4 "Rolls, Edmund T. "Willed action, free will, and the stochastic neurodynamics of decision-making." _Frontiers in Integrative Neuroscience_ (2012)" >}}
-{{< ref 5 "Schurger, Aaron, et al. "An accumulator model for spontaneous neural activity prior to self-initiated movement." _PNAS_ (2012)" >}}
-{{< ref 6 "Haynes, John-Dylan. "Decoding and predicting intentions." _Annals of the New York Academy of Sciences_ (2011)" >}}
-{{< ref 7 "Friston, Karl. "The free-energy principle: a unified brain theory?" _Nature Reviews Neuroscience_ (2010)" >}}
+{{< ref 4 `Rolls, Edmund T. "Willed action, free will, and the stochastic neurodynamics of decision-making." _Frontiers in Integrative Neuroscience_ (2012)` >}}
+{{< ref 5 `Schurger, Aaron, et al. "An accumulator model for spontaneous neural activity prior to self-initiated movement." _PNAS_ (2012)` >}}
+{{< ref 6 `Haynes, John-Dylan. "Decoding and predicting intentions." _Annals of the New York Academy of Sciences_ (2011)` >}}
+{{< ref 7 `Friston, Karl. "The free-energy principle: a unified brain theory?" _Nature Reviews Neuroscience_ (2010)` >}}
 </ol>
