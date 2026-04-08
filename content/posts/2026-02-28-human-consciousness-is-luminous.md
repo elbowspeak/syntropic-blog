@@ -3,13 +3,13 @@ title: Human Consciousness is Luminous
 subtitle: On Consciousness, the Second Law, and the Necessity of Learning
 date: 2026-02-27T19:58:00
 draft: false
-description: "Consciousness as recursive self-modeling — thermodynamically costly, continuously updated, and unavailable to static systems."
+description: Consciousness as recursive self-modeling — thermodynamically costly, continuously updated, and unavailable to static systems.
 image: /images/luminous.jpg
 image_caption: ''
 tags: []
 related:
-  - "2026-02-22-finding-space-for-non-biological-consciousness"
-  - "2026-01-22-20-watts-what-biology-knows-about-intelligence"
+  - 2026-02-22-finding-space-for-non-biological-consciousness
+  - 2026-01-22-20-watts-what-biology-knows-about-intelligence
 ---
 
 _This is the most technical essay in the thermodynamics series. It engages formal theories of consciousness, philosophy of mind, and the neuroscience of predictive processing._
@@ -32,7 +32,7 @@ So what's left?
 
 Hoel's positive proposal is that theories of consciousness must be grounded in continual learning. The system's computations and priors must change every time it operates. A system whose input-output function is static, whose response to identical inputs is identical regardless of when you ask, can always be substituted by something simpler. A system whose function is changing, whose ∆f (in Hoel's notation) is never zero, is a moving target that static substitutes cannot replicate. Not because the substitution is hard in practice, but because the property you're trying to substitute _is the change itself_, and change is not a state that can be captured in a table.
 
-But "continual learning" as a criterion is underdetermined. Plenty of systems learn in some trivial sense. Hoel convincingly makes the case that learning is necessary for consciousness. The question is what _kind_ of learning, and why the my framing of second law straightens out what other frameworks leave entangled.
+But "continual learning" as a criterion is underdetermined. Plenty of systems learn in some trivial sense. Hoel convincingly makes the case that learning is necessary for consciousness. The question is what _kind_ of learning, and why my framing of second law straightens out what other frameworks leave entangled.
 
 Karl Friston's [Free Energy Principle](https://en.wikipedia.org/wiki/Free_energy_principle) offers an answer, though it requires reading FEP differently than most people do. The standard presentation treats FEP as a theory of brain function, a mathematical framework describing how neural systems minimize prediction error through a combination of updating their models (perception) and acting on the world (action). In this telling, FEP is an elegant formalism, a way of unifying perception, action, learning, and attention under a single variational objective. It's useful. It's also, on its face, exactly the kind of functional description that Hoel's argument would render trivial.
 
