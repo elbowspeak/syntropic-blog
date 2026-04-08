@@ -66,7 +66,7 @@ The contemplative traditions corroborate this through a completely different epi
 
 ## The Cost of Consciousness
 
-Hoel's argument does its work here, because neither the inference cone nor the recursive loop can be static.
+This is where Hoel's argument is most clarifying, because neither the inference cone nor the recursive loop can be static.
 
 A generative model that never updates is performing lookup, not inference. A system that receives sensory input and produces output without any change to its internal states is, in thermodynamic terms, at equilibrium with respect to its own function, even if it's consuming energy to run. The weights are fixed. Whatever it was doing during training, it's not doing now, because ∆f = 0. And since it doesn't respond to its environment, it's output can now be captured by a lookup table without any of the internal structure that made the system interesting in the first place.
 
