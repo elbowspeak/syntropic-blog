@@ -149,7 +149,7 @@ Cowen's book is a monument to the power of structural model revision, written by
 
 And yet his conclusion is that algorithms will carry us forward. That computation will absorb the insights and the machines will do the rest. That the future belongs to the 360,000-factor model and the LLM-simulated auction and the transformer that plays chess without understanding chess.
 
-The cookbook is excellent. The question is whether the robots know how to cook what's coming.
+The cookbook is excellent. The question is whether the robots will know how to cook what's coming.
 
 ***
 
