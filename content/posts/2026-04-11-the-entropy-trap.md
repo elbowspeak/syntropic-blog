@@ -13,7 +13,7 @@ related:
   - 2026-02-14-the-bonfire-in-the-cave
 ---
 
-There's a way of looking at human civilization that goes like this: life exists because it accelerates entropy. Humans are the most effective entropy-producing structures the planet has ever generated. And the ecological crisis we now face isn' a failure of stewardship or morality or coordination, it is the logical consequence of being extremely good at our thermodynamic job.
+There's a way of looking at human civilization that goes like this: life exists because it accelerates entropy. Humans are the most effective entropy-producing structures the planet has ever generated. And the ecological crisis we now face isn't a failure of stewardship or morality or coordination, it is the logical consequence of being extremely good at our thermodynamic job.
 
 I wrote previously about life as a special case of the second law, about how self-organizing systems aren't fighting entropy but _serving_ it, converting low-entropy energy gradients into high-entropy waste heat more efficiently than bare rock or ocean ever could. The math on that is clear IMO. A biosphere dissipates solar energy faster than a dead world. A civilization dissipates it faster still. Agriculture was a step-function increase in our entropic throughput. Industrialization was another. The digital economy, converting electricity into computation into heat at planetary scale, is the latest and most dramatic jump.
 
