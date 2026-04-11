@@ -54,7 +54,7 @@ But human intelligence is bottlenecked: by biology, by sleep, by the sheer metab
 
 AI has no such bottleneck. Or rather, AI is in the process of shedding whatever bottlenecks it currently has, at a pace that Dario himself estimates in years, not decades. An agent swarm with access to energy infrastructure can identify, model, and coordinate the exploitation of free energy gradients at a speed and scale that makes human civilization look like a campfire next to an arc furnace.
 
-If the MEPP logic holds, if the universe preferentially selects for configurations that dissipate gradients faster, then what Dario is building is the next phase transition in a 13.8-billion-year sequence. The competitive dynamics he describes so clearly in the interview are not unfortunate market conditions to be managed. They are the selection pressure, operating exactly as the physics predicts.
+If the MEPP logic holds, if the universe preferentially selects for configurations that dissipate gradients faster, then what Dario is building is the next phase transition in a 13.8-billion-year sequence. The competitive dynamics he describes so clearly in the interview  are the selection pressures, operating exactly as the physics predicts.
 
 This is the fire that casts every shadow in the interview. The logic that prevents Dario from slowing down is not a market failure or a coordination problem or a policy gap, though it manifests as all of those things. It is the thermodynamic gradient itself, expressing itself through the medium of capitalist competition. Capital flows toward maximum dissipation. Maximum dissipation generates capital. That capital then funds the next round of infrastructure for even faster dissipation.
 
