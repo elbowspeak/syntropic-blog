@@ -44,7 +44,7 @@ Each step creates more local order, more complexity, more of what we experience 
 
 ***
 
-### Intelligence is the fire that burns fastest
+### Intelligence is the fire that burns smartest
 
 What makes intelligence, and specifically artificial intelligence, different from every previous dissipative structure is not just that it's faster. It's that it can **model the dissipative process itself**.
 
