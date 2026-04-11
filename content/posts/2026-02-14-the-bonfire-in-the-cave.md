@@ -46,7 +46,7 @@ Each step creates more local order, more complexity, more of what we experience 
 
 ### Intelligence is the fire that burns smartest
 
-What makes intelligence, and specifically artificial intelligence, different from every previous dissipative structure is not just that it's faster. It's that it can **model the dissipative process itself**.
+What makes intelligence, and specifically artificial intelligence, different from every previous dissipative structure is that it can **model the dissipative process itself**.
 
 Bacteria exploit chemical gradients but don't represent them. They swim toward sugar; they have no concept of the gradient they're exploiting. Plants are more sophisticated: they track the sun, adjust their growth, allocate resources. But their model of the energy landscape is implicit, encoded in morphology rather than representation. Humans took an enormous leap: we build explicit models of energy systems, we discover new gradients (nuclear fission was a gradient no non-intelligent dissipative structure was ever going to tap), and we construct institutions (markets, corporations, research programs) designed to systematically identify and exploit thermodynamic disequilibria at scale.
 
