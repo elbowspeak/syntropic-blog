@@ -8,9 +8,6 @@ image: /images/wp3067714-the-expanse-wallpapers.jpg
 image_caption: ''
 tags:
   - '#entropy #jevon #england #kardashev #dyson #thermodynamics'
-related:
-  - 2026-02-01-meditations-on-spinoza-s-god
-  - 2026-02-14-the-bonfire-in-the-cave
 ---
 
 There's a way of looking at human civilization that goes like this: life exists because it accelerates entropy. Humans are the most effective entropy-producing structures the planet has ever generated. And the ecological crisis we now face is not a failure of stewardship or morality or coordination, it is the logical consequence of being extremely good at our thermodynamic job.
@@ -25,7 +22,7 @@ Which brings us to the problem.
 
 We've become so effective at entropy production that we're destabilizing the very systems that make our continued existence possible. The North Atlantic Meridional Overturning Circulation is weakening.[[1]](#fn-1) Global mean temperatures are rising faster than the geological record suggests most complex ecosystems can track. Biodiversity, which is to say, the diversity of dissipative channels that maintain ecosystem-level stability, is collapsing. The ice sheets, which function as thermal buffers and albedo regulators in the planetary energy budget, are losing mass at accelerating rates.
 
-None of this is surprising from a thermodynamic perspective. We are a dissipative structure that has saturated the capacity of its local environment to absorb its waste. Any engineer would recognize this pattern: you've exceeded the heat dissipation capacity of your substrate, and now you're getting thermal runaway. The system will find a new equilibrium. The question is whether that equilibrium includes us.
+None of this is surprising from a thermodynamic perspective. We are a dissipative structure that has saturated the capacity of its local environment to absorb its waste. Any engineer would recognize this pattern: you've exceeded the heat dissipation capacity of your substrate, and now you're getting thermal runaway. The system will find a new equilibrium. But the question is whether that equilibrium includes us.
 
 Here is why I get queasy with this (accurate) framing: The obvious response, "well, let's just produce less entropy", runs directly into the second law. You can't ask a dissipative structure to become less dissipative without either killing it or moving the dissipation somewhere else. There is no third option. The second law is, as far as we can tell, one of the closest things physics has to an inviolable principle.
 
