@@ -30,6 +30,16 @@ collections:
       - { label: Featured Image, name: image, widget: image, required: false }
       - { label: Image Caption, name: image_caption, widget: string, required: false }
       - { label: Tags, name: tags, widget: list, required: false }
+      - label: Related Essays
+        name: related
+        widget: relation
+        collection: posts
+        search_fields: [title]
+        value_field: '{{slug}}'
+        display_fields: [title]
+        multiple: true
+        required: false
+        hint: "Pick essays to show in the 'Related Essays' block at the bottom"
       - { label: Body, name: body, widget: markdown }
 
   - name: writing

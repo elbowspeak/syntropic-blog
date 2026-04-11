@@ -8,6 +8,9 @@ image: /images/Civilizations.webp
 image_caption: ''
 tags:
   - '#entropy #jevon #england #kardashev #dyson #thermodynamics'
+related:
+  - 2026-02-01-meditations-on-spinoza-s-god
+  - 2026-02-14-the-bonfire-in-the-cave
 ---
 
 There's a way of looking at human civilization that goes like this: life exists because it accelerates entropy. Humans are the most effective entropy-producing structures the planet has ever generated. And the ecological crisis we now face is not a failure of stewardship or morality or coordination, it is the logical consequence of being extremely good at our thermodynamic job.
