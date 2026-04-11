@@ -10,7 +10,7 @@ tags:
   - '#entropy #jevon #england #kardashev #dyson #thermodynamics'
 ---
 
-There's a way of looking at human civilization that goes like this: life exists because it accelerates entropy. Humans are the most effective entropy-producing structures the planet has ever generated. And the ecological crisis we now face is not a failure of stewardship or morality or coordination — it is the logical consequence of being extremely good at our thermodynamic job.
+There's a way of looking at human civilization that goes like this: life exists because it accelerates entropy. Humans are the most effective entropy-producing structures the planet has ever generated. And the ecological crisis we now face is not a failure of stewardship or morality or coordination, it is the logical consequence of being extremely good at our thermodynamic job.
 
 I wrote previously about life as a special case of the second law, about how self-organizing systems aren't fighting entropy but _serving_ it, converting low-entropy energy gradients into high-entropy waste heat more efficiently than bare rock or ocean ever could. The math on that is clear IMO. A biosphere dissipates solar energy faster than a dead world. A civilization dissipates it faster still. Agriculture was a step-function increase in our entropic throughput. Industrialization was another. The digital economy, converting electricity into computation into heat at planetary scale, is the latest and most dramatic jump.
 
@@ -60,7 +60,7 @@ But I also don't want to be the person who, out of justified suspicion of the me
 
 ***
 
-This conclusion is no triumphant. It is this: we are a species that exists because we are extraordinarily good at accelerating entropy, and we now face the consequences of that excellence. The physics constrains our options more tightly than most climate discourse acknowledges. Reducing our impact locally is necessary but insufficient. Expanding into space is logically indicated but currently captured by people whose vision would simply reproduce the problem at larger scale. The Kardashev dreamers and the Dyson swarm enthusiasts are not wrong that we need more room; they are catastrophically wrong about _why_ we need it and what we should do with it.
+This conclusion is not triumphant: we are a species that exists because we are extraordinarily good at accelerating entropy, and we now face the consequences of that excellence. The physics constrains our options more tightly than most climate discourse acknowledges. Reducing our impact locally is necessary but insufficient. Expanding into space is logically indicated but currently captured by people whose vision would simply reproduce the problem at larger scale. The Kardashev dreamers and the Dyson swarm enthusiasts are not wrong that we need more room; they are catastrophically wrong about _why_ we need it and what we should do with it.
 
 What we actually need, and I wish I had more confidence that we'll achieve it, is a version of space-based industry that is governed by thermodynamic sobriety rather than growth ideology. One that moves the dirtiest parts of our entropy production off-planet not so we can produce _more_, but so the planet we live on can remain livable. One that is accountable to the people it affects rather than to the shareholders of whatever company builds the launch vehicles. One that treats the expansion of the entropy boundary as a conservation strategy, not a growth strategy.
 
