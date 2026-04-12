@@ -78,7 +78,7 @@ When Dario says "we are near the end of the exponential," he is describing a pat
 
 ### Tending the Fire
 
-Here's the thing that Dario's interview doesn't contain, that I haven't found in any statement from any frontier lab CEO, and is also absent from the e/acc manifestos and the doomer warnings and the congressional hearings alike: an acknowledgment that the pace of AI development is itself a variable.
+Here's the thing that Dario's interview doesn't contain, that I haven't found in any statement from any frontier lab CEO, and is also absent from the e/acc manifestos and the doomer warnings and the congressional hearings alike: an acknowledgment that the pace of AI development is itself a variable that we can and should **temporally control**.
 
 Not canceling it or slowing it permanently, but displacing it temporally. Choosing to move the peak dissipative capability further into the future might be the difference between a civilization that has built the social, institutional, and governance infrastructure to metabolize transformative AI, and one that hasn't.
 
