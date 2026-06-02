@@ -1,14 +1,15 @@
 ---
 title: Meditations on the God of Spinoza
+subtitle: ''
 date: 2026-01-31T16:58:00
 draft: false
-description: "From the Big Bang through dissipative systems to human society, grounded in the second law."
+description: From the Big Bang through dissipative systems to human society, grounded in the second law.
 image: /images/Webb-Pillars-of-Creation-1536x970-3049760444.jpg
 image_caption: The PIllars of Creation, Hubble Telescope
 tags: []
 related:
-  - "2026-03-30-conatus-unbound"
-  - "2026-02-14-the-bonfire-in-the-cave"
+  - 2026-03-30-conatus-unbound
+  - 2026-02-14-the-bonfire-in-the-cave
 ---
 
 Begin with what we know.
@@ -17,7 +18,7 @@ The universe had a beginning: the Big Bang, the initial singularity, the boundar
 
 The second law of thermodynamics governs what follows.
 
----
+***
 
 ## The Telos of Entropy
 
@@ -31,7 +32,7 @@ The second law emerges from the mathematics of statistical mechanics and is the 
 
 We might, of course, be wrong. Our current understanding of physical law might be incomplete in ways that would revise this picture. But within the physics we have, entropy is as close to a cosmic direction as we get. We're not trying to sneak purpose in through the back door. We're merely noting that the universe has a direction. And that direction is entropy. And everything else, including us, is a consequence of how entropy gets produced along the way.
 
----
+***
 
 ## Dissipative Structures and the Thermodynamics of Organization
 
@@ -47,7 +48,7 @@ The canonical example is the Bénard cell, a container of fluid heated from belo
 
 The insight is that organization can be thermodynamically favored when it serves entropy production. The second law doesn't prohibit **_local_** decreases in entropy, but it does require that any local decrease be paid for by a larger increase elsewhere. Dissipative structures are the universe's way of finding efficient channels for gradient destruction.
 
----
+***
 
 ## Life as Thermodynamic Inevitability
 
@@ -67,7 +68,7 @@ This reframes the question of life's origin entirely. Now we can ask, given pers
 
 The channel happens to be self-replicating, error-correcting, and adaptive, because those properties make it even better at dissipating gradients over time. A single organism dissipates energy; a population of organisms dissipates more; a population that can adapt to changing conditions maintains its dissipative capacity longer. Evolution is what thermodynamic optimization looks like when the dissipative structures can copy themselves with variation.
 
----
+***
 
 ## Temporal Arbitrage: The Distinction Between Living and Non-Living Dissipative Structures
 
@@ -83,7 +84,7 @@ This is where prediction enters the picture. To maximize entropy over time rathe
 
 Active inference, the framework developed by Karl Friston and collaborators, formalizes this insight {{< cite 11 12 >}}. Living systems are prediction machines. They maintain models of their environment and act to minimize the divergence between their predictions and their sensory observations. The mathematics here is rigorous, grounded in variational principles. Prediction is central to life because it enables temporal arbitrage: trading instantaneous dissipation for sustained dissipation, sacrificing the steepest descent for the longer path.
 
----
+***
 
 ## Humans as Planetary-Scale Dissipators
 
@@ -99,7 +100,7 @@ The observation carries moral weight, but it begins as an observation about our 
 
 The irony here is potent: our very success as entropy producers may undermine the conditions for our continued thriving. This is the temporal arbitrage problem at civilizational scale. We have optimized for instantaneous dissipation -- economic growth, energy consumption, material throughput -- at the potential cost of long-term persistence. The question is whether we can learn to take the smarter path, the one that curves around the ditch, the one that reaches the bottom of the hill rather than getting stuck halfway down.
 
----
+***
 
 ## Dissolving the Hard Problem
 
@@ -119,7 +120,7 @@ The hard problem dissolves when we recognize that there is no gap, only a self-m
 
 This feeling of experience is real, as real as anything. You're not imagining the redness of red or the sting of pain. The mistake is thinking that because it feels irreducible, it must be something separate from the physical process. But the _feeling of experience_ is just what the machinery feels like when it's running.
 
----
+***
 
 ## The Grounding Problem
 
@@ -153,7 +154,7 @@ Both frameworks provide uncertainty reduction. Both offer answers to the big que
 
 I know which ground I find more secure.
 
----
+***
 
 ## Deus Sive Natura
 
@@ -163,7 +164,7 @@ Spinoza understood this three and a half centuries before non-equilibrium thermo
 
 An interesting aside: Jeremy England, whose work on dissipation-driven adaptation provides much of the scientific foundation for this meditation, is himself an Orthodox Jew and ordained rabbi. How he reconciles his physics with his faith is his own affair, but I confess I find it puzzling. The very framework he has developed -- showing how thermodynamics makes life not merely possible but probable, how the emergence of complex organization follows from the mathematics of non-equilibrium systems -- seems to me to render the hypothesis of divine creation not wrong, exactly, but superfluous. The machina explains the phenomena that the deus was invoked to explain. What work, then, is left for God to do?
 
-Perhaps England would say that God is the ground of the laws themselves, that thermodynamics operates because God ordained it so. But this is the move I find unsatisfying: it pushes the question back one level without answering it, and then declares the question closed. Why these laws and not others? Because God. Why God? Because God is self-grounding. At some point, you must simply believe.
+Perhaps England would say that God is the ground of the laws themselves, that thermodynamics operates because God ordained it so. But I find this move unsatisfying: it pushes the question back one level without answering it, and then declares the question closed. Why these laws and not others? Because God. Why God? Because God is self-grounding. At some point, you must simply believe.
 
 I prefer to stop where the questions can still be asked. We don't know why the laws of physics are what they are. Perhaps there is a deeper explanation, perhaps there is not. Perhaps the question is malformed in ways we don't yet understand. But "God did it" is not an answer to this question. It is a way of declaring the question closed.
 
@@ -181,25 +182,25 @@ There is grandeur in this view. Not the false grandeur of imagined cosmic purpos
 
 That is Spinoza's God. And that is enough.
 
----
+***
 
 ## Sources
 
 <ol class="reference-list">
 {{< ref 1 "Prigogine, Ilya. _Introduction to Thermodynamics of Irreversible Processes_. Wiley, 1967. [Archive.org](https://archive.org/details/introductiontoth0000prig)" >}}
-{{< ref 2 "Prigogine, Ilya and Nicolis, G. \"Biological order, structure and instabilities.\" _Quarterly Reviews of Biophysics_ 4, 107–148, 1971. [Cambridge Core](https://doi.org/10.1017/S0033583500000615)" >}}
-{{< ref 3 "Crooks, Gavin E. \"Entropy production fluctuation theorem and the nonequilibrium work relation for free energy differences.\" _Physical Review E_ 60, 2721, 1999. [APS Physics](https://doi.org/10.1103/PhysRevE.60.2721)" >}}
-{{< ref 4 "Jarzynski, Christopher. \"Nonequilibrium Equality for Free Energy Differences.\" _Physical Review Letters_ 78, 2690, 1997. [APS Physics](https://doi.org/10.1103/PhysRevLett.78.2690)" >}}
-{{< ref 5 "England, Jeremy L. \"Statistical physics of self-replication.\" _Journal of Chemical Physics_ 139, 121923, 2013. [AIP Publishing](https://doi.org/10.1063/1.4818538)" >}}
-{{< ref 6 "England, Jeremy L. \"Dissipative adaptation in driven self-assembly.\" _Nature Nanotechnology_ 10, 919–923, 2015. [Nature](https://doi.org/10.1038/nnano.2015.250)" >}}
-{{< ref 7 "Wolchover, Natalie. \"A New Physics Theory of Life.\" _Quanta Magazine_, January 22, 2014. [Quanta Magazine](https://www.quantamagazine.org/a-new-thermodynamics-theory-of-the-origin-of-life-20140122/)" >}}
-{{< ref 8 "Meysman, Filip J.R. and Bruers, Stijn. \"Ecosystem functioning and maximum entropy production: a quantitative test of hypotheses.\" _Philosophical Transactions of the Royal Society B_ 365, 1405–1416, 2010. [Royal Society](https://doi.org/10.1098/rstb.2009.0300)" >}}
-{{< ref 9 "Vallino, Joseph J. \"Ecosystem biogeochemistry considered as a distributed metabolic network ordered by maximum entropy production.\" _Philosophical Transactions of the Royal Society B_ 365, 1417–1427, 2010. [Royal Society](https://doi.org/10.1098/rstb.2009.0272)" >}}
+{{< ref 2 "Prigogine, Ilya and Nicolis, G. "Biological order, structure and instabilities." _Quarterly Reviews of Biophysics_ 4, 107–148, 1971. [Cambridge Core](https://doi.org/10.1017/S0033583500000615)" >}}
+{{< ref 3 "Crooks, Gavin E. "Entropy production fluctuation theorem and the nonequilibrium work relation for free energy differences." _Physical Review E_ 60, 2721, 1999. [APS Physics](https://doi.org/10.1103/PhysRevE.60.2721)" >}}
+{{< ref 4 "Jarzynski, Christopher. "Nonequilibrium Equality for Free Energy Differences." _Physical Review Letters_ 78, 2690, 1997. [APS Physics](https://doi.org/10.1103/PhysRevLett.78.2690)" >}}
+{{< ref 5 "England, Jeremy L. "Statistical physics of self-replication." _Journal of Chemical Physics_ 139, 121923, 2013. [AIP Publishing](https://doi.org/10.1063/1.4818538)" >}}
+{{< ref 6 "England, Jeremy L. "Dissipative adaptation in driven self-assembly." _Nature Nanotechnology_ 10, 919–923, 2015. [Nature](https://doi.org/10.1038/nnano.2015.250)" >}}
+{{< ref 7 "Wolchover, Natalie. "A New Physics Theory of Life." _Quanta Magazine_, January 22, 2014. [Quanta Magazine](https://www.quantamagazine.org/a-new-thermodynamics-theory-of-the-origin-of-life-20140122/)" >}}
+{{< ref 8 "Meysman, Filip J.R. and Bruers, Stijn. "Ecosystem functioning and maximum entropy production: a quantitative test of hypotheses." _Philosophical Transactions of the Royal Society B_ 365, 1405–1416, 2010. [Royal Society](https://doi.org/10.1098/rstb.2009.0300)" >}}
+{{< ref 9 "Vallino, Joseph J. "Ecosystem biogeochemistry considered as a distributed metabolic network ordered by maximum entropy production." _Philosophical Transactions of the Royal Society B_ 365, 1417–1427, 2010. [Royal Society](https://doi.org/10.1098/rstb.2009.0272)" >}}
 {{< ref 10 "Kleidon, Axel and Lorenz, Ralph D., eds. _Non-equilibrium Thermodynamics and the Production of Entropy: Life, Earth, and Beyond_. Springer, 2005. [Springer](https://doi.org/10.1007/b12042)" >}}
-{{< ref 11 "Friston, Karl. \"The free-energy principle: a unified brain theory?\" _Nature Reviews Neuroscience_ 11, 127–138, 2010. [Nature](https://doi.org/10.1038/nrn2787)" >}}
-{{< ref 12 "Friston, Karl. \"Life as we know it.\" _Journal of the Royal Society Interface_ 10, 20130475, 2013. [Royal Society](https://doi.org/10.1098/rsif.2013.0475)" >}}
-{{< ref 13 "Chalmers, David J. \"Facing Up to the Problem of Consciousness.\" _Journal of Consciousness Studies_ 2(3), 200–219, 1995. [David Chalmers' website](http://consc.net/papers/facing.html)" >}}
+{{< ref 11 "Friston, Karl. "The free-energy principle: a unified brain theory?" _Nature Reviews Neuroscience_ 11, 127–138, 2010. [Nature](https://doi.org/10.1038/nrn2787)" >}}
+{{< ref 12 "Friston, Karl. "Life as we know it." _Journal of the Royal Society Interface_ 10, 20130475, 2013. [Royal Society](https://doi.org/10.1098/rsif.2013.0475)" >}}
+{{< ref 13 "Chalmers, David J. "Facing Up to the Problem of Consciousness." _Journal of Consciousness Studies_ 2(3), 200–219, 1995. [David Chalmers' website](http://consc.net/papers/facing.html)" >}}
 {{< ref 14 "Schrödinger, Erwin. _What Is Life?_ Cambridge University Press, 1944. [Cambridge Core](https://doi.org/10.1017/CBO9781139644129)" >}}
 {{< ref 15 "Spinoza, Baruch. _Ethics_. 1677. [Project Gutenberg](https://www.gutenberg.org/ebooks/3800)" >}}
-{{< ref 16 "Veritasium. \"The Most Misunderstood Concept in Physics.\" YouTube, 2023. [YouTube](https://www.youtube.com/watch?v=DxL2HoqLbyA)" >}}
+{{< ref 16 "Veritasium. "The Most Misunderstood Concept in Physics." YouTube, 2023. [YouTube](https://www.youtube.com/watch?v=DxL2HoqLbyA)" >}}
 </ol>
