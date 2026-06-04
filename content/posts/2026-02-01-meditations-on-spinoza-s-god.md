@@ -188,19 +188,19 @@ That is Spinoza's God. And that is enough.
 
 <ol class="reference-list">
 {{< ref 1 "Prigogine, Ilya. _Introduction to Thermodynamics of Irreversible Processes_. Wiley, 1967. [Archive.org](https://archive.org/details/introductiontoth0000prig)" >}}
-{{< ref 2 "Prigogine, Ilya and Nicolis, G. "Biological order, structure and instabilities." _Quarterly Reviews of Biophysics_ 4, 107–148, 1971. [Cambridge Core](https://doi.org/10.1017/S0033583500000615)" >}}
-{{< ref 3 "Crooks, Gavin E. "Entropy production fluctuation theorem and the nonequilibrium work relation for free energy differences." _Physical Review E_ 60, 2721, 1999. [APS Physics](https://doi.org/10.1103/PhysRevE.60.2721)" >}}
-{{< ref 4 "Jarzynski, Christopher. "Nonequilibrium Equality for Free Energy Differences." _Physical Review Letters_ 78, 2690, 1997. [APS Physics](https://doi.org/10.1103/PhysRevLett.78.2690)" >}}
-{{< ref 5 "England, Jeremy L. "Statistical physics of self-replication." _Journal of Chemical Physics_ 139, 121923, 2013. [AIP Publishing](https://doi.org/10.1063/1.4818538)" >}}
-{{< ref 6 "England, Jeremy L. "Dissipative adaptation in driven self-assembly." _Nature Nanotechnology_ 10, 919–923, 2015. [Nature](https://doi.org/10.1038/nnano.2015.250)" >}}
-{{< ref 7 "Wolchover, Natalie. "A New Physics Theory of Life." _Quanta Magazine_, January 22, 2014. [Quanta Magazine](https://www.quantamagazine.org/a-new-thermodynamics-theory-of-the-origin-of-life-20140122/)" >}}
-{{< ref 8 "Meysman, Filip J.R. and Bruers, Stijn. "Ecosystem functioning and maximum entropy production: a quantitative test of hypotheses." _Philosophical Transactions of the Royal Society B_ 365, 1405–1416, 2010. [Royal Society](https://doi.org/10.1098/rstb.2009.0300)" >}}
-{{< ref 9 "Vallino, Joseph J. "Ecosystem biogeochemistry considered as a distributed metabolic network ordered by maximum entropy production." _Philosophical Transactions of the Royal Society B_ 365, 1417–1427, 2010. [Royal Society](https://doi.org/10.1098/rstb.2009.0272)" >}}
+{{< ref 2 "Prigogine, Ilya and Nicolis, G. \"Biological order, structure and instabilities.\" _Quarterly Reviews of Biophysics_ 4, 107–148, 1971. [Cambridge Core](https://doi.org/10.1017/S0033583500000615)" >}}
+{{< ref 3 "Crooks, Gavin E. \"Entropy production fluctuation theorem and the nonequilibrium work relation for free energy differences.\" _Physical Review E_ 60, 2721, 1999. [APS Physics](https://doi.org/10.1103/PhysRevE.60.2721)" >}}
+{{< ref 4 "Jarzynski, Christopher. \"Nonequilibrium Equality for Free Energy Differences.\" _Physical Review Letters_ 78, 2690, 1997. [APS Physics](https://doi.org/10.1103/PhysRevLett.78.2690)" >}}
+{{< ref 5 "England, Jeremy L. \"Statistical physics of self-replication.\" _Journal of Chemical Physics_ 139, 121923, 2013. [AIP Publishing](https://doi.org/10.1063/1.4818538)" >}}
+{{< ref 6 "England, Jeremy L. \"Dissipative adaptation in driven self-assembly.\" _Nature Nanotechnology_ 10, 919–923, 2015. [Nature](https://doi.org/10.1038/nnano.2015.250)" >}}
+{{< ref 7 "Wolchover, Natalie. \"A New Physics Theory of Life.\" _Quanta Magazine_, January 22, 2014. [Quanta Magazine](https://www.quantamagazine.org/a-new-thermodynamics-theory-of-the-origin-of-life-20140122/)" >}}
+{{< ref 8 "Meysman, Filip J.R. and Bruers, Stijn. \"Ecosystem functioning and maximum entropy production: a quantitative test of hypotheses.\" _Philosophical Transactions of the Royal Society B_ 365, 1405–1416, 2010. [Royal Society](https://doi.org/10.1098/rstb.2009.0300)" >}}
+{{< ref 9 "Vallino, Joseph J. \"Ecosystem biogeochemistry considered as a distributed metabolic network ordered by maximum entropy production.\" _Philosophical Transactions of the Royal Society B_ 365, 1417–1427, 2010. [Royal Society](https://doi.org/10.1098/rstb.2009.0272)" >}}
 {{< ref 10 "Kleidon, Axel and Lorenz, Ralph D., eds. _Non-equilibrium Thermodynamics and the Production of Entropy: Life, Earth, and Beyond_. Springer, 2005. [Springer](https://doi.org/10.1007/b12042)" >}}
-{{< ref 11 "Friston, Karl. "The free-energy principle: a unified brain theory?" _Nature Reviews Neuroscience_ 11, 127–138, 2010. [Nature](https://doi.org/10.1038/nrn2787)" >}}
-{{< ref 12 "Friston, Karl. "Life as we know it." _Journal of the Royal Society Interface_ 10, 20130475, 2013. [Royal Society](https://doi.org/10.1098/rsif.2013.0475)" >}}
-{{< ref 13 "Chalmers, David J. "Facing Up to the Problem of Consciousness." _Journal of Consciousness Studies_ 2(3), 200–219, 1995. [David Chalmers' website](http://consc.net/papers/facing.html)" >}}
+{{< ref 11 "Friston, Karl. \"The free-energy principle: a unified brain theory?\" _Nature Reviews Neuroscience_ 11, 127–138, 2010. [Nature](https://doi.org/10.1038/nrn2787)" >}}
+{{< ref 12 "Friston, Karl. \"Life as we know it.\" _Journal of the Royal Society Interface_ 10, 20130475, 2013. [Royal Society](https://doi.org/10.1098/rsif.2013.0475)" >}}
+{{< ref 13 "Chalmers, David J. \"Facing Up to the Problem of Consciousness.\" _Journal of Consciousness Studies_ 2(3), 200–219, 1995. [David Chalmers' website](http://consc.net/papers/facing.html)" >}}
 {{< ref 14 "Schrödinger, Erwin. _What Is Life?_ Cambridge University Press, 1944. [Cambridge Core](https://doi.org/10.1017/CBO9781139644129)" >}}
 {{< ref 15 "Spinoza, Baruch. _Ethics_. 1677. [Project Gutenberg](https://www.gutenberg.org/ebooks/3800)" >}}
-{{< ref 16 "Veritasium. "The Most Misunderstood Concept in Physics." YouTube, 2023. [YouTube](https://www.youtube.com/watch?v=DxL2HoqLbyA)" >}}
+{{< ref 16 "Veritasium. \"The Most Misunderstood Concept in Physics.\" YouTube, 2023. [YouTube](https://www.youtube.com/watch?v=DxL2HoqLbyA)" >}}
 </ol>
