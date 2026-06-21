@@ -37,7 +37,11 @@ Most archival projects stop at digitization. Scan it, tag it, put it on a shelf.
 
 ## Current status
 
-Phase 1 is underway: aggregating the Pir Vilayat archive text corpus into Obsidian. Audio ingestion strategy is queued for Phase 2. Devi's own materials are being inventoried for digitization.
+The archive is built. Roughly 2,100 audio and video teachings have been transcribed, cleaned, and thematically enriched, and about 1,900 written documents — scanned PDFs, workshop notes, and Devi's own handwritten papers — have been OCR'd (handwriting included, via vision models) and folded into the same structure. Together that's on the order of 4,000 items, some 22,000 pages and a thousand-plus hours of teaching, each now carrying consistent metadata, AI-surfaced themes, and extracted key passages.
+
+On top of that corpus sits a browsable, fully searchable web archive — now live, and access-gated for the Order. Teachings and documents are organized two ways: into fourteen thematic *doorways*, and into reconstructed *course sequences* — the original class series placed back in order with short synopses, inferred from the material itself. Devi is reviewing the navigation and naming.
+
+Next: channeling the corpus into the book and course pipelines, and widening access for the broader Sufi Healing Order community.
 
 ## Why this matters
 
