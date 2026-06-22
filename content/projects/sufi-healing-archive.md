@@ -5,13 +5,19 @@ status: "active"
 weight: 4
 ---
 
-A volunteer digitization, analysis, and synthesis project for the teachings of Devi and the Sufi Healing Order of North America. Decades of written, audio, and video content, scattered across formats, platforms, and physical media, being aggregated into a structured knowledge base that can power books, courses, and community resources.
+A volunteer digitization, analysis, and synthesis project for the teachings of Devi Tide and the Sufi Healing Order of North America. Decades of written, audio, and video content, scattered across formats, platforms, and physical media, being aggregated into a structured knowledge base that can power books, courses, and community resources.
 
 ## What this is
 
 The Sufi Healing Order has a deep body of teaching accumulated over decades by its Kefayat, spanning guided practices, lectures, healing methodologies, and lineage transmission from the Inayati tradition. Most of it exists in formats that make it effectively invisible: cassette recordings, scattered PDFs, workshop notes, video from retreats, and the kind of institutional knowledge that lives in one person's memory.
 
 This project turns all of that into a living, searchable, interconnected archive, and then puts AI to work on it.
+
+## Why this matters
+
+Oral teaching traditions are fragile. The knowledge they carry is deep but concentrated in a small number of people, and the physical media it's recorded on degrades. The window for capturing this material with the living teacher available to verify, contextualize, and guide interpretation is finite.
+
+AI makes something possible now that wasn't before: not just preserving the archive, but actually working with it at the scale of the full corpus. Finding the threads that run through thirty years of teaching. Structuring it for transmission to people who weren't in the room. Turning a scattered collection into a coherent body of work.
 
 ## What makes it different
 
@@ -42,9 +48,3 @@ The archive is built. Roughly 2,100 audio and video teachings have been transcri
 On top of that corpus sits a browsable, fully searchable web archive — now live, and access-gated for the Order. Teachings and documents are organized two ways: into fourteen thematic *doorways*, and into reconstructed *course sequences* — the original class series placed back in order with short synopses, inferred from the material itself. Devi is reviewing the navigation and naming.
 
 Next: channeling the corpus into the book and course pipelines, and widening access for the broader Sufi Healing Order community.
-
-## Why this matters
-
-Oral teaching traditions are fragile. The knowledge they carry is deep but concentrated in a small number of people, and the physical media it's recorded on degrades. The window for capturing this material with the living teacher available to verify, contextualize, and guide interpretation is finite.
-
-AI makes something possible now that wasn't before: not just preserving the archive, but actually working with it at the scale of the full corpus. Finding the threads that run through thirty years of teaching. Structuring it for transmission to people who weren't in the room. Turning a scattered collection into a coherent body of work.
