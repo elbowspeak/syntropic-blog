@@ -1,6 +1,6 @@
 ---
 title: "Sufi Healing Archive"
-description: "Pro bono digitization, analysis, and synthesis of decades of Sufi Healing Order teachings into a living knowledge base."
+description: "Pro bono digitization, analysis, and synthesis of the teachings of Devi Tide and the Sufi Healing Order into a living knowledge base."
 status: "active"
 weight: 4
 ---
@@ -9,7 +9,7 @@ A volunteer digitization, analysis, and synthesis project for the teachings of D
 
 ## What this is
 
-The Sufi Healing Order has a deep body of teaching accumulated over decades by its Kefayat, spanning guided practices, lectures, healing methodologies, and lineage transmission from the Inayati tradition. Most of it exists in formats that make it effectively invisible: cassette recordings, scattered PDFs, workshop notes, video from retreats, and the kind of institutional knowledge that lives in one person's memory.
+At its center is the teaching of Devi Tide — decades of healing classes, retreats, and practice instruction within the Sufi Healing Order of North America, the tradition she has carried and taught. Around that core sits the lineage it descends from: the Inayati transmission of Hazrat Inayat Khan, his son Pir Vilayat Inayat Khan, and Pir Zia — whose talks, retreat manuals, and source texts the archive preserves as the foundation Devi's work draws on. Most of it exists in formats that make it effectively invisible: cassette recordings, scattered PDFs, workshop notes, video from retreats, and the kind of institutional knowledge that lives in one person's memory.
 
 This project turns all of that into a living, searchable, interconnected archive, and then puts AI to work on it.
 
@@ -33,7 +33,7 @@ Most archival projects stop at digitization. Scan it, tag it, put it on a shelf.
 
 ## Architecture
 
-**Ingestion.** Automated aggregation of the Pir Vilayat Inayat Khan Digital Archive (Omeka S API), supplemented by manual digitization of Devi's own recordings, writings, and workshop materials. Audio transcription via AI. OCR for scanned documents.
+**Ingestion.** Manual digitization of the recordings, writings, and workshop materials of Devi Tide and the Sufi Healing Order — the core of the archive — supplemented by automated aggregation of lineage source material, including the Pir Vilayat Inayat Khan Digital Archive (Omeka S API). Audio transcription via AI. OCR for scanned documents.
 
 **Knowledge base.** Obsidian vault with structured markdown, YAML frontmatter, wiki-links between related teachings, and collection indexes. Every item carries metadata: date, speaker, subject, source, lineage context.
 
