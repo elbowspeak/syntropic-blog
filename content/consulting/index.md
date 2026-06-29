@@ -21,4 +21,4 @@ Typical engagements run 3-6 months. I work directly with founders and executive 
 
 ## Get in touch
 
-If you're facing a complexity problem and want to talk about whether I can help, reach out at [joshua@strategy37.com](mailto:joshua@strategy37.com).
+If you're facing a complexity problem and want to talk about whether I can help, reach out at [joshua@s37.ai](mailto:joshua@s37.ai).
