@@ -5,13 +5,13 @@ image: /images/system-header.png
 image_caption: "The loop the whole system runs: perceive, model, act, verify, learn. Every loop updates the model; verification is scored in a ledger."
 ---
 
-Kayt is a cognitive operating system that runs my consulting practice, research, portfolio management, and writing. It's not a chatbot with prompts. It's a persistent system that maintains its own model of the world, acts on predictions, and updates when surprised.
+the S37 system is a cognitive operating system that runs my consulting practice, research, portfolio management, and writing. It's not a chatbot with prompts. It's a persistent system that maintains its own model of the world, acts on predictions, and updates when surprised.
 
 ## What makes it different
 
-Most personal AI systems are prompt libraries with file organization. Kayt is built on Active Inference principles, which means three things:
+Most personal AI systems are prompt libraries with file organization. the S37 system is built on Active Inference principles, which means three things:
 
-**It has identity.** Kayt operates from a defined telos: mission, beliefs, goals, strategies, and known failure modes. This isn't personality prompting. It's a generative model that shapes how every decision gets made and what counts as relevant.
+**It has identity.** the S37 system operates from a defined telos: mission, beliefs, goals, strategies, and known failure modes. This isn't personality prompting. It's a generative model that shapes how every decision gets made and what counts as relevant.
 
 **It acts autonomously.** Daily intelligence briefs, weekly portfolio analysis, competitive monitoring, and workflow triggers all run without being asked. LaunchAgents and event-driven hooks mean the system is working even when I'm not in a session.
 
@@ -20,7 +20,7 @@ Most personal AI systems are prompt libraries with file organization. Kayt is bu
 ## Architecture
 
 <figure>
-  <a href="/images/kayt-system-at-a-glance.png" target="_blank" rel="noopener"><img src="/images/kayt-system-at-a-glance.png" alt="Diagram of the full system: a router matches intent to skills and agents, an orchestration tier runs goals through a machine evaluator, and a single ledger substrate records everything"></a>
+  <a href="/images/s37-system-at-a-glance.png" target="_blank" rel="noopener"><img src="/images/s37-system-at-a-glance.png" alt="Diagram of the full system: a router matches intent to skills and agents, an orchestration tier runs goals through a machine evaluator, and a single ledger substrate records everything"></a>
   <figcaption>The whole system on one page: a router matches intent to skills and agents, an orchestration tier runs goals through a machine evaluator, and one ledger substrate records everything.</figcaption>
 </figure>
 
@@ -33,7 +33,7 @@ The system has five layers:
 **Orchestration.** Goals outlive sessions. An orchestrator decomposes each goal into work items and dispatches workers; every result carries a falsifiable prediction, and an independent evaluator judges it against that prediction before it counts as done. The evaluator fails closed, so anything uncertain waits for me. What reaches me is the exception list: failures, surprises, and anything irreversible or external, which the system will not do on its own.
 
 <figure>
-  <a href="/images/kayt-orchestration-tier.png" target="_blank" rel="noopener"><img src="/images/kayt-orchestration-tier.png" alt="Diagram of the orchestration tier: an orchestrator dispatches workers through a durable work ledger, workers post artifacts with falsifiable predictions to a shared blackboard, an evaluator verifies them, and only exceptions reach the human"></a>
+  <a href="/images/s37-orchestration-tier.png" target="_blank" rel="noopener"><img src="/images/s37-orchestration-tier.png" alt="Diagram of the orchestration tier: an orchestrator dispatches workers through a durable work ledger, workers post artifacts with falsifiable predictions to a shared blackboard, an evaluator verifies them, and only exceptions reach the human"></a>
   <figcaption>The orchestration tier: workers post results with falsifiable predictions, an evaluator verifies them, and only exceptions come to me.</figcaption>
 </figure>
 
@@ -43,7 +43,7 @@ The system has five layers:
 
 ## What it runs
 
-On any given day, Kayt is:
+On any given day, the S37 system is:
 
 - Generating morning prioritization based on calendar, tasks, and open threads
 - Monitoring competitive signals across client industries
@@ -56,7 +56,7 @@ On any given day, Kayt is:
 
 The gap in AI tooling isn't capability. It's coherence. Individual AI tools are powerful but disconnected. Each session starts cold. Context doesn't transfer. There's no persistent model of what matters and why.
 
-Kayt solves this by treating the entire system as a single organism with memory, purpose, and the ability to act on its own predictions. The result is something closer to an extended mind than a set of tools.
+the S37 system solves this by treating the entire system as a single organism with memory, purpose, and the ability to act on its own predictions. The result is something closer to an extended mind than a set of tools.
 
 ## Technical details
 
