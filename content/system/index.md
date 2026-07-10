@@ -1,8 +1,8 @@
 ---
 title: "System"
 description: "The tools and systems behind this work"
-image: /images/kayt-architecture.svg
-image_caption: "Kayt architecture: Telos identity core, surrounded by specialized skills and agents, integrations, and the Obsidian knowledge substrate"
+image: /images/kayt-system-at-a-glance.png
+image_caption: "The system at a glance: a router matches intent to skills and agents, an orchestration tier runs goals through a machine evaluator, and one ledger substrate records everything"
 ---
 
 Kayt is a cognitive operating system that runs my consulting practice, research, portfolio management, and writing. It's not a chatbot with prompts. It's a persistent system that maintains its own model of the world, acts on predictions, and updates when surprised.
