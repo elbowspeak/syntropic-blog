@@ -1,8 +1,8 @@
 ---
 title: "System"
 description: "The tools and systems behind this work"
-image: /images/kayt-system-at-a-glance.png
-image_caption: "The system at a glance: a router matches intent to skills and agents, an orchestration tier runs goals through a machine evaluator, and one ledger substrate records everything"
+image: /images/system-header.png
+image_caption: "The loop the whole system runs: perceive, model, act, verify, learn. Every loop updates the model; verification is scored in a ledger."
 ---
 
 Kayt is a cognitive operating system that runs my consulting practice, research, portfolio management, and writing. It's not a chatbot with prompts. It's a persistent system that maintains its own model of the world, acts on predictions, and updates when surprised.
@@ -20,7 +20,7 @@ Most personal AI systems are prompt libraries with file organization. Kayt is bu
 ## Architecture
 
 <figure>
-  <img src="/images/kayt-system-at-a-glance.png" alt="Diagram of the full system: a router matches intent to skills and agents, an orchestration tier runs goals through a machine evaluator, and a single ledger substrate records everything">
+  <a href="/images/kayt-system-at-a-glance.png" target="_blank" rel="noopener"><img src="/images/kayt-system-at-a-glance.png" alt="Diagram of the full system: a router matches intent to skills and agents, an orchestration tier runs goals through a machine evaluator, and a single ledger substrate records everything"></a>
   <figcaption>The whole system on one page: a router matches intent to skills and agents, an orchestration tier runs goals through a machine evaluator, and one ledger substrate records everything.</figcaption>
 </figure>
 
@@ -33,7 +33,7 @@ The system has five layers:
 **Orchestration.** Goals outlive sessions. An orchestrator decomposes each goal into work items and dispatches workers; every result carries a falsifiable prediction, and an independent evaluator judges it against that prediction before it counts as done. The evaluator fails closed, so anything uncertain waits for me. What reaches me is the exception list: failures, surprises, and anything irreversible or external, which the system will not do on its own.
 
 <figure>
-  <img src="/images/kayt-orchestration-tier.png" alt="Diagram of the orchestration tier: an orchestrator dispatches workers through a durable work ledger, workers post artifacts with falsifiable predictions to a shared blackboard, an evaluator verifies them, and only exceptions reach the human">
+  <a href="/images/kayt-orchestration-tier.png" target="_blank" rel="noopener"><img src="/images/kayt-orchestration-tier.png" alt="Diagram of the orchestration tier: an orchestrator dispatches workers through a durable work ledger, workers post artifacts with falsifiable predictions to a shared blackboard, an evaluator verifies them, and only exceptions reach the human"></a>
   <figcaption>The orchestration tier: workers post results with falsifiable predictions, an evaluator verifies them, and only exceptions come to me.</figcaption>
 </figure>
 

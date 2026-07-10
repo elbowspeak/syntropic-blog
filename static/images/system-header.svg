@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" font-family="Georgia, 'Times New Roman', serif">
+  <rect width="1200" height="340" fill="#262624"/>
+  <!-- faint signal line across the band -->
+  <path d="M0 260 L140 258 L200 262 L340 256 L420 261 L520 258 L600 190 L680 258 L800 261 L940 257 L1060 262 L1200 258"
+        fill="none" stroke="#8A5CF4" stroke-width="2" opacity="0.25"/>
+  <!-- five-beat loop -->
+  <g font-size="21" fill="#e5e5e5" text-anchor="middle">
+    <g stroke="#353533" stroke-width="1.5">
+      <rect x="60"  y="120" width="168" height="64" rx="10" fill="#2a2a28"/>
+      <rect x="288" y="120" width="168" height="64" rx="10" fill="#2a2a28"/>
+      <rect x="516" y="120" width="168" height="64" rx="10" fill="#2a2a28"/>
+      <rect x="744" y="120" width="168" height="64" rx="10" fill="#2a2a28" stroke="#FFD93D"/>
+      <rect x="972" y="120" width="168" height="64" rx="10" fill="#2a2a28"/>
+    </g>
+    <text x="144"  y="159">perceive</text>
+    <text x="372"  y="159">model</text>
+    <text x="600"  y="159">act</text>
+    <text x="828"  y="159">verify</text>
+    <text x="1056" y="159">learn</text>
+  </g>
+  <g stroke="#8A5CF4" stroke-width="2.5" fill="none">
+    <path d="M228 152 L280 152"/><path d="M456 152 L508 152"/>
+    <path d="M684 152 L736 152"/><path d="M912 152 L964 152"/>
+  </g>
+  <g fill="#8A5CF4"><path d="M280 152 l-9 -5 v10 z"/><path d="M508 152 l-9 -5 v10 z"/><path d="M736 152 l-9 -5 v10 z"/><path d="M964 152 l-9 -5 v10 z"/></g>
+  <!-- return loop: learn feeds perceive -->
+  <path d="M1056 120 C 1056 52, 144 52, 144 112" fill="none" stroke="#5CA0F4" stroke-width="2" stroke-dasharray="6 5"/>
+  <path d="M144 112 l-5 -9 h10 z" fill="#5CA0F4"/>
+  <text x="600" y="66" font-size="16" fill="#a0a0a0" text-anchor="middle" font-family="'SF Mono', Monaco, monospace">every loop updates the model</text>
+  <!-- ledger dot under verify -->
+  <circle cx="828" cy="222" r="5" fill="#FFD93D"/>
+  <text x="828" y="248" font-size="15" fill="#a0a0a0" text-anchor="middle" font-family="'SF Mono', Monaco, monospace">scored in a ledger</text>
+</svg>
