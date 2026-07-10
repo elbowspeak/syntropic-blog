@@ -19,11 +19,23 @@ Most personal AI systems are prompt libraries with file organization. Kayt is bu
 
 ## Architecture
 
-The system has four layers:
+<figure>
+  <img src="/images/kayt-system-at-a-glance.png" alt="Diagram of the full system: a router matches intent to skills and agents, an orchestration tier runs goals through a machine evaluator, and a single ledger substrate records everything">
+  <figcaption>The whole system on one page: a router matches intent to skills and agents, an orchestration tier runs goals through a machine evaluator, and one ledger substrate records everything.</figcaption>
+</figure>
 
-**Telos.** The identity core: mission, beliefs, models, goals, challenges, and strategies. Every capability operates in service of these. This is what keeps the system coherent across 15+ skills and 11 agents.
+The system has five layers:
+
+**Telos.** The identity core: mission, beliefs, models, goals, challenges, and strategies. Every capability operates in service of these. This is what keeps the system coherent across ~50 skills and 20+ agents.
 
 **Skills and Agents.** Specialized capabilities that compose together: competitive intelligence, research synthesis, client delivery, portfolio tracking, network mapping, lead generation, market analysis. Each skill has its own workflows, context, and tools. Intent gets routed automatically.
+
+**Orchestration.** Goals outlive sessions. An orchestrator decomposes each goal into work items and dispatches workers; every result carries a falsifiable prediction, and an independent evaluator judges it against that prediction before it counts as done. The evaluator fails closed, so anything uncertain waits for me. What reaches me is the exception list: failures, surprises, and anything irreversible or external, which the system will not do on its own.
+
+<figure>
+  <img src="/images/kayt-orchestration-tier.png" alt="Diagram of the orchestration tier: an orchestrator dispatches workers through a durable work ledger, workers post artifacts with falsifiable predictions to a shared blackboard, an evaluator verifies them, and only exceptions reach the human">
+  <figcaption>The orchestration tier: workers post results with falsifiable predictions, an evaluator verifies them, and only exceptions come to me.</figcaption>
+</figure>
 
 **Integrations.** HubSpot CRM, Atlassian (Jira/Confluence), Google Drive, web research, and custom data pipelines. The system coordinates across these rather than treating each as a separate tool.
 
