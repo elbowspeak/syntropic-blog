@@ -113,7 +113,12 @@ const server = http.createServer((req, res) => {
   }
 });
 
-server.listen(PORT, () => {
+// Bind loopback-only. Without an explicit host, Node listens on 0.0.0.0, which
+// exposed this unauthenticated POST /clip endpoint — a write path into a repo that
+// publishes to syntropic.xyz — to the whole LAN (found 2026-09-15; the log line below
+// always claimed localhost). The browser extension runs on this machine, so loopback
+// loses nothing.
+server.listen(PORT, '127.0.0.1', () => {
   console.log(`Clip server running on http://localhost:${PORT}`);
   console.log(`Writing to: ${OUTPUT_DIR}`);
 });
