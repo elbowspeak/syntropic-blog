@@ -1,7 +1,8 @@
 ---
 title: "Intelligence OS"
 description: "Causal modeling and Active Inference system that maps organizational and market uncertainty to find leverage points."
-status: "active"
+status: "inactive"
+draft: true   # 2026-10-26: no longer active (Joshua); kept for when it becomes something new
 image: /images/intelligence-os-product-strategy.png
 image_caption: "Product Strategy model showing causal relationships, belief states, and uncertainty distribution"
 weight: 2
